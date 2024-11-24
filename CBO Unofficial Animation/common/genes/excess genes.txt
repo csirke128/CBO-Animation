@@ -1,0 +1,1172 @@
+﻿age_presets = {
+	age_preset_ken_doll = {
+		mode = multiply
+		curve = {
+			{ 0.00 0.0 }
+			{ 0.05 0.6 }
+			{ 0.10 0.9 }
+			{ 0.15 1.0 }
+			{ 0.17 1.0 }
+			{ 0.18 0.0 }
+		}
+	}
+	age_preset_nudity = {
+		mode = multiply
+		curve = {
+			{ 0.00 0.0 }
+			{ 0.17 0.0 }
+			{ 0.18 1.0 }
+		}
+	}
+}
+
+
+special_genes = {
+
+	morph_genes = {
+		gene_breast_excess = {
+			breast_excess = {
+				index = 0
+				male = { }
+				female = { 
+					setting = { 
+						attribute = "bs_body_breast_size_2_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_breast_shape_1" 
+						curve = {
+							{0.0   0.0 }
+							{1.0   4.0 }
+						}  
+					}
+					setting = { 
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+					}
+					setting = {
+						attribute = "body_breast_shape_excess" 
+						value = {min = 0.0 max = 0.25 } 
+					}
+					setting = { 
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_size_2_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_shape_1" 
+						curve = {
+							{0.0   0.0 }
+							{1.0   -4.0 }
+						}  
+					}
+					setting = { 
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -2.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "body_breast_shape_excess" 
+						value = {min = 0.0 max = -0.25 } 
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_clothed" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   8.0 }
+						}
+					}
+					setting = { 
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_size_2_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_shape_1" 
+						curve = {
+							{0.0   0.0 }
+							{1.0   -4.0 }
+						}  
+					}
+					setting = { 
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -2.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "body_breast_shape_excess" 
+						value = {min = 0.0 max = -0.25 } 
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_clothed" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "body_breast_clothed_gravity" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "body_breast_clothed_gravity" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					#setting = {
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 0.5   0.0 }
+					#		{ 1.0   0.5 }
+					#	}
+					#}
+					#setting = {
+					#	required_tags = "breasts_clothed,dressed,default_clothing"
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 0.5   0.0 }
+					#		{ 1.0   -0.5 }
+					#	}
+					#}
+					#setting = {
+					#	required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 1.0   -0.5 }
+					#	}
+					#}
+				}
+				boy = male
+				girl = { 
+					setting = { 
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+				}
+			}
+		}
+		gene_breast_excess_2 = {
+			breast_excess = {
+				index = 0
+				male = { }
+				female = { 
+					setting = { 
+						attribute = "bs_body_breast_size_2_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_breast_shape_1" 
+						curve = {
+							{0.0   0.0 }
+							{1.0   4.0 }
+						}  
+					}
+					setting = { 
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+					}
+					setting = {
+						attribute = "body_breast_shape_excess" 
+						value = {min = 0.0 max = 0.25 } 
+					}
+					setting = { 
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_size_2_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_shape_1" 
+						curve = {
+							{0.0   0.0 }
+							{1.0   -4.0 }
+						}  
+					}
+					setting = { 
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -2.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "body_breast_shape_excess" 
+						value = {min = 0.0 max = -0.25 } 
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "bs_body_breast_clothed" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   8.0 }
+						}
+					}
+					setting = { 
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_size_2_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_shape_1" 
+						curve = {
+							{0.0   0.0 }
+							{1.0   -4.0 }
+						}  
+					}
+					setting = { 
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -2.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "body_breast_shape_excess" 
+						value = {min = 0.0 max = -0.25 } 
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "bs_body_breast_clothed" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+						attribute = "body_breast_clothed_gravity" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						required_tags = "breasts_clothed,dressed,default_clothing"
+						attribute = "body_breast_clothed_gravity" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					#setting = {
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 0.5   0.0 }
+					#		{ 1.0   0.5 }
+					#	}
+					#}
+					#setting = {
+					#	required_tags = "breasts_clothed,dressed,default_clothing"
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 0.5   0.0 }
+					#		{ 1.0   -0.5 }
+					#	}
+					#}
+					#setting = {
+					#	required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 1.0   -0.5 }
+					#	}
+					#}
+				}
+				boy = male
+				girl = { 
+					setting = { 
+						attribute = "bs_body_breast_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+				}
+			}
+		}
+		gene_breast_excess_3 = {
+			breast_excess = {
+				index = 0
+				male = { }
+				female = { 
+					setting = { 
+						attribute = "body_huge_breasts" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.95 }
+						}
+					}
+					#setting = {
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 0.5   0.0 }
+					#		{ 1.0   0.5 }
+					#	}
+					#}
+					#setting = {
+					#	required_tags = "breasts_clothed,dressed,default_clothing"
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 0.5   0.0 }
+					#		{ 1.0   -0.5 }
+					#	}
+					#}
+					#setting = {
+					#	required_tags = "breasts_clothed_revealing_2,dressed,revealing_2"
+					#	attribute = "bs_body_nipples_max" 
+					#	curve = {
+					#		{ 0.0   0.0 }
+					#		{ 1.0   -0.5 }
+					#	}
+					#}
+				}
+				boy = male
+				girl = female
+			}
+		}
+		gene_fat_excess = {
+			fat_excess = {
+				index = 0
+				male = { 
+					setting = { 
+						attribute = "bs_fat_1" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = { 
+						attribute = "bs_fat_1_body" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   3.0 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_fat_1" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   3.0 }
+						}
+					}
+					setting = {
+						required_tags = "waist_clothed,dressed"
+						attribute = "bs_fat_1_body" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.3 }
+						}
+					}
+					setting = { 
+						required_tags = "waist_clothed,dressed"
+						attribute = "bs_body_fat_1" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.3 }
+						}
+					}
+					setting = { 
+						attribute = "body_fat_excess" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+				}
+				female = { 
+					setting = { 
+						attribute = "bs_fat_1" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = { 
+						attribute = "bs_fat_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+					}
+					setting = { 
+						attribute = "bs_fat_1_body" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   3.0 }
+						}
+					}
+					setting = { 
+						attribute = "bs_body_fat_1" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   3.0 }
+						}
+					}
+					setting = {
+						required_tags = "waist_clothed,dressed"
+						attribute = "bs_fat_1_body" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.3 }
+						}
+					}
+					setting = { 
+						required_tags = "waist_clothed,dressed"
+						attribute = "bs_body_fat_1" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.3 }
+						}
+					}
+					setting = { 
+						attribute = "body_fat_excess" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+				}
+				boy = male
+				girl = female
+			}
+		}
+		gene_muscles_excess = {
+			muscles_excess = {
+				index = 0
+				male = {
+					setting = { attribute = "bs_muscular_1" value = { min = 0.0 max = 1.8 } }
+					setting = { attribute = "bs_body_muscular_1" value = { min = 0.0 max = 1.8 } }
+					setting = { 
+						attribute = "bs_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+					}
+					setting = { 
+						attribute = "bs_body_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+					}
+					setting = { 
+						required_tags = "shoulders_clothed,dressed"
+						attribute = "bs_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.2 }
+						}
+					}
+					setting = { 
+						required_tags = "shoulders_clothed,dressed"
+						attribute = "bs_body_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.2 }
+						}
+					}
+					setting = {
+						attribute = "body_muscles_excess" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_hips_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_waist_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+				}
+				female = {
+					setting = { attribute = "bs_muscular_1" value = { min = 0.0 max = 1.8 } }
+					setting = { attribute = "bs_body_muscular_1" value = { min = 0.0 max = 1.8 } }
+					setting = { 
+						attribute = "bs_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+					}
+					setting = { 
+						attribute = "bs_body_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+					}
+					setting = { 
+						required_tags = "shoulders_clothed,dressed"
+						attribute = "bs_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.2 }
+						}
+					}
+					setting = { 
+						required_tags = "shoulders_clothed,dressed"
+						attribute = "bs_body_muscular_type_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.2 }
+						}
+					}
+					setting = {
+						attribute = "body_muscles_excess" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.25 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_hips_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_waist_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+				}
+				boy = male
+				girl = female
+			}
+		}
+		gene_lower_body_muscles_excess = {
+			lower_body_muscles_excess = {
+				index = 0
+				male = {
+					setting = {
+						attribute = "bs_body_butt_size_max_2" 
+						# value = { min = 0.0 max = 2.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						attribute = "body_butt_shape" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.25 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_butt_size_max_1" 
+						# value = { min = 0.0 max = 2.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = { 
+						required_tags = "butt_clothed,dressed,default_clothing"
+						attribute = "bs_body_butt_size_max_2" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.1 }
+						}
+					}
+					setting = { 
+						required_tags = "butt_clothed,dressed,default_clothing"
+						attribute = "bs_body_butt_size_max_1" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.1 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_hips_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+				}
+				female = male
+				boy = male
+				girl = male 
+			}
+		}
+		gene_butt_excess = {
+			butt_excess = {
+				index = 0
+				male = { 
+					setting = { 
+						attribute = "bs_body_butt_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.35 }
+						}
+					}
+					setting = {
+						attribute = "body_butt_shape" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.25 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_butt_size_max_1" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.5 }
+						}
+					}
+					setting = {
+						required_tags = "butt_clothed,dressed,default_clothing"
+						attribute = "bs_body_butt_size_max_1" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.15 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_hips_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+				}
+				female = { 
+					setting = { 
+						attribute = "bs_body_butt_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.35 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_butt_size_max_1" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.5 }
+						}
+					}
+					setting = {
+						required_tags = "butt_clothed,dressed,default_clothing"
+						attribute = "bs_body_butt_size_max_1" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.15 }
+						}
+					}
+					setting = {
+						attribute = "body_butt_shape" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.25 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_hips_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.5 }
+						}
+					}
+				}
+				boy = male
+				girl = female
+			}
+		}
+		gene_hips_excess = {
+			hips_excess = {
+				index = 0
+				male = { 
+					setting = { 
+						attribute = "bs_body_hips_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.5 }
+						}
+					}
+					setting = {
+						attribute = "body_butt_shape" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.25 }
+						}
+					}
+					setting = { 
+						required_tags = "hips_clothed,dressed,default_clothing"
+						attribute = "bs_body_hips_max" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.3 }
+						}
+					}
+				}
+				female = { 
+					setting = { 
+						attribute = "bs_body_hips_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.5 }
+						}
+					}
+					setting = { 
+						required_tags = "hips_clothed,dressed,default_clothing"
+						attribute = "bs_body_hips_max" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -0.3 }
+						}
+					}
+					setting = {
+						attribute = "body_butt_shape" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   0.25 }
+						}
+					}
+				}
+				boy = male
+				girl = female
+			}
+		}
+		gene_penis_excess = {
+			penis_excess = {
+				index = 0
+				male = { 
+					setting = {
+						attribute = "bs_body_penis_size_max_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_penis_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_ball_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						attribute = "bs_body_penis_size_max_clothed" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   4.0 }
+						}
+					}
+					setting = {
+						 required_tags = "penis_clothed,dressed"
+						attribute = "bs_body_penis_size_max_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "penis_clothed,dressed"
+						attribute = "bs_body_penis_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						 required_tags = "has_balls,penis_clothed,dressed"
+						attribute = "bs_body_ball_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -4.0 }
+						}
+					}
+					setting = {
+						required_tags = "no_penis"
+						attribute = "bs_body_penis_size_max_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0  -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "no_penis"
+						attribute = "bs_body_penis_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						required_tags = "no_balls"
+						attribute = "bs_body_ball_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -4.0 }
+						}
+					}
+					setting = {
+						 required_tags = "penis_erection"
+						attribute = "bs_body_penis_size_max_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "penis_erection"
+						attribute = "bs_body_penis_size_max" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						required_tags = "penis_erection"
+						attribute = "bs_body_penis_erection_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+					}
+					setting = {
+						required_tags = "penis_erection"
+						attribute = "bs_body_penis_erection" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						} 
+					}
+					setting = {
+						required_tags = "penis_erection,penis_erection_correction"
+						attribute = "bs_body_penis_erection_2" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 0.5   -0.25 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "penis_erection,penis_erection_correction"
+						attribute = "bs_body_penis_erection" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						} 
+					}
+					setting = {
+						required_tags = "penis_erection,penis_erection_correction"
+						attribute = "bs_body_penis_erection_3" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+					}
+					setting = {
+						required_tags = "penis_erection,penis_erection_correction"
+						attribute = "bs_body_penis_erection_4" 
+						# value = { min = -1.0 max = 1.0 }
+						curve = {
+							{ 0.0   0.0 }
+							{ 0.5   0.25 }
+							{ 1.0   1.0 }
+						} 
+					}
+				}
+				female = { }
+				boy = female
+				girl = female
+			}
+		}
+		gene_penis_thickness_excess = {
+			penis_thickness_excess = {
+				index = 0
+				male = {
+					setting = { 
+						attribute = "bs_body_penis_width_max" 
+						#value = { min = 0.0 max = 1.0 } 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+						age = age_preset_nudity 
+					}
+					setting = { 
+						required_tags = "penis_clothed,dressed"
+						attribute = "bs_body_penis_width_max" 
+						#value = { min = 0.0 max = 1.0 } 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+						age = age_preset_nudity 
+					}
+				}
+				female = {
+					setting = { 
+						required_tags = "has_penis"
+						attribute = "bs_body_penis_width_max" 
+						#value = { min = 0.0 max = 1.0 } 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   1.0 }
+						}
+						age = age_preset_nudity 
+					}
+					setting = { 
+						required_tags = "has_penis,penis_clothed,dressed"
+						attribute = "bs_body_penis_width_max" 
+						#value = { min = 0.0 max = 1.0 } 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -1.0 }
+						}
+						age = age_preset_nudity 
+					}
+				}
+				boy = { }
+				girl = boy
+			}
+		}
+		gene_ball_size_excess = {
+			ball_size_excess = {
+				index = 0
+				male = {
+					setting = {
+						attribute = "bs_body_ball_size_max" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+						age = age_preset_nudity
+					}
+					setting = {
+						required_tags = "penis_clothed,dressed"
+						attribute = "bs_body_ball_size_max" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -2.0 }
+						}
+						age = age_preset_nudity
+					}
+					setting = {
+						required_tags = "no_balls"
+						attribute = "bs_body_ball_size_max" 
+						#value = { min = 0.0 max = 3.0 } 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -2.0 }
+						}
+						age = age_preset_nudity
+					}
+				}
+				female = {
+					setting = {
+						required_tags = "has_balls"
+						attribute = "bs_body_ball_size_max" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   2.0 }
+						}
+						age = age_preset_nudity
+					}
+					setting = {
+						required_tags = "has_balls,penis_clothed,dressed"
+						attribute = "bs_body_ball_size_max" 
+						curve = {
+							{ 0.0   0.0 }
+							{ 1.0   -2.0 }
+						}
+						age = age_preset_nudity
+					}
+				}
+				boy = { }
+				girl = boy
+			}
+		}
+	}
+}

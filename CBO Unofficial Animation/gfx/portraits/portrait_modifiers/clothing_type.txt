@@ -1,0 +1,407 @@
+﻿clothing_type = {
+	usage = game
+	selection_behavior = max
+	default_clothing = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothing_type
+				template = default_clothing
+				value = 1
+			}
+		}
+		weight = {
+			base = 50
+		}
+	}
+	revealing = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothing_type
+				template = revealing_2
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+                age >= 18
+				wearing_revealing_clothes_2_trigger = yes
+			}
+		}
+	}
+}
+
+
+high_catholic = {
+	usage = game
+	selection_behavior = max
+	not_high_catholic = {
+		ignore_outfit_tags = yes
+		weight = {
+			base = 50
+		}
+	}
+	high_catholic = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = high_catholic
+				template = high_catholic
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = primary_title
+				primary_title.tier >= tier_duchy
+				wearing_revealing_clothes_trigger = yes
+				religion = religion:christianity_religion
+				Or = {
+					portrait_has_trait_trigger = { TRAIT = devoted }
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+			}
+		}
+	}
+}
+
+cbo_shoes = {
+	usage = game
+	selection_behavior = max
+	default_clothing = {
+		ignore_outfit_tags = yes
+		dna_modifiers = { }
+		weight = {
+			base = 50
+		}
+	}
+	jester_shoes = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = jester_shoes
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_jester_shoes_trigger = yes
+			}
+		}
+	}
+	fp1_shoes = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = fp1_shoes
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_fp1_shoes_trigger = yes
+			}
+		}
+	}
+
+	mena_shoes = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = mena_shoes
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_mena_shoes_trigger = yes
+			}
+		}
+	}
+	mena_war_nobility_shoes = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = mena_war_nobility_shoes
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_mena_war_nobility_shoes_trigger = yes
+			}
+		}
+	}
+	western_shoes = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = western_shoes
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_western_shoes_trigger = yes
+			}
+		}
+	}
+	heels_mid_calf = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = heels_mid_calf
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_heels_mid_calf_trigger = yes
+			}
+		}
+	}
+	heels_thigh_high_1 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = heels_thigh_high_01
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_heels_thigh_high_01_trigger = yes
+			}
+		}
+	}
+	heels_thigh_high_2 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = heels_thigh_high_02
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_heels_thigh_high_02_trigger = yes
+			}
+		}
+	}
+	thigh_high_war = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = thigh_high_war
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_thigh_high_war_trigger = yes
+			}
+		}
+	}
+	ankle_boot_heels_1 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = ankle_boot_heels_01
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_ankle_boot_heels_01_trigger = yes
+			}
+		}
+	}
+	ankle_boot_heels_2 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = ankle_boot_heels_02
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_ankle_boot_heels_02_trigger = yes
+			}
+		}
+	}
+	ankle_boot_heels_3 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = ankle_boot_heels_03
+				value = { 0 1 }
+			}
+		}
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				wearing_ankle_boot_heels_03_trigger = yes
+			}
+		}
+	}
+}

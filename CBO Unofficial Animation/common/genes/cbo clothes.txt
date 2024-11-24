@@ -1,0 +1,328 @@
+﻿special_genes = {
+	accessory_genes = {
+		cbo_clothes = {
+	 		 no_clothes = {
+				index = 1
+				male = {
+					1 = male_clothes_secular_western_nudity_01
+				}
+				female = {
+					1 = female_clothes_secular_western_nudity_01
+				}
+
+				# So that children always have clothes!
+				boy = {
+					1 = male_clothes_situational_western_bedchamber_01_common
+				}
+				girl = {
+					1 = female_clothes_situational_western_bedchamber_01_common
+				}
+			}
+            
+            all_clothes = {
+                index = 2
+				male = {
+					1 = male_clothes_religious_orthodox_high_01
+                    1 = male_clothes_religious_orthodox_head_01_common
+                    1 = male_clothes_religious_muslim_high_01
+                    1 = male_clothes_religious_dde_muslim_head_01_common
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+					1 = male_clothes_religious_catholic_high_01
+					2 = male_clothes_religious_dde_catholic_high_01_common
+					1 = male_clothes_religious_catholic_head_01
+                    1 = male_clothes_religious_buddhist_high_01
+                    1 = male_clothes_religious_jewish_head_01
+                    1 = m_clothes_religious_ep2_muslim_hajj_01 # Basic
+                    1 = m_clothes_religious_ep2_muslim_hajj_02
+				}
+				female = {
+					1 = female_clothes_religious_orthodox_high_01
+                    1 = female_clothes_religious_orthodox_head_01_common
+                    1 = female_clothes_religious_muslim_high_01
+                    1 = female_clothes_religious_dde_muslim_head_01_common
+					1 = female_clothes_religious_catholic_devoted_01
+					1 = female_clothes_religious_catholic_devoted_02
+					1 = female_clothes_religious_catholic_high_01
+					2 = female_clothes_religious_dde_catholic_high_01_common
+					1 = female_clothes_religious_catholic_head_01
+                    1 = female_clothes_religious_buddhist_high_01
+                    1 = female_clothes_religious_jewish_head_01
+                    1 = f_cbo_clothes_religious_ep2_muslim_hajj_01 # Basic
+                    1 = f_cbo_clothes_religious_ep2_muslim_hajj_02 
+				}
+				boy = male
+				girl = female
+            }
+
+			## RELIGIOUS ##
+			# orthodox #
+			religious_orthodox_high_clothes_equal = {
+				index = 201
+				male = {
+					1 = male_clothes_religious_orthodox_high_01
+				}
+				female = {
+					1 = female_clothes_religious_orthodox_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_orthodox_head_clothes_equal = {
+				index = 202
+				male = {
+					1 = male_clothes_religious_orthodox_head_01_common
+				}
+				female = {
+					1 = female_clothes_religious_orthodox_head_01_common
+				}
+				boy = male
+				girl = female
+			}
+
+			# muslim #
+			religious_muslim_high_clothes_equal = {
+				index = 203
+				male = {
+					1 = male_clothes_religious_muslim_high_01
+				}
+				female = {
+					1 = female_clothes_religious_muslim_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_muslim_head_clothes_equal = {
+				index = 204
+				male = {
+					1 = male_clothes_religious_dde_muslim_head_01_common
+				}
+				female = {
+					1 = female_clothes_religious_dde_muslim_head_01_common
+				}
+				boy = male
+				girl = female
+			}
+
+			# catholic #
+			religious_catholic_devoted_clothes_equal = {
+				index = 205
+				male = {
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+				}
+				female = {
+					1 = female_clothes_religious_catholic_devoted_01
+					1 = female_clothes_religious_catholic_devoted_02
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_high_clothes_equal = {
+				index = 206
+				male = { # Duplicate weights to make seed different from catholic_high headgear gene
+					1 = male_clothes_religious_catholic_high_01
+					2 = male_clothes_religious_dde_catholic_high_01_common
+					1 = male_clothes_religious_catholic_high_01
+				}
+				female = { # Duplicate weights to make seed different from catholic_high headgear gene
+					1 = female_clothes_religious_catholic_high_01
+					2 = female_clothes_religious_dde_catholic_high_01_common
+					1 = female_clothes_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_head_clothes_equal = {
+				index = 207
+				male = {
+					1 = male_clothes_religious_catholic_head_01
+				}
+				female = {
+					1 = female_clothes_religious_catholic_head_01
+				}
+				boy = male
+				girl = female
+			}
+
+			# buddhist #
+			religious_buddhist_high_clothes_equal = {
+				index = 208
+				male = {
+					1 = male_clothes_religious_buddhist_high_01
+				}
+				female = {
+					1 = female_clothes_religious_buddhist_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			# jewish #
+			religious_jewish_head_clothes_equal = {
+				index = 209
+				male = {
+					1 = male_clothes_religious_jewish_head_01
+				}
+				female = {
+					1 = female_clothes_religious_jewish_head_01
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_jewish_high_clothes_equal = {
+				index = 210
+				male = {
+					1 = male_clothes_religious_jewish_high_01
+				}
+				female = {
+					1 = female_clothes_religious_jewish_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_religious_muslim_hajj_clothes_equal = {
+				index = 211
+				male = {
+					1 = m_clothes_religious_ep2_muslim_hajj_01 # Basic
+				}
+				female = {
+				 	1 = f_cbo_clothes_religious_ep2_muslim_hajj_01 # Basic
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_religious_muslim_ihram_clothes_equal = {
+				index = 212
+				male = {
+					1 = m_clothes_religious_ep2_muslim_hajj_02
+				}
+				female = {
+				 	1 = f_cbo_clothes_religious_ep2_muslim_hajj_02 
+				}
+				boy = male
+				girl = female
+			}
+
+			## RELIGIOUS ##
+			# orthodox #
+			religious_orthodox_high_clothes_fem = {
+				index = 213
+				male = {
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+				}
+				female = {
+					1 = female_clothes_religious_orthodox_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_orthodox_head_clothes_fem = {
+				index = 214
+				male = {
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+				}
+				female = {
+					1 = female_clothes_religious_orthodox_head_01_common
+				}
+				boy = male
+				girl = female
+			}
+
+			# catholic #
+			religious_catholic_high_clothes_fem = {
+				index = 216
+				male = {
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+				}
+				female = { # Duplicate weights to make seed different from catholic_high headgear gene
+					1 = female_clothes_religious_catholic_high_01
+					2 = female_clothes_religious_dde_catholic_high_01_common
+					1 = female_clothes_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_head_clothes_fem = {
+				index = 217
+				male = {
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+				}
+				female = {
+					1 = female_clothes_religious_catholic_head_01
+				}
+				boy = male
+				girl = female
+			}
+			## LIDA added
+			cbo_sub_harness = {
+				index = 218
+				male = {
+					1 = male_accessories_lida_l_harness_1
+				}
+				female = {
+					1 = female_accessories_lida_l_harness_1
+				}
+				boy = male
+				girl = female
+			}
+			cbo_skimpy_plate = {
+				index = 219
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_lida_skimpy_plate
+				}
+				boy = male
+				girl = female
+			}
+			cbo_dress_harness = {
+				index = 220
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_lida_dress_harness
+				}
+				boy = male
+				girl = female
+			}
+			cbo_asymmetric_dress = {
+				index = 221
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_lida_asymmetric_dress
+				}
+				boy = male
+				girl = female
+			}
+			cbo_plunge_dress = {
+				index = 222
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_lida_plunge_dress
+				}
+				boy = male
+				girl = female
+			}
+		}
+	}
+}

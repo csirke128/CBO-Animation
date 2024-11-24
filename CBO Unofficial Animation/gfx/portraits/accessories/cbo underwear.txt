@@ -1,0 +1,225 @@
+﻿
+default_underwear = {
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+default_top = {
+	set_tags = "breasts_clothed"
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_revealing_2_bedchamber_01_common = {
+	set_tags = "shrink_armpit_default,breasts_clothed"
+	set_tags = "shrink_armpit_revealing_2,breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_situational_western_bedchamber_01_common_entity }
+}
+
+male_clothes_revealing_2_bedchamber_01_common = {
+	set_tags = "shrink_armpit_default"
+	set_tags = "shrink_armpit_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_situational_western_bedchamber_01_common_entity }
+}
+
+female_cbo_underwear_tops_tank_01 = {
+	set_tags = "tank_body,breasts_clothed,bra_body,shrink_armpit_default"
+	set_tags = "breasts_clothed_revealing_2,shrink_armpit_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_tops_tank_01_entity }
+}
+
+female_cbo_underwear_tops_tank_01_sheer = {
+	set_tags = "tank_body,breasts_clothed,bra_body"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_tops_tank_01_sheer_entity }
+}
+
+female_legwear_tights_01 = {
+	set_tags = "shrink_legs,shrink_butt,shrink_legs_2,shrink_butt_2,butt_clothed,hips_clothed,penis_clothed"
+	set_tags = "wearing_tights"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_legwear_tights_01_entity }
+}
+
+male_legwear_tights_01 = {
+	set_tags = "shrink_legs,shrink_butt,shrink_legs_2,shrink_butt_2,butt_clothed,hips_clothed,penis_clothed"
+	set_tags = "wearing_tights"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_legwear_tights_01_entity }
+}
+
+male_cbo_underwear_bottoms_briefs_01 = {
+	set_tags = "briefs_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_briefs_01_entity }
+}
+
+male_cbo_underwear_bottoms_panties_01 = {
+	set_tags = "briefs_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_panties_01_entity }
+}
+
+male_cbo_underwear_bottoms_thong_01 = {
+	set_tags = "thong_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_thong_01_entity }
+}
+
+male_cbo_underwear_bottoms_g_string_01 = {
+	set_tags = "g_string_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_g_string_01_entity }
+}
+
+male_cbo_underwear_bottoms_briefs_01_war = {
+	set_tags = "briefs_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_briefs_01_war_entity }
+}
+
+male_cbo_underwear_bottoms_panties_01_war = {
+	set_tags = "panties_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_panties_01_war_entity }
+}
+
+male_cbo_underwear_bottoms_thong_01_war = {
+	set_tags = "thong_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_thong_01_war_entity }
+}
+
+male_cbo_underwear_bottoms_g_string_01_war = {
+	set_tags = "g_string_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_bottoms_g_string_01_war_entity }
+}
+
+male_cbo_underwear_tops_one_piece_01 = {
+	set_tags = "penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = "high_catholic"		shared_pose_entity = torso		entity = male_cbo_underwear_tops_one_piece_01_white_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_cbo_underwear_tops_one_piece_01_entity }
+}
+
+
+female_cbo_underwear_bottoms_briefs_01 = {
+	set_tags = "briefs_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_briefs_01_entity }
+}
+
+female_cbo_underwear_bottoms_panties_01 = {
+	set_tags = "panties_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_panties_01_entity }
+}
+
+female_cbo_underwear_bottoms_thong_01 = {
+	set_tags = "thong_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_thong_01_entity }
+}
+
+female_cbo_underwear_bottoms_g_string_01 = {
+	set_tags = "g_string_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_g_string_01_entity }
+}
+
+female_cbo_underwear_tops_bra_01 = {
+	set_tags = "bra_body,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cbo_underwear_tops_bra_01_entity }
+}
+
+female_cbo_underwear_tops_bikini_01 = {
+	set_tags = "bikini_1_body"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_tops_bikini_01_entity }
+}
+
+female_cbo_underwear_tops_bikini_02 = {
+	set_tags = "bikini_1_body"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_tops_bikini_02_entity }
+}
+
+female_cbo_underwear_bottoms_briefs_01_sheer = {
+	set_tags = "briefs_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_briefs_01_sheer_entity }
+}
+
+female_cbo_underwear_bottoms_panties_01_sheer = {
+	set_tags = "panties_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_panties_01_sheer_entity }
+}
+
+female_cbo_underwear_bottoms_thong_01_sheer = {
+	set_tags = "thong_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_thong_01_sheer_entity }
+}
+
+female_cbo_underwear_bottoms_g_string_01_sheer = {
+	set_tags = "g_string_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_g_string_01_sheer_entity }
+}
+
+female_cbo_underwear_bottoms_briefs_01_war = {
+	set_tags = "briefs_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_briefs_01_war_entity }
+}
+
+female_cbo_underwear_bottoms_panties_01_war = {
+	set_tags = "panties_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_panties_01_war_entity }
+}
+
+female_cbo_underwear_bottoms_thong_01_war = {
+	set_tags = "thong_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_thong_01_war_entity }
+}
+
+female_cbo_underwear_bottoms_g_string_01_war = {
+	set_tags = "g_string_body,penis_clothed"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_bottoms_g_string_01_war_entity }
+}
+
+female_cbo_underwear_tops_bra_01_sheer = {
+	set_tags = "bra_body,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cbo_underwear_tops_bra_01_sheer_entity }
+}
+
+female_cbo_underwear_tops_one_piece_01 = {
+	set_tags = "bra_body,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = "high_catholic"		shared_pose_entity = torso		entity = female_cbo_underwear_tops_one_piece_01_white_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_tops_one_piece_01_entity }
+}
+
+female_cbo_underwear_tops_bikini_01_sheer = {
+	set_tags = "bikini_1_body"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_tops_bikini_01_sheer_entity }
+}
+
+female_cbo_underwear_tops_bikini_02_sheer = {
+	set_tags = "bikini_1_body"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_cbo_underwear_tops_bikini_02_sheer_entity }
+}

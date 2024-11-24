@@ -1,0 +1,8 @@
+﻿
+wearing_revealing_clothes_trigger = {
+	always = no
+}
+
+wearing_revealing_clothes_2_trigger = {
+	always = no
+}

@@ -1,0 +1,2 @@
+﻿cbo_body_active = { always = yes }
+cbo_animation_active = { always = yes }

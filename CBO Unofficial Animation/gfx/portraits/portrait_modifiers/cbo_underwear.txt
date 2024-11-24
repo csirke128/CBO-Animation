@@ -1,0 +1,862 @@
+﻿bottoms = {
+	# interface_position = 1
+	usage = game
+	selection_behavior = max
+	none = {
+		usage = game 
+		weight = {
+			base = 1
+		}
+	}
+	default_underwear = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = default_underwear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				wearing_revealing_clothes_trigger = no
+			}
+		}
+	}
+	no_underwear = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = no_underwear
+				value = 0
+			}
+		}
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_no_underwear_trigger = yes
+			}
+		}
+	}
+	briefs = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = briefs
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 750
+				wearing_cbo_briefs_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+	
+	panties = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = panties
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_panties_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+	
+	thong = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = thong
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_thong_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+	
+	g_string = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = g_string
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_g-string_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+	briefs_futa = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = briefs
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 750
+				wearing_cbo_briefs_trigger = yes
+				carn_is_futa_trigger = yes
+			}
+		}
+	}
+	
+	panties_futa = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = panties
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_panties_trigger = yes
+				carn_is_futa_trigger = yes
+			}
+		}
+	}
+	
+	thong_futa = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = thong
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_thong_trigger = yes
+				carn_is_futa_trigger = yes
+			}
+		}
+	}
+	
+	g_string_futa = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = g_string
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_g-string_trigger = yes
+				carn_is_futa_trigger = yes
+			}
+		}
+	}
+	sheer_briefs = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_briefs
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				is_female = yes
+				wearing_cbo_sheer_briefs_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+	
+	sheer_panties = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_panties
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				is_female = yes
+				wearing_cbo_sheer_panties_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+	
+	sheer_thong = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_thong
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				is_female = yes
+				wearing_cbo_sheer_thong_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+	
+	sheer_g_string = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_g_string
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				is_female = yes
+				wearing_cbo_sheer_g-string_trigger = yes
+				carn_is_futa_trigger = no
+			}
+		}
+	}
+}
+
+tops = {
+	# interface_position = 1
+	usage = game
+	selection_behavior = max
+	no_top = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = no_top
+				value = 0
+			}
+		}
+		outfit_tags = { no_clothes }
+		weight = {
+			base = 1
+		}
+	}
+	bra = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = bra
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_bra_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	sheer_bra = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_bra
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_sheer_bra_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	microbikini = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = microbikini
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_microbikini_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	sheer_microbikini = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_microbikini
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_sheer_microbikini_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	bikini = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = bikini
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_bikini_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	sheer_bikini = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_bikini
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_sheer_bikini_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	one_piece = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = one_piece
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_one_piece_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	tank = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = tank
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_tank_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	sheer_tank = {
+		usage = game 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_tank
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				wearing_cbo_sheer_tank_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+}
+
+bottoms_customization = {
+	interface_position = 13
+	priority = 15
+	usage = customization
+	no_underwear = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = no_underwear
+				value = 0
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+		}
+	}
+	briefs = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = briefs
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = no
+		}
+	}
+	
+	panties = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = panties
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = no
+		}
+	}
+	
+	thong = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = thong
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = no
+		}
+	}
+	
+	g_string = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = g_string
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = no
+		}
+	}
+	briefs_futa = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = briefs
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = yes
+		}
+	}
+	
+	panties_futa = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = panties
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = yes
+		}
+	}
+	
+	thong_futa = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = thong
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = yes
+		}
+	}
+	
+	g_string_futa = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = g_string
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			carn_is_futa_trigger = yes
+		}
+	}
+	sheer_briefs = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_briefs
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+			carn_is_futa_trigger = no
+		}
+	}
+	
+	sheer_panties = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_panties
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+			carn_is_futa_trigger = no
+		}
+	}
+	
+	sheer_thong = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_thong
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+			carn_is_futa_trigger = no
+		}
+	}
+	
+	sheer_g_string = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = bottoms
+				template = sheer_g_string
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+			carn_is_futa_trigger = no
+		}
+	}
+}
+
+tops_customization = {
+	interface_position = 12
+	priority = 15
+	usage = customization
+	no_bra = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = no_top
+				value = 0
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+		}
+	}
+	bra = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = bra
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	sheer_bra = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_bra
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	microbikini = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = microbikini
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	sheer_microbikini = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_microbikini
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	bikini = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = bikini
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	sheer_bikini = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_bikini
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	one_piece = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = one_piece
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+		}
+	}
+	tank = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = tank
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	sheer_tank = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = sheer_tank
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+			is_female = yes
+		}
+	}
+	bedchamber = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = tops
+				template = bedchamber
+				range = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			age >= 18
+		}
+	}
+}

@@ -1,0 +1,600 @@
+﻿special_genes = {
+	accessory_genes = {
+		cbo_headgear = {
+			no_headgear = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			cbo_all_headgear = {
+				index = 1
+				male = {
+					1 = cbo_male_headgear_dde_abbasid_common_02
+					1 = cbo_male_headgear_iberian_muslim_nobility_01
+					1 = cbo_male_headgear_iberian_muslim_royalty_01
+					1 = cbo_male_headgear_sub_saharan_common_01
+					1 = cbo_male_headgear_sub_saharan_high_nobility_01
+					1 = cbo_male_headgear_sub_saharan_royalty_01
+					1 = cbo_male_headgear_sub_saharan_imperial_01
+					1 = cbo_male_headgear_african_high_01
+					1 = cbo_male_headgear_jester_01
+				}
+				female = {
+					1 = cbo_female_headgear_dde_hre_common_02
+					1 = cbo_female_headgear_western_nobility_01
+					1 = cbo_female_headgear_western_nobility_02
+					1 = cbo_female_headgear_western_nobility_03
+					1 = cbo_female_headgear_byzantine_common_01
+					1 = cbo_female_headgear_byzantine_nobility_01
+					1 = cbo_female_headgear_byzantine_high_nobility_01
+					1 = cbo_female_headgear_mena_common_01
+					1 = cbo_female_headgear_mena_common_02
+					1 = cbo_female_headgear_mena_nobility_01
+					1 = cbo_female_headgear_mena_royalty_01
+					1 = cbo_female_headgear_dde_abbasid_high_nobility_01
+					1 = cbo_female_headgear_dde_abbasid_royalty_01
+					1 = cbo_female_headgear_steppe_high_nobility_01
+					1 = cbo_female_headgear_iberian_muslim_royalty_01
+					1 = cbo_f_headgear_sec_ep2_western_era1_com_01
+					1 = cbo_f_headgear_sec_ep2_western_era1_com_02
+					1 = cbo_f_headgear_sec_ep2_western_era1_nob_01
+					1 = cbo_f_headgear_sec_ep2_western_era1_nob_02
+					1 = cbo_female_headgear_african_high_01
+					1 = cbo_female_headgear_jester_01
+					1 = cbo_female_headgear_catholic_devoted_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_dde_hre_common = {
+				index = 2
+				male = {
+					1 = male_headgear_secular_dde_hre_common_01
+					# 1 = male_headgear_secular_dde_hre_common_02
+				}
+				female = {
+					# 1 = female_headgear_secular_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_dde_hre_nobility = {
+				index = 3
+				male = {
+					10 = male_headgear_secular_dde_hre_common_02
+				}
+				female = {
+					10 = cbo_female_headgear_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_western_common = {
+				index = 4
+				male = {
+					1 = male_headgear_secular_western_common_01
+					1 = male_headgear_secular_western_common_02
+				}
+				female = {
+					35 = empty
+					5 = cbo_female_headgear_western_nobility_01
+					5 = cbo_female_headgear_western_nobility_01
+					5 = cbo_female_headgear_western_nobility_02
+					5 = cbo_female_headgear_western_nobility_03
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_western_nobility = {
+				index = 5
+				male = {
+					20 = empty
+					10 = male_headgear_secular_western_common_01
+					10 = male_headgear_secular_western_common_02
+					# 0 = male_headgear_secular_western_nobility_01
+					# 0 = male_headgear_secular_western_nobility_02
+				}
+				female = {
+					30 = empty
+					10 = cbo_female_headgear_western_nobility_01
+					10 = cbo_female_headgear_western_nobility_01
+					10 = cbo_female_headgear_western_nobility_02
+					10 = cbo_female_headgear_western_nobility_03
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_byzantine_common = {
+				index = 6
+				male = {
+					10 = empty
+					5 = male_headgear_secular_byzantine_common_01
+				}
+				female = {
+					10 = empty
+					5 = cbo_female_headgear_byzantine_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_byzantine_nobility = {
+				index = 7
+				male = {
+					5 = empty
+					5 = male_headgear_secular_byzantine_nobility_01
+				}
+				female = {
+					5 = empty
+					5 = cbo_female_headgear_byzantine_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_byzantine_high_nobility = {
+				index = 8
+				male = {
+					5 = male_headgear_secular_byzantine_high_nobility_01
+
+				}
+				female = {
+					5 = cbo_female_headgear_byzantine_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_mena_common = {
+				index = 9
+				male = {
+					5 = empty
+					10 = male_headgear_secular_mena_common_01
+					10 = cbo_male_headgear_dde_abbasid_common_02
+
+				}
+				female = {
+					10 = empty
+					5 = cbo_female_headgear_mena_common_01
+					5 = cbo_female_headgear_mena_common_02
+					5 = female_headgear_secular_dde_abbasid_common_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_mena_low_nobility = {
+				index = 10
+				male = {
+					5 = empty
+					10 = male_headgear_secular_mena_common_01
+					10 = male_headgear_secular_mena_nobility_01
+
+				}
+				female = {
+					15 = empty
+					5 = cbo_female_headgear_mena_common_01
+					5 = cbo_female_headgear_mena_common_02
+					5 = cbo_female_headgear_mena_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_mena_high_nobility = {
+				index = 11
+				male = {
+					0 = empty
+					5 = male_headgear_secular_mena_high_nobility_01
+					5 = male_headgear_religious_dde_muslim_head_01
+
+				}
+				female = {
+					0 = empty
+					5 = cbo_female_headgear_mena_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_mena_royalty = {
+				index = 12
+				male = {
+					1 = male_headgear_secular_mena_royalty_01
+				}
+				female = {
+					1 = cbo_female_headgear_mena_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_dde_abbasid_high_nobility = {
+				index = 13
+				male = {
+					1 = male_headgear_secular_dde_abbasid_high_nobility_01
+					# 1 = male_headgear_secular_dde_abbasid_common_01_high
+				}
+				female = {
+					1 = cbo_female_headgear_mena_nobility_01
+					1 = cbo_female_headgear_dde_abbasid_high_nobility_01
+					# 1 = female_headgear_secular_dde_abbasid_high_nobility_02
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_dde_abbasid_royalty = {
+				index = 14
+				male = {
+					1 = male_headgear_secular_dde_abbasid_royalty_01
+
+
+				}
+				female = {
+					1 = cbo_female_headgear_dde_abbasid_royalty_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_steppe_high_nobility = {
+				index = 15
+				male = {
+					5 = male_headgear_secular_steppe_nobility_01
+
+				}
+				female = {
+					5 = cbo_female_headgear_steppe_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_steppe_royalty = {
+				index = 16
+				male = {
+					5 = male_headgear_secular_steppe_royalty_01
+
+				}
+				female = {
+					5 = cbo_female_headgear_steppe_high_nobility_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_fp2_muslim_low_nobility = {
+				index = 17
+				male = {
+					1 = cbo_male_headgear_iberian_muslim_nobility_01
+					1 = male_headgear_secular_fp2_iberian_muslim_common_01_high
+				}
+				female = {
+					1 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low
+					1 = female_headgear_secular_fp2_iberian_muslim_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_fp2_muslim_royalty = {
+				index = 18
+				male = {
+					1 = cbo_male_headgear_iberian_muslim_royalty_01
+				}
+				female = {
+					1 = cbo_female_headgear_iberian_muslim_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_sub_saharan_common = {
+				index = 19
+				male = {
+					5 = empty
+					5 = cbo_male_headgear_sub_saharan_common_01
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_sub_saharan_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_sub_saharan_high_nobility = {
+				index = 20
+				male = {
+					1 = cbo_male_headgear_sub_saharan_high_nobility_01
+				}
+				female = {
+					1 = cbo_female_headgear_mena_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_sub_saharan_royalty = {
+				index = 21
+				male = {
+					1 = cbo_male_headgear_sub_saharan_royalty_01
+
+				}
+				female = {
+					1 = cbo_female_headgear_mena_royalty_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_sub_saharan_imperial = {
+				index = 22
+				male = {
+					1 = cbo_male_headgear_sub_saharan_imperial_01
+
+				}
+				female = {
+					1 = cbo_female_headgear_mena_royalty_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_ep2_western_era1_common = {
+				index = 23
+				male = {
+					20 = empty
+					20 = m_headgear_sec_ep2_western_era1_com_01
+				}
+				female = {
+					20 = empty
+					10 = cbo_f_headgear_sec_ep2_western_era1_com_01
+					10 = cbo_f_headgear_sec_ep2_western_era1_com_02
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_ep2_western_era1_nobility = {
+				index = 24
+				male = {
+					10 = empty
+					10 = m_headgear_sec_ep2_western_era1_nob_01
+					10 = m_headgear_sec_ep2_western_era1_nob_02
+				}
+
+				female = {
+					20 = empty
+					10 = cbo_f_headgear_sec_ep2_western_era1_nob_01
+					10 = cbo_f_headgear_sec_ep2_western_era1_nob_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			cbo_ep2_western_era3_common = {
+				index = 25
+				male = {
+					20 = empty
+					10 = male_headgear_secular_western_common_01
+					10 = male_headgear_secular_western_common_02
+					20 = male_headgear_secular_dde_hre_common_01
+					20 = male_headgear_secular_dde_hre_common_02
+				}
+				female = {
+					5 = cbo_female_headgear_western_nobility_01
+					5 = cbo_female_headgear_western_nobility_02
+					10 = empty
+					10 = cbo_female_headgear_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_ep2_western_era3_nobility = {
+				index = 26
+				male = {
+					20 = empty
+					10 = male_headgear_secular_western_common_01
+					10 = male_headgear_secular_western_common_02
+					20 = male_headgear_secular_dde_hre_common_01
+					20 = male_headgear_secular_dde_hre_common_02
+				}
+
+				female = {
+					5 = cbo_female_headgear_western_nobility_01
+					5 = cbo_female_headgear_western_nobility_01
+					5 = cbo_female_headgear_western_nobility_02
+					5 = cbo_female_headgear_western_nobility_03
+					10 = empty
+					10 = cbo_female_headgear_dde_hre_common_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			cbo_religious_african_high = {
+				index = 27
+				male = {
+					1 = cbo_male_headgear_african_high_01
+
+				}
+				female = {
+					1 = cbo_female_headgear_african_high_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_ep1_jester = {
+				index = 28
+				male = {
+					50 = cbo_male_headgear_jester_01
+				}
+				female = {
+					50 = cbo_female_headgear_jester_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_catholic_high = { # Duplicate weights to make seed different from religious_catholic_high_clothes clothes gene
+				index = 29
+				male = {
+					2 = male_headgear_religious_catholic_high_01
+					1 = male_headgear_religious_dde_catholic_high_01
+					1 = male_headgear_religious_dde_catholic_high_01
+				}
+				female = {
+					1 = cbo_female_headgear_catholic_devoted_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_catholic_head = {
+				index = 30
+				male = {
+					1 = male_headgear_religious_catholic_head_01
+				}
+				female = {
+					1 = cbo_female_headgear_catholic_devoted_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_religious_catholic_devoted = {
+				index = 31
+				male = {
+					1 = empty
+
+				}
+				female = {
+					1 = cbo_female_headgear_catholic_devoted_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_religious_orthodox_high = {
+				index = 32
+				male = {
+					1 = male_headgear_religious_orthodox_high_01
+
+				}
+				female = {
+					1 = cbo_female_headgear_catholic_devoted_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_religious_orthodox_head = {
+				index = 33
+				male = {
+					1 = male_headgear_religious_orthodox_head_01
+
+				}
+				female = {
+					1 = female_headgear_religious_catholic_devoted_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_catholic_high_equal = { # Duplicate weights to make seed different from religious_catholic_high_clothes clothes gene
+				index = 34
+				male = {
+					2 = male_headgear_religious_catholic_high_01
+					1 = male_headgear_religious_dde_catholic_high_01
+					1 = male_headgear_religious_dde_catholic_high_01
+				}
+				female = {
+					2 = female_headgear_religious_catholic_high_01
+					1 = female_headgear_religious_dde_catholic_high_01
+					1 = female_headgear_religious_dde_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_catholic_head_equal = {
+				index = 35
+				male = {
+					1 = male_headgear_religious_catholic_head_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_head_01
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_religious_orthodox_high_equal = {
+				index = 36
+				male = {
+					1 = male_headgear_religious_orthodox_high_01
+
+				}
+				female = {
+					1 = female_headgear_religious_orthodox_high_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_religious_orthodox_head_equal = {
+				index = 37
+				male = {
+					1 = male_headgear_religious_orthodox_head_01
+
+				}
+				female = {
+					1 = female_headgear_religious_orthodox_head_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			cbo_sub_collar = {
+				index = 38
+				male = {
+					1 = male_accessories_lida_sl_collar
+				}
+				female = {
+					# 1 = female_accessories_lida_dl_collar
+					1 = female_accessories_lida_sl_collar
+				}
+				boy = male
+				girl = female
+			}
+      			## END Lazy's Skimpy Accessories
+		}
+	}
+}

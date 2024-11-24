@@ -1,0 +1,263 @@
+﻿sex_oral_love_1 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_1_general = {
+			animation = { head = "sex_standing_doggy" torso = "oral_love_1" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_1_general = {
+			animation = { head = "sex_standing_doggy" torso = "oral_love_1" }
+
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_oral_love_2 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_2_general = {
+			animation = { head = "sex_doggy_cum_3" torso = "oral_love_2" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_2_general = {
+			animation = { head = "sex_oral_love_2" torso = "oral_love_2" }
+
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_oral_love_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_slave_oral_1 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_slave_oral_1_general = {
+			animation = { head = "sex_slave_oral_1" torso = "sex_slave_oral_1" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_slave_oral_1_general = {
+			animation = { head = "sex_slave_oral_1" torso = "sex_slave_oral_1" }
+
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_slave_oral_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_slave_oral_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}

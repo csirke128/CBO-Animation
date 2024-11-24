@@ -1,0 +1,42 @@
+﻿female_accessories_lida_dl_collar = {
+	entity = { required_tags = "" shared_pose_entity = head }
+}
+female_accessories_lida_sl_collar = {
+	entity = { required_tags = "" shared_pose_entity = head }
+}
+male_accessories_lida_sl_collar = {
+	entity = { required_tags = "" shared_pose_entity = head }
+}
+female_accessories_lida_l_harness_1 = {
+	entity = { required_tags = "" shared_pose_entity = torso }
+}
+male_accessories_lida_l_harness_1 = {
+	entity = { required_tags = "" shared_pose_entity = torso }
+}
+female_accessories_lida_skimpy_plate = {
+	set_tags = "breasts_clothed,breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = "" shared_pose_entity = torso }
+}
+female_accessories_lida_skimpy_plate_legs = {
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = "" shared_pose_entity = torso }
+}
+
+female_accessories_lida_dress_harness = {
+    set_tags = "shrink_armpit,breasts_clothed,breasts_clothed_revealing_2"
+    entity = { required_tags = "undressed"        shared_pose_entity = torso }
+    entity = { required_tags = "" shared_pose_entity = torso }
+}
+
+female_accessories_lida_asymmetric_dress = {
+    set_tags = "shrink_armpit,breasts_clothed,breasts_clothed_revealing_2"
+    entity = { required_tags = "undressed"        shared_pose_entity = torso }
+    entity = { required_tags = "" shared_pose_entity = torso }
+}
+
+female_accessories_lida_plunge_dress = {
+    set_tags = "shrink_armpit,breasts_clothed,breasts_clothed_revealing_2"
+    entity = { required_tags = "undressed"        shared_pose_entity = torso }
+    entity = { required_tags = "" shared_pose_entity = torso }
+}

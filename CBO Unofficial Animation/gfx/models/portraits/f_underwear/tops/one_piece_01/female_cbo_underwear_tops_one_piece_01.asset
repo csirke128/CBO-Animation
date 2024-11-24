@@ -1,0 +1,154 @@
+pdxmesh = {
+	name = "female_cbo_underwear_tops_one_piece_01_mesh"
+	file = "female_cbo_underwear_tops_one_piece_01.mesh"
+
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_abs"						type = "female_cbo_underwear_tops_one_piece_01_bs_abs.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_max"			type = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_min"			type = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_2_max"			type = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_2_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_max"				type = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_min"		  		type = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_dwarf"						type = "female_cbo_underwear_tops_one_piece_01_bs_dwarf.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_fat"						type = "female_cbo_underwear_tops_one_piece_01_bs_fat.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_gaunt"		  				type = "female_cbo_underwear_tops_one_piece_01_bs_gaunt.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_hips_max"					type = "female_cbo_underwear_tops_one_piece_01_bs_hips_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_hips_min"					type = "female_cbo_underwear_tops_one_piece_01_bs_hips_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_i"							type = "female_cbo_underwear_tops_one_piece_01_bs_i.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_muscular"					type = "female_cbo_underwear_tops_one_piece_01_bs_muscular.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_nipples_max"				type = "female_cbo_underwear_tops_one_piece_01_bs_nipples_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_old"						type = "female_cbo_underwear_tops_one_piece_01_bs_old.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_pregnant"					type = "female_cbo_underwear_tops_one_piece_01_bs_pregnant.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_pubic_hair"					type = "female_cbo_underwear_tops_one_piece_01_bs_pubic_hair.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_max"				type = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_min"				type = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shrink"					type = "female_cbo_underwear_tops_one_piece_01_bs_shrink.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shrink_legs"					type = "female_cbo_underwear_tops_one_piece_01_bs_shrink_legs.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_waist_max"					type = "female_cbo_underwear_tops_one_piece_01_bs_waist_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_waist_min"					type = "female_cbo_underwear_tops_one_piece_01_bs_waist_min.mesh" }
+	
+	meshsettings = {
+		name = "female_cbo_underwear_tops_one_piece_01Shape"
+		index = 0
+		texture_diffuse = "female_mid_calf_boot_heels_01_diffuse.dds"
+		texture_normal = "female_mid_calf_boot_heels_01_normal.dds"
+		texture_specular = "female_mid_calf_boot_heels_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_cbo_underwear_tops_one_piece_01_entity"
+	pdxmesh = "female_cbo_underwear_tops_one_piece_01_mesh"
+
+	attribute = { name = "bs_body_abs"								blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_abs" }
+	attribute = { name = "bs_body_breast_size_max"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_max" }
+	attribute = { name = "bs_body_breast_size_min"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_min" }	
+	attribute = { name = "bs_body_butt_size_max_2"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_2_max" }
+	attribute = { name = "bs_body_butt_size_max_1"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_max" }
+	attribute = { name = "bs_body_butt_size_min"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_min" }
+	attribute = { name = "bs_body_dwarf_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_dwarf" }
+	attribute = { name = "bs_body_fat_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_gaunt" }
+	attribute = { name = "bs_body_hips_max"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_hips_max" }
+	attribute = { name = "bs_body_hips_min"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_hips_min" }
+	attribute = { name = "bs_body_i"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_i" }
+	attribute = { name = "bs_body_muscular_1"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_muscular" }	
+	attribute = { name = "bs_body_nipples_max"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_nipples_max" }
+	attribute = { name = "bs_body_old_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_old" }
+	attribute = { name = "bs_body_pregnant_1"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_pregnant" }
+	attribute = { name = "bs_pubic_hair"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_pubic_hair" }
+	attribute = { name = "bs_body_shoulders_max"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_max" }
+	attribute = { name = "bs_body_shoulders_min"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_min" }
+	attribute = { name = "bs_body_shrink_butt"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shrink" }
+	attribute = { name = "bs_body_shrink_legs"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shrink_legs" }
+	attribute = { name = "bs_body_waist_max"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_waist_max" }
+	attribute = { name = "bs_body_waist_min"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_waist_min" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/f_shoes/heels/mid_calf_boot_heels_01/female_mid_calf_boot_heels_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "boots_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+pdxmesh = {
+	name = "female_cbo_underwear_tops_one_piece_01_white_mesh"
+	file = "female_cbo_underwear_tops_one_piece_01.mesh"
+
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_abs"						type = "female_cbo_underwear_tops_one_piece_01_bs_abs.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_max"			type = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_min"			type = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_2_max"			type = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_2_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_max"				type = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_min"		  		type = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_dwarf"						type = "female_cbo_underwear_tops_one_piece_01_bs_dwarf.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_fat"						type = "female_cbo_underwear_tops_one_piece_01_bs_fat.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_gaunt"		  				type = "female_cbo_underwear_tops_one_piece_01_bs_gaunt.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_hips_max"					type = "female_cbo_underwear_tops_one_piece_01_bs_hips_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_hips_min"					type = "female_cbo_underwear_tops_one_piece_01_bs_hips_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_i"							type = "female_cbo_underwear_tops_one_piece_01_bs_i.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_muscular"					type = "female_cbo_underwear_tops_one_piece_01_bs_muscular.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_nipples_max"				type = "female_cbo_underwear_tops_one_piece_01_bs_nipples_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_old"						type = "female_cbo_underwear_tops_one_piece_01_bs_old.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_pregnant"					type = "female_cbo_underwear_tops_one_piece_01_bs_pregnant.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_pubic_hair"					type = "female_cbo_underwear_tops_one_piece_01_bs_pubic_hair.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_max"				type = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_min"				type = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_min.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shrink"					type = "female_cbo_underwear_tops_one_piece_01_bs_shrink.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_shrink_legs"					type = "female_cbo_underwear_tops_one_piece_01_bs_shrink_legs.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_waist_max"					type = "female_cbo_underwear_tops_one_piece_01_bs_waist_max.mesh" }
+	blend_shape = { id = "female_cbo_underwear_tops_one_piece_01_bs_waist_min"					type = "female_cbo_underwear_tops_one_piece_01_bs_waist_min.mesh" }
+	
+	meshsettings = {
+		name = "female_cbo_underwear_tops_one_piece_01Shape"
+		index = 0
+		texture_diffuse = "female_cbo_underwear_tops_one_piece_01_white_diffuse.dds"
+		texture_normal = "female_mid_calf_boot_heels_01_normal.dds"
+		texture_specular = "female_mid_calf_boot_heels_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+entity = {
+	name = "female_cbo_underwear_tops_one_piece_01_white_entity"
+	pdxmesh = "female_cbo_underwear_tops_one_piece_01_white_mesh"
+
+	attribute = { name = "bs_body_abs"								blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_abs" }
+	attribute = { name = "bs_body_breast_size_max"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_max" }
+	attribute = { name = "bs_body_breast_size_min"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_breast_size_min" }	
+	attribute = { name = "bs_body_butt_size_max_2"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_2_max" }
+	attribute = { name = "bs_body_butt_size_max_1"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_max" }
+	attribute = { name = "bs_body_butt_size_min"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_butt_size_min" }
+	attribute = { name = "bs_body_dwarf_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_dwarf" }
+	attribute = { name = "bs_body_fat_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_gaunt" }
+	attribute = { name = "bs_body_hips_max"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_hips_max" }
+	attribute = { name = "bs_body_hips_min"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_hips_min" }
+	attribute = { name = "bs_body_i"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_i" }
+	attribute = { name = "bs_body_muscular_1"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_muscular" }	
+	attribute = { name = "bs_body_nipples_max"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_nipples_max" }
+	attribute = { name = "bs_body_old_1"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_old" }
+	attribute = { name = "bs_body_pregnant_1"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_pregnant" }
+	attribute = { name = "bs_pubic_hair"							blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_pubic_hair" }
+	attribute = { name = "bs_body_shoulders_max"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_max" }
+	attribute = { name = "bs_body_shoulders_min"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shoulders_min" }
+	attribute = { name = "bs_body_shrink_butt"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shrink" }
+	attribute = { name = "bs_body_shrink_legs"					blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_shrink_legs" }
+	attribute = { name = "bs_body_waist_max"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_waist_max" }
+	attribute = { name = "bs_body_waist_min"						blend_shape = "female_cbo_underwear_tops_one_piece_01_bs_waist_min" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/f_shoes/heels/mid_calf_boot_heels_01/female_mid_calf_boot_heels_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "boots_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}

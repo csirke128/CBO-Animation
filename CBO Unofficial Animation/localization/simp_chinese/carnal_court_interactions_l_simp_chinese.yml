@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ carnal_court_sex_interaction: "卡纳利塔斯宫廷做爱"
+ carnal_court_sex_interaction_desc: "目击[recipient.GetShortUINameNoTooltip]的亲密时光"
+ carnal_court_sex_interaction_cd_tt: "#weak 因为你在过去[EmptyScope.ScriptValue('carn_sex_interaction_cooldown_base')|0]使用过该互动而不可用#!"
+ carnal_court_sex_interaction_not_attracted_to_warning_tt: "#X 你不被[recipient.GetShortUINameNoTooltip]吸引#!"

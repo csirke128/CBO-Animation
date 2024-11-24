@@ -1,0 +1,15 @@
+﻿carnal_court_make_love = {
+	default = carnal_court_make_love_enabled
+
+	carnal_court_make_love_enabled = {
+		flag = carnal_court_make_love_enabled		
+		flag = GG_can_change_rule
+	}
+	
+	carnal_court_make_love_disabled = {
+		flag = carnal_court_make_love_disabled
+		flag = GG_can_change_rule
+	}
+
+}
+

@@ -1,0 +1,167 @@
+﻿l_spanish:
+
+ #Scene 1 desc
+ carn_sex_scene.0001.desc_female: "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] hesitatingly waiting for me."
+ carn_sex_scene.0001.desc_male: "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] eagerly is waiting for me."
+ carn_sex_scene.0001.desc_femaleslave: "My Slave [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] waiting for the decree."
+ carn_sex_scene.0001.desc_maleslave: "My Slave [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] waiting for the decree."
+
+ 
+#Scene 1 MF swap
+ carn_sex_scene.0050.swap: "Сhange pose."
+ #Scene 1 MF start 
+carn_sex_scene.0050.a: "My sweetheart." 
+carn_sex_scene.0050.a2: "My sweetheart."   
+ #Scene 1 FM start 
+carn_sex_scene.0050.b: "Come to me dear"
+carn_sex_scene.0050.b2: "Come to me dear"
+ #Scene 1 FF start 
+carn_sex_scene.0050.c: "My sweetheart"
+carn_sex_scene.0050.c2: "My sweetheart"
+ #Scene 1 MM start 
+carn_sex_scene.0050.d: "Come to me dear"
+carn_sex_scene.0050.d2: "Come to me dear"
+ #Scene 1 Slave MF start 
+carn_sex_scene.0050.e: "Get undressed quickly!"
+carn_sex_scene.0050.e2: "Masturbate on her"
+carn_sex_scene.0050.e3: "Fuck"
+carn_sex_scene.0050.e4: "Let her suck"
+ #Scene 1 Slave FM start 
+carn_sex_scene.0050.f: "Give me pleasure, slave!"
+carn_sex_scene.0050.f2: "Give me pleasure, slave!"
+ #Scene 1 Slave FF start 
+carn_sex_scene.0050.g: "Give me pleasure, slave!"
+carn_sex_scene.0050.g2: "Give me pleasure, slave!"
+ #Scene 1 Slave MM start 
+carn_sex_scene.0050.h: "Give me pleasure, slave!"
+carn_sex_scene.0050.h2: "Give me pleasure, slave!" 
+  
+#sex scene interact ####################################################
+carn_sex_scene.0100.a: "Cum" 
+carn_sex_scene.0101.a: "Cum in mouth"
+carn_sex_scene.0101.b: "Cum on face"
+
+#doggy sex scene
+carn_sex_scene.0100.t: "Torments of passion"
+carn_sex_scene.0100.desc_mf: "Description for the Doggy MF scene, which I didn't come up with."
+carn_sex_scene.0100.desc_fm: "Description for the Doggy FM scene, which I didn't come up with."
+carn_sex_scene.0100.desc_ff: "Description for the Doggy FF scene, which I didn't come up with." 
+carn_sex_scene.0100.desc_mm: "Description for the Doggy MM scene, which I didn't come up with." 
+carn_sex_scene.1001.t: "Torments of passion"
+carn_sex_scene.1001.desc_mf: "A description for the Doggy MF ending that I didn't come up with."
+carn_sex_scene.1001.desc_fm: "A description for the Doggy FM ending that I didn't come up with."
+carn_sex_scene.1001.desc_ff: "A description for the Doggy FF ending that I didn't come up with."
+carn_sex_scene.1001.desc_mm: "A description for the Doggy MM ending that I didn't come up with." 
+
+#missionary sex scene
+carn_sex_scene.0200.t: "Torments of passion"
+carn_sex_scene.0200.desc_mf: "Description for the Missionary MF scene, which I didn't come up with."
+carn_sex_scene.0200.desc_fm: "Description for the Missionary MF scene, which I didn't come up with."
+carn_sex_scene.0200.desc_ff: "Description for the Missionary MF scene, which I didn't come up with."
+carn_sex_scene.0200.desc_mm: "Description for the Missionary MF scene, which I didn't come up with."
+carn_sex_scene.1201.t: "Torments of passion"
+carn_sex_scene.1201.desc_mf: "A description for the Missionary MF ending that I didn't come up with."
+carn_sex_scene.1201.desc_fm: "A description for the Missionary MF ending that I didn't come up with."
+carn_sex_scene.1201.desc_ff: "A description for the Missionary MF ending that I didn't come up with."
+carn_sex_scene.1201.desc_mm: "A description for the Missionary MF ending that I didn't come up with."
+
+#standing doggy sex scene
+carn_sex_scene.0300.t: "Torments of passion"
+carn_sex_scene.0300.desc_mf: "Description for the Standing Doggy MF scene, which I didn't come up with."
+carn_sex_scene.0300.desc_fm: "Description for the Standing Doggy FM scene, which I didn't come up with."
+carn_sex_scene.0300.desc_ff: "Description for the Standing Doggy FF scene, which I didn't come up with."
+carn_sex_scene.0300.desc_mm: "Description for the Standing Doggy MM scene, which I didn't come up with."
+carn_sex_scene.1301.t: "Torments of passion"
+carn_sex_scene.1301.desc_mf: "A description for the Standing Doggy MF ending that I didn't come up with."
+carn_sex_scene.1301.desc_fm: "A description for the Standing Doggy FM ending that I didn't come up with."
+carn_sex_scene.1301.desc_ff: "A description for the Standing Doggy FF ending that I didn't come up with."
+carn_sex_scene.1301.desc_mm: "A description for the Standing Doggy MM ending that I didn't come up with."
+
+#cowgirl sex scene
+carn_sex_scene.0400.t: "Torments of passion"
+carn_sex_scene.0400.desc_mf: "Description for the Cowgirl MF scene, which I didn't come up with."
+carn_sex_scene.0400.desc_fm: "Description for the Cowgirl FM scene, which I didn't come up with."
+carn_sex_scene.0400.desc_ff: "Description for the Cowgirl FF scene, which I didn't come up with."
+carn_sex_scene.0400.desc_mm: "Description for the Cowgirl MM scene, which I didn't come up with."
+carn_sex_scene.1401.t: "Torments of passion"
+carn_sex_scene.1401.desc_mf: "A description for the Cowgirl MF ending that I didn't come up with."
+carn_sex_scene.1401.desc_fm: "A description for the Cowgirl FM ending that I didn't come up with."
+carn_sex_scene.1401.desc_ff: "A description for the Cowgirl FF ending that I didn't come up with."
+carn_sex_scene.1401.desc_mm: "A description for the Cowgirl MM ending that I didn't come up with."
+
+#oral sex scene
+carn_sex_scene.0500.t: "Torments of passion"
+carn_sex_scene.0500.desc_mf: "Description for the Oral MF scene, which I didn't come up with.."
+carn_sex_scene.0500.desc_fm: "Description for the Oral FM scene, which I didn't come up with."
+carn_sex_scene.0500.desc_ff: "Description for the Oral FF scene, which I didn't come up with."
+carn_sex_scene.0500.desc_mm: "Description for the Oral MM scene, which I didn't come up with."
+carn_sex_scene.1501.t: "Torments of passion"
+carn_sex_scene.1501.face_mf: "A description for the Oral MF (face cum) ending that I didn't come up with.."
+carn_sex_scene.1501.mouth_mf: "A description for the Oral MF (mouth cum) ending that I didn't come up with."
+carn_sex_scene.1501.face_fm: "A description for the Oral FM (face cum) ending that I didn't come up with."
+carn_sex_scene.1501.mouth_fm: "A description for the Oral FM (mouth cum) ending that I didn't come up with."
+carn_sex_scene.1501.desc_ff: "A description for the Oral FF ending that I didn't come up with."
+carn_sex_scene.1501.face_mm: "A description for the Oral MM (face cum) ending that I didn't come up with."
+carn_sex_scene.1501.mouth_mm: "A description for the Oral MM (mouth cum) ending  that I didn't come up with."
+
+carn_sex_scene.0550.desc_hjmf: "Description for the Hand Job MF scene, which I did not come up with."
+
+#more sex scene
+carn_sex_scene.0600.desc_ff: "Description for the FF scene that I didn't come up with."
+carn_sex_scene.0600.desc_mm: "Description for the MM scene that I didn't come up with."
+
+
+#Love sex Scene 2 MF ####################################################
+##carn_sex_scene.0052.t: "Throes of Passion"
+##carn_sex_scene.0052.desc_female: "I find my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] waiting eagerly."
+
+#Love sex Scene 2 MF ####################################################
+##carn_sex_scene.0092.t: "Throes of Passion"
+##carn_sex_scene.0092.desc_female: "waiting eagerly."
+
+#Scene 2 MF start MF
+##carn_sex_scene.0052.a: "doggy." 
+##carn_sex_scene.0052.b: "missionary ." 
+##carn_sex_scene.0052.c: "standing_doggy." 
+##carn_sex_scene.0052.d: "cow."
+##carn_sex_scene.0052.e: "oral." 
+
+trait_cum_doggy_1: "In semen"
+trait_cum_doggy_1_desc: "In semen"
+trait_cum_doggy_1_character_desc: "Character stained with cum"
+
+trait_cum_doggy_2: "In semen"
+trait_cum_doggy_2_desc: "In semen"
+trait_cum_doggy_2_character_desc: "Character stained with cum"
+
+trait_cum_doggy_3: "In semen"
+trait_cum_doggy_3_desc: "In semen"
+trait_cum_doggy_3_character_desc: "Character stained with cum"
+
+trait_cum_miss_1: "In semen"
+trait_cum_miss_1_desc: "In semen"
+trait_cum_miss_1_character_desc: "Character stained with cum"
+
+trait_cum_miss_2: "In semen"
+trait_cum_miss_2_desc: "In semen"
+trait_cum_miss_2_character_desc: "Character stained with cum"
+
+trait_cum_miss_3: "In semen"
+trait_cum_miss_3_desc: "In semen"
+trait_cum_miss_3_character_desc: "Character stained with cum"
+
+trait_cum_oral_1: "In semen"
+trait_cum_oral_1_desc: "In semen"
+trait_cum_oral_1_character_desc: "Character stained with cum"
+
+trait_cum_oral_2: "In semen"
+trait_cum_oral_2_desc: "In semen"
+trait_cum_oral_2_character_desc: "Character stained with cum"
+
+trait_cum_oral_3: "In semen"
+trait_cum_oral_3_desc: "In semen"
+trait_cum_oral_3_character_desc: "Character stained with cum"
+
+trait_cum_oral_4: "In semen"
+trait_cum_oral_4_desc: "In semen"
+trait_cum_oral_4_character_desc: "Character stained with cum"

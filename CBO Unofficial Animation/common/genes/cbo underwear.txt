@@ -1,0 +1,417 @@
+﻿
+
+special_genes = {
+
+
+	accessory_genes = {
+
+
+	#####################################
+	#									#
+	# 		  CBO Underwear				#
+	#									#
+	#####################################
+
+
+		bottoms = {
+
+			no_underwear = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+
+
+			default_underwear = {
+				index = 1
+				male = {
+					1 = default_underwear
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			briefs = {
+				index = 2
+				male = {
+					1 = male_cbo_underwear_bottoms_briefs_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_briefs_01
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+
+			panties = {
+				index = 3
+				male = {
+					1 = male_cbo_underwear_bottoms_panties_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_panties_01
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			
+			thong = {
+				index = 4
+				male = {
+					1 = male_cbo_underwear_bottoms_thong_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_thong_01
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			
+			g_string = {
+				index = 5
+				male = {
+					1 = male_cbo_underwear_bottoms_g_string_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_g_string_01
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			
+			sheer_briefs = {
+				index = 6
+				male = {
+					1 = male_cbo_underwear_bottoms_briefs_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_briefs_01_sheer
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+
+			sheer_panties = {
+				index = 7
+				male = {
+					1 = male_cbo_underwear_bottoms_panties_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_panties_01_sheer
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			
+			sheer_thong = {
+				index = 8
+				male = {
+					1 = male_cbo_underwear_bottoms_thong_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_thong_01_sheer
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			
+			sheer_g_string = {
+				index = 9
+				male = {
+					1 = male_cbo_underwear_bottoms_g_string_01
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_g_string_01_sheer
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			
+			war_briefs = {
+				index = 10
+				male = {
+					1 = male_cbo_underwear_bottoms_briefs_01_war
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_briefs_01_war
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			war_panties = {
+				index = 11
+				male = {
+					1 = male_cbo_underwear_bottoms_panties_01_war
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_panties_01_war
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			war_thong = {
+				index = 12
+				male = {
+					1 = male_cbo_underwear_bottoms_thong_01_war
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_thong_01_war
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			war_g_string = {
+				index = 13
+				male = {
+					1 = male_cbo_underwear_bottoms_g_string_01_war
+				}
+				female = {
+					1 = female_cbo_underwear_bottoms_g_string_01_war
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+		}
+		tops = {
+		
+			no_top = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = empty
+				}
+			}
+			
+			default_top = {
+				index = 1
+				male = {
+					1 = default_top
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			bra = {
+				index = 2
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_bra_01
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+			
+			sheer_bra = {
+				index = 3
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_bra_01_sheer
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+
+			microbikini = {
+				index = 4
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_bikini_01
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+			
+			sheer_microbikini = {
+				index = 5
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_bikini_01_sheer
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+
+			bikini = {
+				index = 6
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_bikini_02
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+			
+			sheer_bikini = {
+				index = 7
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_bikini_02_sheer
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+			
+			one_piece = {
+				index = 8
+				male = {
+					1 = male_cbo_underwear_tops_one_piece_01
+				}
+				female = {
+					1 = female_cbo_underwear_tops_one_piece_01
+				}
+				boy = {
+					1 = empty
+				}
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+			
+			tank = {
+				index = 9
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			sheer_tank = {
+				index = 10
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_cbo_underwear_tops_tank_01_sheer
+				}
+				boy = male
+				girl = {
+					1 = female_cbo_underwear_tops_tank_01
+				}
+			}
+			
+			bedchamber = {
+				index = 11
+				male = {
+					1 = male_clothes_revealing_2_bedchamber_01_common
+				}
+				female = {
+					1 = female_clothes_revealing_2_bedchamber_01_common
+				}
+				boy = {
+					1 = male_clothes_situational_western_bedchamber_01_common
+				}
+				girl = {
+					1 = female_clothes_situational_western_bedchamber_01_common
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,116 @@
+﻿
+## Christian Religious Clothes Converted for Females ##
+## RELIGIOUS ##
+
+## Catholic Religious Clothes ##
+
+female_clothes_religious_catholic_devoted_02_common = {
+	set_tags = "shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_religious_catholic_devoted_02 = {
+	set_tags = "shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_religious_catholic_head_01 = {
+	set_tags = "shrink_arms,shrink_legs,shrink_chest,shrink_belly,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_religious_catholic_high_01 = {
+	set_tags = "shrink_arms,shrink_legs,shrink_chest,shrink_belly,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+## DDE Catholic Religious Clothes ##
+
+female_clothes_religious_dde_catholic_high_01_common = {
+	set_tags = "shrink_arms,shrink_legs,shrink_chest,shrink_belly,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+## Muslim Religious Clothes ##
+
+female_clothes_religious_muslim_high_01 = {
+	set_tags = "shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+## DDE Muslim Religious Clothes ##
+
+female_clothes_religious_dde_muslim_head_01_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+
+## Orthodox Religious Clothes ##
+
+female_clothes_religious_orthodox_high_01 = {
+	set_tags = "shrink_arms,shrink_legs,shrink_chest,shrink_belly,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_religious_orthodox_head_01_common = {
+	set_tags = "shrink_arms,shrink_legs,shrink_chest,shrink_belly,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+## Buddhist Religious Clothes ##
+
+female_clothes_religious_buddhist_high_01 = {
+	set_tags = "shrink_belly,shrink_butt,butt_clothed,hips_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+## Jewish Religious Clothes ##
+
+female_clothes_religious_jewish_head_01 = {
+	set_tags = "shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+female_clothes_religious_jewish_high_01 = {
+	set_tags = "shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+f_cbo_clothes_religious_ep2_muslim_hajj_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_armpit_default,shrink_belly,shrink_butt,butt_clothed,hips_clothed,shoulders_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}
+
+f_cbo_clothes_religious_ep2_muslim_hajj_02 = {
+	set_tags = "shrink_belly,shrink_butt,butt_clothed,hips_clothed,waist_clothed,breasts_clothed"
+	set_tags = "breasts_clothed_revealing_2"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}

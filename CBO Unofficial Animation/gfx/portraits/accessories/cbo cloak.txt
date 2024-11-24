@@ -1,0 +1,4 @@
+﻿
+female_capes_religious_catholic_head_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso }
+}

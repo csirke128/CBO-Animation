@@ -1,0 +1,166 @@
+﻿l_russian:
+
+ #Scene 1 desc
+ carn_sex_scene.0001.desc_female: "Моя [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] неуверенно ожидает меня."
+ carn_sex_scene.0001.desc_male: "Мой [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] с не терпением ждет меня."
+ carn_sex_scene.0001.desc_femaleslave: "Моя Рабыня [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] ждет указаний."
+ carn_sex_scene.0001.desc_maleslave: "Мой Раб [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] ждет указаний."
+ 
+#Scene 1 MF swap
+ carn_sex_scene.0050.swap: "Сменить позу"
+ #Scene 1 MF start 
+carn_sex_scene.0050.a: "Иди ко мне дорогая" 
+carn_sex_scene.0050.a2: "Иди ко мне дорогая"   
+ #Scene 1 FM start 
+carn_sex_scene.0050.b: "Иди ко мне милый"
+carn_sex_scene.0050.b2: "Иди ко мне милый"
+ #Scene 1 FF start 
+carn_sex_scene.0050.c: "Иди ко мне милая"
+carn_sex_scene.0050.c2: "Иди ко мне милая"
+ #Scene 1 MM start 
+carn_sex_scene.0050.d: "Иди ко мне милый"
+carn_sex_scene.0050.d2: "Иди ко мне милый"
+ #Scene 1 Slave MF start 
+carn_sex_scene.0050.e: "Быстро раздевайся!"
+carn_sex_scene.0050.e2: "Подрочить на неё"
+carn_sex_scene.0050.e3: "Трахать"
+carn_sex_scene.0050.e4: "Дать ей в рот"
+ #Scene 1 Slave FM start 
+carn_sex_scene.0050.f: "Доставь мне удовольствие, раб!"
+carn_sex_scene.0050.f2: "Доставь мне удовольствие, раб!"
+ #Scene 1 Slave FF start 
+carn_sex_scene.0050.g: "Доставь мне удовольствие, раб!"
+carn_sex_scene.0050.g2: "Доставь мне удовольствие, раб!"
+ #Scene 1 Slave MM start 
+carn_sex_scene.0050.h: "Доставь мне удовольствие, раб!"
+carn_sex_scene.0050.h2: "Доставь мне удовольствие, раб!" 
+  
+#sex scene interact ####################################################
+carn_sex_scene.0100.a: "Кончить" 
+carn_sex_scene.0101.a: "Кончить в рот"
+carn_sex_scene.0101.b: "Кончить на лицо"
+
+#doggy sex scene
+carn_sex_scene.0100.t: "Муки страсти"
+carn_sex_scene.0100.desc_mf: "Описание для сцены doggy MF, которое я не придумал."
+carn_sex_scene.0100.desc_fm: "Описание для сцены doggy FM, которое я не придумал."
+carn_sex_scene.0100.desc_ff: "Описание для сцены doggy MF, которое я не придумал." 
+carn_sex_scene.0100.desc_mm: "Описание для сцены doggy MF, которое я не придумал." 
+carn_sex_scene.1001.t: "Муки страсти"
+carn_sex_scene.1001.desc_mf: "Описание для финала doggy MF, которое я не придумал."
+carn_sex_scene.1001.desc_fm: "Описание для финала doggy FM, которое я не придумал."
+carn_sex_scene.1001.desc_ff: "Описание для финала doggy FF, которое я не придумал."
+carn_sex_scene.1001.desc_mm: "Описание для финала doggy MM, которое я не придумал." 
+
+#missionary sex scene
+carn_sex_scene.0200.t: "Муки страсти"
+carn_sex_scene.0200.desc_mf: "Описание для сцены missionary MF, которое я не придумал."
+carn_sex_scene.0200.desc_fm: "Описание для сцены missionary FM, которое я не придумал."
+carn_sex_scene.0200.desc_ff: "Описание для сцены missionary FF, которое я не придумал."
+carn_sex_scene.0200.desc_mm: "Описание для сцены missionary MM, которое я не придумал."
+carn_sex_scene.1201.t: "Муки страсти"
+carn_sex_scene.1201.desc_mf: "Описание для финала missionary MF, которое я не придумал."
+carn_sex_scene.1201.desc_fm: "Описание для финала missionary FM, которое я не придумал."
+carn_sex_scene.1201.desc_ff: "Описание для финала missionary FF, которое я не придумал."
+carn_sex_scene.1201.desc_mm: "Описание для финала missionary MM, которое я не придумал."
+
+#standing doggy sex scene
+carn_sex_scene.0300.t: "Муки страсти"
+carn_sex_scene.0300.desc_mf: "Описание для сцены standing doggy MF, которое я не придумал."
+carn_sex_scene.0300.desc_fm: "Описание для сцены standing doggy FM, которое я не придумал."
+carn_sex_scene.0300.desc_ff: "Описание для сцены standing doggy FF, которое я не придумал."
+carn_sex_scene.0300.desc_mm: "Описание для сцены standing doggy MM, которое я не придумал."
+carn_sex_scene.1301.t: "Муки страсти"
+carn_sex_scene.1301.desc_mf: "Описание для финала standing doggy MF, которое я не придумал."
+carn_sex_scene.1301.desc_fm: "Описание для финала standing doggy FM, которое я не придумал."
+carn_sex_scene.1301.desc_ff: "Описание для финала standing doggy FF, которое я не придумал."
+carn_sex_scene.1301.desc_mm: "Описание для финала standing doggy MM, которое я не придумал."
+
+#cowgirl sex scene
+carn_sex_scene.0400.t: "Муки страсти"
+carn_sex_scene.0400.desc_mf: "Описание для сцены cowgirl MF, которое я не придумал."
+carn_sex_scene.0400.desc_fm: "Описание для сцены cowgirl FM, которое я не придумал."
+carn_sex_scene.0400.desc_ff: "Описание для сцены cowgirl FF, которое я не придумал."
+carn_sex_scene.0400.desc_mm: "Описание для сцены cowgirl MM, которое я не придумал."
+carn_sex_scene.1401.t: "Муки страсти"
+carn_sex_scene.1401.desc_mf: "Описание для финала cowgirl MF, которое я не придумал."
+carn_sex_scene.1401.desc_fm: "Описание для финала cowgirl FM, которое я не придумал."
+carn_sex_scene.1401.desc_ff: "Описание для финала cowgirl FF, которое я не придумал."
+carn_sex_scene.1401.desc_mm: "Описание для финала cowgirl MM, которое я не придумал."
+
+#oral sex scene
+carn_sex_scene.0500.t: "Муки страсти"
+carn_sex_scene.0500.desc_mf: "Описание для сцены oral MF, которое я не придумал."
+carn_sex_scene.0500.desc_fm: "Описание для сцены oral FM, которое я не придумал."
+carn_sex_scene.0500.desc_ff: "Описание для сцены oral FF, которое я не придумал."
+carn_sex_scene.0500.desc_mm: "Описание для сцены oral MM, которое я не придумал."
+carn_sex_scene.1501.t: "Муки страсти"
+carn_sex_scene.1501.face_mf: "Описание для финала oral MF, которое я не придумал."
+carn_sex_scene.1501.mouth_mf: "Описание для финала oral MF, которое я не придумал."
+carn_sex_scene.1501.face_fm: "Описание для финала oral FM, которое я не придумал."
+carn_sex_scene.1501.mouth_fm: "Описание для финала oral FM, которое я не придумал."
+carn_sex_scene.1501.desc_ff: "Описание для финала oral FF, которое я не придумал."
+carn_sex_scene.1501.face_mm: "Описание для финала oral MM, которое я не придумал."
+carn_sex_scene.1501.mouth_mm: "Описание для финала oral MM, которое я не придумал."
+
+carn_sex_scene.0550.desc_hjmf: "Описание для сцены hand job MF, которое я не придумал."
+
+#more sex scene
+carn_sex_scene.0600.desc_ff: "Описание для сцены FF, которое я не придумал."
+carn_sex_scene.0600.desc_mm: "Описание для сцены MM, которое я не придумал."
+
+#Love sex Scene 2 MF ####################################################
+##carn_sex_scene.0052.t: "Throes of Passion"
+##carn_sex_scene.0052.desc_female: "I find my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] waiting eagerly."
+
+#Love sex Scene 2 MF ####################################################
+##carn_sex_scene.0092.t: "Throes of Passion"
+##carn_sex_scene.0092.desc_female: "waiting eagerly."
+
+#Scene 2 MF start MF
+##carn_sex_scene.0052.a: "doggy." 
+##carn_sex_scene.0052.b: "missionary ." 
+##carn_sex_scene.0052.c: "standing_doggy." 
+##carn_sex_scene.0052.d: "cow."
+##carn_sex_scene.0052.e: "oral." 
+
+trait_cum_doggy_1: "В сперме"
+trait_cum_doggy_1_desc: "В сперме"
+trait_cum_doggy_1_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_doggy_2: "В сперме"
+trait_cum_doggy_2_desc: "В сперме"
+trait_cum_doggy_2_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_doggy_3: "В сперме"
+trait_cum_doggy_3_desc: "В сперме"
+trait_cum_doggy_3_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_miss_1: "В сперме"
+trait_cum_miss_1_desc: "В сперме"
+trait_cum_miss_1_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_miss_2: "В сперме"
+trait_cum_miss_2_desc: "В сперме"
+trait_cum_miss_2_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_miss_3: "В сперме"
+trait_cum_miss_3_desc: "В сперме"
+trait_cum_miss_3_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_oral_1: "В сперме"
+trait_cum_oral_1_desc: "В сперме"
+trait_cum_oral_1_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_oral_2: "В сперме"
+trait_cum_oral_2_desc: "В сперме"
+trait_cum_oral_2_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_oral_3: "В сперме"
+trait_cum_oral_3_desc: "В сперме"
+trait_cum_oral_3_character_desc: "Персонаж испачкан в сперме"
+
+trait_cum_oral_4: "В сперме"
+trait_cum_oral_4_desc: "В сперме"
+trait_cum_oral_4_character_desc: "Персонаж испачкан в сперме"
+

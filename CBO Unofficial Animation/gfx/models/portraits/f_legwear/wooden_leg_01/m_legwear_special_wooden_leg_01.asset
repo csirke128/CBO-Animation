@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "female_legwear_special_wooden_leg_01_mesh"
+	file = "f_legwear_special_wooden_leg_01.mesh"
+
+	meshsettings = {
+		name = "female_legwear_special_wooden_leg_01Shape"
+		index = 0
+		texture_diffuse = "m_legwear_special_wooden_leg_01_diffuse.dds"
+		texture_normal = "m_legwear_special_wooden_leg_01_normal.dds"
+		texture_specular = "m_legwear_special_wooden_leg_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_legwear_special_wooden_leg_01_entity"
+	pdxmesh = "female_legwear_special_wooden_leg_01_mesh"
+}

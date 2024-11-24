@@ -1,0 +1,170 @@
+﻿l_korean:
+
+ #Scene 1 desc
+ carn_sex_scene.0001.desc_female: "나의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 머뭇거리며 나를 기다리고 있습니다."
+ carn_sex_scene.0001.desc_male: "나의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 열망에 가득 차 나를 기다리고 있습니다."
+ carn_sex_scene.0001.desc_femaleslave: "나의 노예 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 명령을 기다리고 있습니다."
+ carn_sex_scene.0001.desc_maleslave: "나의 노예 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 명령을 기다리고 있습니다."
+
+ 
+#Scene 1 MF swap
+ carn_sex_scene.0050.swap: "박기"
+ carn_sex_scene.0051.swap: "빨기"
+ #Scene 1 MF start 
+carn_sex_scene.0050.a: "너에게 박을 거야!" 
+carn_sex_scene.0050.a2: "너에게 박을 거야!"
+carn_sex_scene.0050.a3: "자지 빨아."    
+ #Scene 1 FM start 
+carn_sex_scene.0050.b: "박아줘!"
+carn_sex_scene.0050.b2: "박아줘!"
+carn_sex_scene.0050.b3: "자지 빨게 해줘."
+ #Scene 1 FF start 
+carn_sex_scene.0050.c: "내 사랑"
+carn_sex_scene.0050.c2: "내 사랑"
+ #Scene 1 MM start 
+carn_sex_scene.0050.d: "이리와 자기"
+carn_sex_scene.0050.d2: "이리와 자기"
+ #Scene 1 Slave MF start 
+carn_sex_scene.0050.e: "빨리 옷 벗어!"
+carn_sex_scene.0050.e2: "그녀에게 자위하기"
+carn_sex_scene.0050.e3: "박기"
+carn_sex_scene.0050.e4: "빨게 시키기"
+ #Scene 1 Slave FM start 
+carn_sex_scene.0050.f: "날 기쁘게 해라, 노예여!"
+carn_sex_scene.0050.f2: "날 기쁘게 해라, 노예여!"
+ #Scene 1 Slave FF start 
+carn_sex_scene.0050.g: "날 기쁘게 해라, 노예여!"
+carn_sex_scene.0050.g2: "날 기쁘게 해라, 노예여!"
+ #Scene 1 Slave MM start 
+carn_sex_scene.0050.h: "날 기쁘게 해라, 노예여!"
+carn_sex_scene.0050.h2: "날 기쁘게 해라, 노예여!" 
+  
+#sex scene interact ####################################################
+carn_sex_scene.0100.a: "사정" 
+carn_sex_scene.0101.a: "입에 사정"
+carn_sex_scene.0101.b: "얼굴에 사정"
+
+#doggy sex scene
+carn_sex_scene.0100.t: "절정의 고통"
+carn_sex_scene.0100.desc_mf: "그녀는 당신의 명령대로 몸을 돌려 허리를 굽힙니다. 그 사이 당신은 벨트를 풀고 그녀의 엉덩이에 맞춰 자세를 잡습니다.\n당신은 왕실의 모든 위엄을 담아 한 번의 조준된 쑤셔 박음으로 그녀를 관통하고, 그녀가 울부짖는 동안 엉덩이에 박아댑니다."
+carn_sex_scene.0100.desc_fm: "그는 귀두를 내 보지에 갖다 대고, 내 젖은 음순에 귀두를 문지르며 천천히 밀어 넣기 시작했고, 양손으로 내 엉덩이를 쥐어 잡고 내 몸을 가까이 끌어당기며 자지를 내 보지 깊숙이 밀어 넣었다."
+carn_sex_scene.0100.desc_ff: "대충 여자끼리 후배위하는 장면 묘사." 
+carn_sex_scene.0100.desc_mm: "대충 남자끼리 후배위하는 장면 묘사." 
+carn_sex_scene.1001.t: "절정의 고통"
+carn_sex_scene.1001.desc_mf: "나는 자지를 한 번 더 깊숙이 박아 넣어 마침내 질 속에 들어갔다."
+carn_sex_scene.1001.desc_fm: "이번에는 강아지 자세를 취했다. 머리를 땅에 대고 그를 향해 엉덩이를 높이 올렸고, 그는 내 엉덩이에 자지를 밀어 넣고 다시 사정 할 때까지 계속 쑤셔대었으며, 이번에는 자지가 물렁해져서 빠져 나올 때까지 그대로 넣어 두었다."
+carn_sex_scene.1001.desc_ff: "대충 여자끼리 후배위하는 장면의 결말 묘사."
+carn_sex_scene.1001.desc_mm: "대충 남자끼리 후배위하는 장면의 결말 묘사." 
+
+#missionary sex scene
+carn_sex_scene.0200.t: "절정의 고통"
+carn_sex_scene.0200.desc_mf: "나는 그녀의 다리를 들어 올려 활짝 벌린채 러브홀에 접근했다. 그녀의 보지가 완전히 젖어서 내 자지가 들어오길 기다리는 모습은 정말 놀라웠다. 나는 천천히 자지를 음순 가까이 가져가 대었고, 내 단단한 자지로 보지 곳곳을 문지르며... 그녀가 신음하게 만들었다. 그녀는 나에게 넣어달라고 애원했고, 그 보지에 거칠게 쑤셔 넣길 참을 수 없었다. 나는 천천히 그녀의 질 입구를 괴롭혔고, 그녀는 그야말로 그것을 기다리고 있었다. 나는 자지를 천천히 그녀 안으로 박아 넣고 쑤시기 시작했으며, 처음에 천천히 움직이면서 보지에 깊숙이 박아 넣을 때마다 그녀를 쳐다보니, 그녀는 입술을 깨물며 신음하고 있었다."
+carn_sex_scene.0200.desc_fm: "그는 내 두 유방을 잡으려 내 상의 아래로 손을 밀어 넣었고, 내 딱딱해진 젖꼭지를 꼬집으며 문지르기 시작하더니 열정적으로 쑤셔 박기 시작했다. 내 젖은 보지의 안은 그의 강철같이 단단한 자지를 한 치 한 치 느끼고 있었고, 나는 그것이 얼마나 길고 굵은지 느낄 수 있었다."
+carn_sex_scene.0200.desc_ff: "대충 여자끼리 정상위하는 장면 묘사."
+carn_sex_scene.0200.desc_mm: "대충 남자끼리 정상위하는 장면 묘사."
+carn_sex_scene.1201.t: "절정의 고통"
+carn_sex_scene.1201.desc_mf: "나는 내 불알이 텅텅 비고 내 몸이 지칠 때까지, 그녀의 몸속 깊숙이 정액 덩어리를 몇 번이고 쏘아 넣었다."
+carn_sex_scene.1201.desc_fm: "그는 자지를 한 번 더 깊숙이 박아 넣더니 마침내 내 질 속에 들어왔다."
+carn_sex_scene.1201.desc_ff: "대충 여자끼리 정상위하는 장면의 결말 묘사."
+carn_sex_scene.1201.desc_mm: "대충 남자끼리 정상위하는 장면의 결말 묘사."
+
+#standing doggy sex scene
+carn_sex_scene.0300.t: "절정의 고통"
+carn_sex_scene.0300.desc_mf: "그녀는 침대에서 내려와 무릎을 꿇었다. 그녀가 체위를 잘 배운 덕분에, 내가 그녀의 뒤로 걸어가자 보지가 내 자지와 정확히 맞닿는 위치에 놓여서 발끝을 뻗거나 몸을 구부릴 필요가 없었다. 나는 두 손으로 그녀의 엉덩이를 문지르며 그녀의 등을 느꼈으며, 그녀의 보지는 흠뻑 젖어 있어서 나를 안으로 받아들일 준비가 되어 있었다."
+carn_sex_scene.0300.desc_fm: "그는 아무 말도 없이 곧바로 내 뒤로 걸어와서, 팔로 내 몸을 감싸고 꽉 껴안았다. 그는 내 치마를 허리까지 들어 올리고 내 엉덩이를 부드럽게 쓰다듬으며 느끼기 시작했다. 그러더니 일어나서 벨트를 풀고 바지와 팬티를 내린 다음, 바위처럼 단단한 자지를 손에 쥐고 축축하게 젖은 내 보지에 문지르기 시작했다. 그가 내게 박아 넣기 직전이었다."
+carn_sex_scene.0300.desc_ff: "대충 여자끼리 배면입위하는 장면 묘사."
+carn_sex_scene.0300.desc_mm: "대충 남자끼리 배면입위하는 장면 묘사."
+carn_sex_scene.1301.t: "절정의 고통"
+carn_sex_scene.1301.desc_mf: "나는 내 불알이 텅텅 비고 내 몸이 지칠 때까지, 그녀의 몸속 깊숙이 정액 덩어리를 몇 번이고 쏘아 넣었다."
+carn_sex_scene.1301.desc_fm: "그는 쉬지 않고 계속 박아댔고, 나는 그의 자지 위로 탔으며 그가 더 큰 신음을 내기 시작할 때까지 멈추지 않았다. 그는 더 강하고 빠르게 박았으며, 나는 자지가 내 안에서 점점 더 단단해지고 굵어지는 것을 느꼈다. 그러던 갑자기 나는 따뜻한 정액의 줄기가 내안에 퍼져 나가는 것을 느꼈고, 그는 내 질안이 그의 정액으로 가득 차 있다고 느낄 때까지 멈추지 않고 계속했다."
+carn_sex_scene.1301.desc_ff: "대충 여자끼리 배면입위하는 장면의 결말 묘사."
+carn_sex_scene.1301.desc_mm: "대충 남자끼리 배면입위하는 장면의 결말 묘사."
+
+#cowgirl sex scene
+carn_sex_scene.0400.t: "절정의 고통"
+carn_sex_scene.0400.desc_mf: "느리지 않았고 좋은 거친 섹스였다. 나는 콘크리트를 뚫는 망치처럼 그녀의 구멍에 마구 박아댔으며, 거침없이 그녀의 엉덩이를 잡고 끌어당겨 찔러 넣었다."
+carn_sex_scene.0400.desc_fm: "내 보지는 그의 자지가 아주 쉽게 미끄러져 들어갈 정도로 흠뻑 젖었다. 그는 천천히 내 보지에 거칠고도 깊숙이 삽입하기 시작했고, 내 엉덩이를 거칠게 때리면서 색다른 흥분을 주었다. 나는 그의 불알이 내 항문에 닿는 느낌으로 자지에 올라타고 있었다."
+carn_sex_scene.0400.desc_ff: "대충 여자끼리 기승위하는 장면 묘사."
+carn_sex_scene.0400.desc_mm: "대충 남자끼리 기승위하는 장면 묘사."
+carn_sex_scene.1401.t: "절정의 고통"
+carn_sex_scene.1401.desc_mf: "나는 자지를 한 번 더 깊숙이 박아 넣어 마침내 질 속에 들어갔다."
+carn_sex_scene.1401.desc_fm: "그는 자지를 한 번 더 깊숙이 박아 넣더니 마침내 내 질 속에 들어왔다."
+carn_sex_scene.1401.desc_ff: "대충 여자끼리 기승위하는 장면의 결말 묘사."
+carn_sex_scene.1401.desc_mm: "대충 남자끼리 기승위하는 장면의 결말 묘사."
+
+#oral sex scene
+carn_sex_scene.0500.t: "절정의 고통"
+carn_sex_scene.0500.desc_mf: "그녀는 내 가슴 아래로 손을 미끄러뜨려 내 바지에서 자지를 꺼내 잡아당겼고, 나와 눈을 맞춘 채 천천히 무릎을 꿇고 내려가더니, 한동안 내 불알을 물고 장난치다가 자지를 삼켰다."
+carn_sex_scene.0500.desc_fm: "그의 자지에서 초조함과 민망함을 느끼자 내 뜨거운 보지에 넣고 싶어졌다. 그는 저항하며 돌아섰지만 그의 자지는 솔직했다. 나는 무릎을 꿇고 침이 흥건한 입으로 반쯤 단단해진 자지를 빨아들였다. 옷을 벗으며 그의 자지가 단단해져 가는 것을 느끼자 내 허벅지 아래로 보지즙이 흘러내렸다. 그의 자지가 내 목젖에 부딪히며 침이 턱을 타고 흘러내렸다."
+carn_sex_scene.0500.desc_ff: "대충 여자끼리 구강 성교하는 장면 묘사."
+carn_sex_scene.0500.desc_mm: "대충 남자끼리 구강 성교하는 장면 묘사."
+carn_sex_scene.1501.t: "절정의 고통"
+carn_sex_scene.1501.face_mf: "그녀는 당신의 발기한 자지를 입에 넣고, 얼굴 전체에 정액이 뿌려질 때까지 입술을 위아래로 능숙하게 움직여줍니다."
+carn_sex_scene.1501.mouth_mf: "그녀는 내 자지 끝을 입에 넣은 후 더 세게 빨며, 내 불알을 더 세게 애무하고 쥐어 짜기 시작했다. 나는 그녀의 머리를 잡고 입안 깊숙이 숨이 막힐듯 자지를 밀어 넣어 깊고 세게 쑤셔대기 시작했고, 그녀가 얼굴을 떼려고했지만 내가 너무 단단히 잡고있어 아무것도 할 수 없었다. 나는 천천히 속도를 높여서 깊게 찌르고 입안에 박기 시작했다. 내가 목구멍에 사정할 때까지, 그녀는 매 스트로크 마다 내 자지에 더 깊고도 깊게 찔리고 있었다."
+carn_sex_scene.1501.face_fm: "그는 당신의 머리채를 잡고 입에서 자지를 빼내어 얼굴에 가득 정액을 뿌립니다."
+carn_sex_scene.1501.mouth_fm: "그는 더 이상 통제하지 못하고 번뜩이듯 내 입 안 깊숙이 사정 해버렸다. 내 입에서 큰 덩어리가 흘러나왔고, 그 정액이 입에서 목으로 흐르더니 가슴골까지 흘러내려왔다."
+carn_sex_scene.1501.desc_ff: "대충 여자끼리 구강 성교하는 장면의 결말 묘사."
+carn_sex_scene.1501.face_mm: "대충 남자끼리 구강 성교하는 장면의 (얼굴에 사정하는) 결말 묘사."
+carn_sex_scene.1501.mouth_mm: "대충 남자끼리 구강 성교하는 장면의 (입에 사정하는) 결말 묘사."
+
+carn_sex_scene.0550.desc_hjmf: "나는 내 손에 침을 뱉어 내 성기에 문지르며 그녀가 복종하는 자세로 내 앞에 무릎을 꿇자 더 윤활하려고 노력했다."
+
+#more sex scene
+carn_sex_scene.0600.desc_ff: "대충 여자끼리 성교하는 장면 묘사."
+carn_sex_scene.0600.desc_mm: "대충 남자끼리 성교하는 장면 묘사."
+
+
+#Love sex Scene 2 MF ####################################################
+##carn_sex_scene.0052.t: "Throes of Passion"
+##carn_sex_scene.0052.desc_female: "I find my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] waiting eagerly."
+
+#Love sex Scene 2 MF ####################################################
+##carn_sex_scene.0092.t: "Throes of Passion"
+##carn_sex_scene.0092.desc_female: "waiting eagerly."
+
+#Scene 2 MF start MF
+##carn_sex_scene.0052.a: "doggy." 
+##carn_sex_scene.0052.b: "missionary ." 
+##carn_sex_scene.0052.c: "standing_doggy." 
+##carn_sex_scene.0052.d: "cow."
+##carn_sex_scene.0052.e: "oral." 
+
+trait_cum_doggy_1: "정액 범벅"
+trait_cum_doggy_1_desc: "정액 범벅"
+trait_cum_doggy_1_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_doggy_2: "정액 범벅"
+trait_cum_doggy_2_desc: "정액 범벅"
+trait_cum_doggy_2_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_doggy_3: "정액 범벅"
+trait_cum_doggy_3_desc: "정액 범벅"
+trait_cum_doggy_3_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_miss_1: "정액 범벅"
+trait_cum_miss_1_desc: "정액 범벅"
+trait_cum_miss_1_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_miss_2: "정액 범벅"
+trait_cum_miss_2_desc: "정액 범벅"
+trait_cum_miss_2_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_miss_3: "정액 범벅"
+trait_cum_miss_3_desc: "정액 범벅"
+trait_cum_miss_3_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_oral_1: "정액 범벅"
+trait_cum_oral_1_desc: "정액 범벅"
+trait_cum_oral_1_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_oral_2: "정액 범벅"
+trait_cum_oral_2_desc: "정액 범벅"
+trait_cum_oral_2_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_oral_3: "정액 범벅"
+trait_cum_oral_3_desc: "정액 범벅"
+trait_cum_oral_3_character_desc: "캐릭터가 정액 범벅이 됨"
+
+trait_cum_oral_4: "정액 범벅"
+trait_cum_oral_4_desc: "정액 범벅"
+trait_cum_oral_4_character_desc: "캐릭터가 정액 범벅이 됨"

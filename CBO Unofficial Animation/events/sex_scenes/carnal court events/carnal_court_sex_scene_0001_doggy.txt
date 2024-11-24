@@ -1,0 +1,93 @@
+﻿namespace = carnal_court_sex_scene
+
+carnal_court_sex_scene.0001 = {
+    type = court_event
+    title = carnal_court_sex_scene_title_doggy
+    desc = carnal_court_sex_scene_desc_doggy
+    theme = court
+
+    court_scene = {
+        court_owner = scope:ruler
+        button_position_character = scope:carn_sex_player
+        court_event_force_open = yes
+        roles = {
+            scope:carn_sex_player = {
+                group = sex_bed_group_1
+                animation = sex_combined
+            }
+            scope:carn_sex_partner = {
+                group = sex_bed_group_2
+                animation = sex_combined
+            }
+        }
+    }
+
+    trigger = {
+        scope:carn_sex_player = { sex_opposite_of = scope:carn_sex_partner }
+        scope:carn_sex_player.age >= 18
+        scope:carn_sex_partner.age >= 18
+    }
+
+    immediate = {
+        doggy_animations = yes
+    }
+
+	option = {
+		name = carnal_court_sex_scene_option_doggy
+		trigger_event = { id = carnal_court_sex_scene.0001 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_missionary
+		trigger_event = { id = carnal_court_sex_scene.0002 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_cowgirl
+		trigger_event = { id = carnal_court_sex_scene.0003 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_standing
+		trigger_event = { id = carnal_court_sex_scene.0004 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_oral
+		trigger_event = { id = carnal_court_sex_scene.0005 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_standing_oral
+		trigger_event = { id = carnal_court_sex_scene.0006 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_cunnilingus
+		trigger_event = { id = carnal_court_sex_scene.0007 }
+	}
+
+    # Cum Inside
+    option = {
+        name = carnal_court_sex_scene_option_cum_in
+        carn_sex_scene_is_vaginal_effect = yes
+        carn_sex_scene_is_cum_inside_effect = yes
+		trigger_event = { id = carnal_court_sex_scene.0012 }
+    }
+
+    # Cum Outside
+    option = {
+        name = carnal_court_sex_scene_option_cum_out
+        trigger = { scope:carn_sex_player = { is_female = yes } }
+        cum_doggy_trait_player = yes
+		trigger_event = { id = carnal_court_sex_scene.0012 }
+    }
+
+    # Cum Outside
+    option = {
+        name = carnal_court_sex_scene_option_cum_out
+        trigger = { scope:carn_sex_partner = { is_female = yes } }
+        cum_doggy_trait_partner = yes
+		trigger_event = { id = carnal_court_sex_scene.0012 }
+    }
+}

@@ -1,0 +1,56 @@
+﻿namespace = carn_sex_scene
+
+carn_sex_scene.0048 = {
+    type = character_event
+    window = big_event_window
+    title = carnal_court_sex_scene_title_gay_oral
+    desc = carnal_court_sex_scene_desc_gay_oral
+    theme = seduction
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player  = { is_male = yes }
+        scope:carn_sex_partner = { is_male = yes }
+        scope:carn_sex_player.age >= 18
+        scope:carn_sex_partner.age >= 18
+    }
+
+    immediate = {
+        gay_oral_animations = yes
+    }
+
+	option = {
+		name = carnal_court_sex_scene_option_gay_oral
+		trigger_event = { id = carn_sex_scene.0048 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_gay_sex
+		trigger_event = { id = carn_sex_scene.0049 }
+	}
+
+    option = {
+        name = carnal_court_sex_scene_option_finish
+
+        hidden_effect = {
+            carn_sex_scene_character_is_giving_player_effect = yes
+            carn_sex_scene_is_consensual_effect = yes
+        }
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}

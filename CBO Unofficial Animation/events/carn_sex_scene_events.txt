@@ -1,0 +1,1686 @@
+﻿namespace = carn_sex_scene
+
+#This is the main sex scene, it redirect to other event according to flags
+carn_sex_scene.001 = {
+    hidden = yes
+    immediate = {
+        if = {
+            limit = {
+                has_game_rule = cbo_sex_event_animation_pack
+                scope:carn_sex_player  = { age >= 18 }
+                scope:carn_sex_partner = { age >= 18 }
+            }
+            if = {
+                limit = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                trigger_event = { id = carn_sex_scene.031 }
+            }
+            else_if = {
+                limit = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                trigger_event = { id = carn_sex_scene.032 }
+            }
+            else = {
+                trigger_event = { id = carn_sex_scene.030 }
+            }
+        }
+        #giving_player vaginal cum_inside consensual
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_giving_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_inside_trigger = yes
+                carn_sex_scene_is_consensual_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.002 }
+        }
+        #giving_player vaginal cum_outside consensual
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_giving_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_outside_trigger = yes
+                carn_sex_scene_is_consensual_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.003 }
+        }
+        #giving_player anal consensual
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_giving_player_trigger = yes
+                carn_sex_scene_is_anal_trigger = yes
+                carn_sex_scene_is_consensual_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.004 }
+        }
+        #giving_player oral consensual
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_giving_player_trigger = yes
+                carn_sex_scene_is_oral_trigger = yes
+                carn_sex_scene_is_consensual_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.005 }
+        }
+        #giving_player dom vaginal cum_inside noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_inside_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.006 }
+        }
+        #giving_player dom vaginal cum_outside noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_outside_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.007 }
+        }
+        #giving_player dom anal noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_anal_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.008 }
+        }
+        #giving_player dom oral noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_oral_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.009 }
+        }
+        #giving_player dom vaginal cum_inside dubcon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_inside_trigger = yes
+                carn_sex_scene_is_dubcon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.010 }
+        }
+        #giving_player dom vaginal cum_outside dubcon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_outside_trigger = yes
+                carn_sex_scene_is_dubcon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.011 }
+        }
+        #giving_player dom anal dubcon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_anal_trigger = yes
+                carn_sex_scene_is_dubcon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.012 }
+        }
+        #giving_player dom oral dubcon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_dom_player_trigger = yes
+                carn_sex_scene_is_oral_trigger = yes
+                carn_sex_scene_is_dubcon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.013 }
+        }
+        #receiving_player sub vaginal cum_inside noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_sub_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_inside_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.014 }
+        }
+        #receiving_player sub vaginal cum_outside noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_sub_player_trigger = yes
+                carn_sex_scene_is_vaginal_trigger = yes
+                carn_sex_scene_is_cum_outside_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.015 }
+        }
+        #receiving_player sub anal noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_sub_player_trigger = yes
+                carn_sex_scene_is_anal_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.016 }
+        }
+        #receiving_player sub oral noncon
+        else_if = {
+            limit = {
+                carn_sex_scene_character_is_sub_player_trigger = yes
+                carn_sex_scene_is_oral_trigger = yes
+                carn_sex_scene_is_noncon_trigger = yes
+            }
+            trigger_event = { id = carn_sex_scene.017 }
+        }
+        #Fallback
+        else = {
+            trigger_event = { id = carn_sex_scene.018 }
+        }
+    }
+}
+
+carn_sex_scene.002 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.002_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes}
+                }
+                desc = carn_sex_scene.002_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.002_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                }
+                desc = carn_sex_scene.002_fm_desc
+            }
+            desc = carn_sex_scene.002_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player  = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        sex_animations = yes
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.003 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes}
+                    scope:carn_sex_partner = {is_close_or_extended_family_of = scope:carn_sex_player}
+                }
+                desc = carn_sex_scene.003_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes}
+                }
+                desc = carn_sex_scene.003_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                    scope:carn_sex_partner = {is_close_or_extended_family_of = scope:carn_sex_player}
+                }
+                desc = carn_sex_scene.003_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                }
+                desc = carn_sex_scene.003_fm_desc
+            }
+            desc = carn_sex_scene.003_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player  = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.004 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.004_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.004_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.004_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.004_fm_desc
+            }
+            desc = carn_sex_scene.004_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.005 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.005_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.005_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.005_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.005_fm_desc
+            }
+            desc = carn_sex_scene.005_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_oral_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_cunnilingus_animations = yes
+        }
+        else = {
+            standing_oral_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.006 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.006_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    is_male = yes
+                    scope:carn_sex_partner = { is_female = yes}
+                }
+                desc = carn_sex_scene.006_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.006_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.006_fm_desc
+            }
+            desc = carn_sex_scene.006_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        sex_animations = yes
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.007 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.007_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes}
+                }
+                desc = carn_sex_scene.007_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.007_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.007_fm_desc
+            }
+            desc = carn_sex_scene.007_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.008 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.008_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.008_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.008_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.008_fm_desc
+            }
+            desc = carn_sex_scene.008_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.009 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.009_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.009_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.009_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.009_fm_desc
+            }
+            desc = carn_sex_scene.009_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.010 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.010_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.010_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.010_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.010_fm_desc
+            }
+            desc = carn_sex_scene.010_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.011 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.011_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.011_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.011_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.011_fm_desc
+            }
+            desc = carn_sex_scene.011_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.012 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.012_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.012_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.012_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.012_fm_desc
+            }
+            desc = carn_sex_scene.012_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.013 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.013_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.013_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.013_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.013_fm_desc
+            }
+            desc = carn_sex_scene.013_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_oral_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_cunnilingus_animations = yes
+        }
+        else = {
+            standing_oral_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.014 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.014_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.014_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.014_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.014_fm_desc
+            }
+            desc = carn_sex_scene.014_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.015 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.015_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.015_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.015_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                }
+                desc = carn_sex_scene.015_fm_desc
+            }
+            desc = carn_sex_scene.015_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.016 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.016_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.016_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.016_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.016_fm_desc
+            }
+            desc = carn_sex_scene.016_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.017 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.017_mf_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes }
+                }
+                desc = carn_sex_scene.017_mf_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                    scope:carn_sex_partner = { is_close_or_extended_family_of = scope:carn_sex_player }
+                }
+                desc = carn_sex_scene.017_fm_relative_desc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes }
+                }
+                desc = carn_sex_scene.017_fm_desc
+            }
+            desc = carn_sex_scene.017_generic_desc
+        }
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_oral_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_cunnilingus_animations = yes
+        }
+        else = {
+            standing_oral_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+carn_sex_scene.018 = {
+    type = character_event
+    title = carn_sex_scene.002.t
+    desc = carn_sex_scene.999_generic_desc
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { is_adult = yes }
+        scope:carn_sex_partner = { is_adult = yes }
+    }
+
+    immediate = {
+        carn_sex_scene_start = yes
+
+        if = {
+            limit = {
+                scope:carn_sex_player  = { is_male = yes }
+                scope:carn_sex_partner = { is_male = yes }
+            }
+            gay_sex_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:carn_sex_player  = { is_female = yes }
+                scope:carn_sex_partner = { is_female = yes }
+            }
+            lesbian_sex_animations = yes
+        }
+        else = {
+            sex_animations = yes
+        }
+    }
+
+    option = {
+        name = carn_sex_scene.002.a
+
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carn_sex_scene_cleanup = yes
+    }
+}

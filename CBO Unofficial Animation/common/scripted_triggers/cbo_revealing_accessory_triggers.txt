@@ -1,0 +1,342 @@
+﻿
+wearing_cbo_clothes_trigger = {
+	OR = {
+		wearing_cbo_briefs_trigger = yes
+		wearing_cbo_panties_trigger = yes
+		wearing_cbo_thong_trigger = yes
+		wearing_cbo_g-string_trigger = yes
+		wearing_cbo_sheer_briefs_trigger = yes
+		wearing_cbo_sheer_panties_trigger = yes
+		wearing_cbo_sheer_thong_trigger = yes
+		wearing_cbo_sheer_g-string_trigger = yes
+		wearing_cbo_tights_trigger = yes
+		wearing_cbo_bra_trigger = yes
+		wearing_cbo_sheer_bra_trigger = yes
+		wearing_cbo_microbikini_trigger = yes
+		wearing_cbo_sheer_microbikini_trigger = yes
+		wearing_cbo_bikini_trigger = yes
+		wearing_cbo_sheer_bikini_trigger = yes
+		wearing_cbo_one_piece_trigger = yes
+		wearing_revealing_clothes_trigger = yes
+	}
+}
+
+wearing_no_underwear_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	OR = {
+		has_character_flag = wearing_no_underwear
+		should_be_naked_trigger = yes
+		AND = {
+			is_female = yes
+			wearing_revealing_clothes_trigger = yes
+			religion = religion:christianity_religion
+			OR = {
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				has_character_flag = need_priest_outfit
+				is_theocratic_lessee = yes
+				AND = { is_ruler = yes has_government = theocracy_government }
+			}
+		}
+	}
+}
+
+wearing_non_default_underwear = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	OR = {
+		wearing_cbo_briefs_trigger = yes
+		wearing_cbo_thong_trigger = yes
+		wearing_cbo_g-string_trigger = yes
+		wearing_cbo_sheer_briefs_trigger = yes
+		wearing_cbo_sheer_panties_trigger = yes
+		wearing_cbo_sheer_thong_trigger = yes
+		wearing_cbo_sheer_g-string_trigger = yes
+		wearing_cbo_tights_trigger = yes
+		wearing_cbo_one_piece_trigger = yes
+	}
+}
+
+wearing_cbo_briefs_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	OR = {
+		has_character_flag = wearing_cbo_panties
+		AND = {
+			wearing_revealing_clothes_trigger = yes
+			portrait_wear_armor_trigger = yes
+		}
+	}
+}
+
+wearing_cbo_panties_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	OR = {
+		has_character_flag = wearing_cbo_panties
+		AND = {
+			wearing_revealing_clothes_trigger = yes
+			wearing_non_default_underwear = no
+		}
+	}
+}
+
+wearing_cbo_thong_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_thong
+}
+
+wearing_cbo_g-string_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_g-string
+}
+
+wearing_cbo_sheer_briefs_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_sheer_briefs
+}
+
+wearing_cbo_sheer_panties_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_sheer_panties
+}
+
+wearing_cbo_sheer_thong_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_sheer_thong
+}
+
+wearing_cbo_sheer_g-string_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_sheer_g-string
+}
+
+wearing_cbo_tights_trigger = {
+	# Character must be an adult.
+	exists = this
+	OR = {
+		has_character_flag = wearing_cbo_tights
+		AND = {
+			portrait_wear_armor_trigger = yes
+			wearing_revealing_clothes_trigger = yes
+			is_wearing_revealing_christian_religious = no
+		}
+		AND = {
+			wearing_revealing_clothes_trigger = yes
+			is_adult = no
+			age < 18
+		}
+	}
+}
+
+wearing_cbo_tank_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_female = yes
+	OR = {
+		has_character_flag = wearing_cbo_tank
+		AND = {
+			wearing_revealing_clothes_trigger = yes
+			is_adult = no
+			age < 18
+		}
+	}
+}
+
+wearing_cbo_sheer_tank_trigger = {
+	# Character must be an adult.
+	exists = this
+	OR = {
+		has_character_flag = wearing_cbo_sheer_tank
+	}
+}
+
+wearing_cbo_bra_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	OR = {
+		has_character_flag = wearing_cbo_bra
+		AND = {
+			wearing_revealing_clothes_trigger = yes
+			portrait_wear_armor_trigger = no
+			OR = {
+				culture = { has_clothing_gfx = dde_abbasid_clothing_gfx }
+				culture = { has_clothing_gfx = mena_clothing_gfx }
+				culture = { has_clothing_gfx = african_clothing_gfx }
+			}
+		}
+	}
+}
+
+wearing_cbo_sheer_bra_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_sheer_bra
+}
+
+wearing_cbo_microbikini_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_microbikini
+}
+
+wearing_cbo_sheer_microbikini_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_sheer_microbikini
+}
+
+wearing_cbo_bikini_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_bikini
+}
+
+wearing_cbo_sheer_bikini_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_sheer_bikini
+}
+
+wearing_cbo_one_piece_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	age >= 18
+	has_character_flag = wearing_cbo_one_piece
+}
+
+wearing_jester_shoes_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_jester_shoes
+}
+
+wearing_fp1_shoes_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_fp1_shoes
+}
+
+wearing_mena_shoes_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_mena_shoes
+}
+
+wearing_mena_war_nobility_shoes_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_mena_war_nobility_shoes
+}
+
+wearing_western_shoes_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_western_shoes
+}
+
+wearing_heels_mid_calf_trigger = {
+	# Character must be an adult.
+	exists = this
+	OR = {
+		has_character_flag = wearing_heels_mid_calf
+		AND = {
+			portrait_wear_armor_trigger = yes
+			wearing_revealing_clothes_trigger = yes
+			is_wearing_revealing_christian_religious = no
+		}
+	}
+}
+
+wearing_heels_thigh_high_01_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_heels_thigh_high_01
+}
+
+wearing_heels_thigh_high_02_trigger = {
+	# Character must be an adult.
+	exists = this
+	is_adult = yes
+	is_female = yes
+	age >= 18
+	OR = {
+		has_character_flag = wearing_heels_thigh_high_02
+		is_wearing_revealing_christian_religious = yes
+	}
+}
+
+wearing_ankle_boot_heels_01_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_ankle_boot_heels_01
+}
+
+wearing_ankle_boot_heels_02_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_ankle_boot_heels_02
+}
+
+wearing_ankle_boot_heels_03_trigger = {
+	# Character must be an adult.
+	exists = this
+	has_character_flag = wearing_ankle_boot_heels_03
+}
+
+wearing_thigh_high_war_trigger = {
+	exists = this
+	OR = {
+		has_character_flag = wearing_thigh_high_war
+	}
+}
+
+is_wearing_revealing_christian_religious = {
+	wearing_revealing_clothes_trigger = yes
+	religion = religion:christianity_religion
+	OR = {
+		portrait_has_trait_trigger = { TRAIT = devoted }
+		has_character_flag = need_priest_outfit
+		is_theocratic_lessee = yes
+		AND = { is_ruler = yes has_government = theocracy_government }
+	}
+}

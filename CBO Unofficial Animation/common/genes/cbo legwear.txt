@@ -1,0 +1,66 @@
+﻿special_genes = {
+	accessory_genes = {
+		cbo_legwear = {
+			no_legwear = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = {
+					1 = male_legwear_tights_01
+				}
+				girl = {
+					1 = female_legwear_tights_01
+				}
+			}
+			cbo_all_legwear = {
+				index = 2
+				male = {
+					1 = male_legwear_tights_01
+				}
+				female = {
+					1 = female_legwear_tights_01
+					1 = female_legwear_mena_harem_01
+				}
+				boy = male
+				girl = female
+			}
+			tights = {
+				index = 3
+				male = {
+					1 = male_legwear_tights_01
+				}
+				female = {
+					1 = female_legwear_tights_01
+				}
+				boy = male
+				girl = female
+			}
+			mena_harem_01 = {
+				index = 4
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_legwear_mena_harem_01
+				}
+				boy = male
+				girl = female
+			}
+			cbo_skimpy_plate_legs = {
+				index = 5
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_lida_skimpy_plate_legs
+				}
+				boy = male
+				girl = female
+			}
+		}
+	}
+}

@@ -1,0 +1,167 @@
+﻿
+cbo_shoes_customization = {
+	interface_position = 14
+	priority = 12
+	usage = customization
+
+
+	no_shoes = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = no_shoes
+				value = { 0 1 }
+			}
+		}
+	}
+	jester_shoes = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = jester_shoes
+				value = { 0 1 }
+			}
+		}
+	}
+	fp1_shoes = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = fp1_shoes
+				value = { 0 1 }
+			}
+		}
+	}
+
+	mena_shoes = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = mena_shoes
+				value = { 0 1 }
+			}
+		}
+	}
+	mena_war_nobility_shoes = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = mena_war_nobility_shoes
+				value = { 0 1 }
+			}
+		}
+	}
+	western_shoes = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = western_shoes
+				value = { 0 1 }
+			}
+		}
+	}
+	heels_mid_calf = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = heels_mid_calf
+				value = { 0 1 }
+			}
+		}
+	}
+	heels_thigh_high_01 = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = heels_thigh_high_01
+				value = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			is_female = yes
+		}
+	}
+	heels_thigh_high_02 = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = heels_thigh_high_02
+				value = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			is_female = yes
+		}
+	}
+	thigh_high_war = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = thigh_high_war
+				value = { 0 1 }
+			}
+		}
+	}
+	ankle_boot_heels_01 = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = ankle_boot_heels_01
+				value = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			is_female = yes
+		}
+	}
+	ankle_boot_heels_02 = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = ankle_boot_heels_02
+				value = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			is_female = yes
+		}
+	}
+	ankle_boot_heels_03 = {
+		usage = customization
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = shoes
+				template = ankle_boot_heels_03
+				value = { 0 1 }
+			}
+		}
+		is_valid_custom = {
+			is_female = yes
+		}
+	}
+}

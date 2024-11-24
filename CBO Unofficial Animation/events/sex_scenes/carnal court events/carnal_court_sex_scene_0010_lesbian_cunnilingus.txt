@@ -1,0 +1,61 @@
+﻿namespace = carnal_court_sex_scene
+
+carnal_court_sex_scene.0010 = {
+    type = court_event
+    title = carnal_court_sex_scene_title_lesbian_cunnilingus
+    desc = carnal_court_sex_scene_desc_lesbian_cunnilingus
+    theme = court
+
+    court_scene = {
+        court_owner = scope:ruler
+        button_position_character = scope:carn_sex_player
+        court_event_force_open = yes
+        roles = {
+            scope:carn_sex_player = {
+                group = sex_bed_group_1
+                animation = sex_combined
+            }
+            scope:carn_sex_partner = {
+                group = sex_bed_group_2
+                animation = sex_combined
+            }
+        }
+    }
+
+    trigger = {
+        scope:carn_sex_player  = { is_female = yes }
+        scope:carn_sex_partner = { is_female = yes }
+        scope:carn_sex_player.age >= 18
+        scope:carn_sex_partner.age >= 18
+    }
+
+    immediate = {
+        lesbian_cunnilingus_animations = yes
+    }
+
+	option = {
+		name = carnal_court_sex_scene_option_lesbian_cunnilingus
+		trigger_event = { id = carnal_court_sex_scene.0010 }
+	}
+
+	option = {
+		name = carnal_court_sex_scene_option_lesbian_sex
+		trigger_event = { id = carnal_court_sex_scene.0011 }
+	}
+
+    option = {
+        name = carnal_court_sex_scene_option_finish
+
+        hidden_effect = {
+            carn_sex_scene_character_is_giving_player_effect = yes
+            carn_sex_scene_is_consensual_effect = yes
+        }
+        scope:carn_sex_player  = {
+            carn_had_sex_with_effect_v2 = {
+                PARTNER = scope:carn_sex_partner
+            }
+        }
+
+        carnal_court_leave_court_effect = yes
+    }
+}

@@ -1,0 +1,1802 @@
+﻿sex = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_general = {
+			animation = { head = "sex" torso = "sex" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_general = {
+			animation = { head = "sex" torso = "sex" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+
+hom_sex = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex = {
+			animation = { head = "hom_sex" torso = "hom_sex" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_back
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex = {
+			animation = { head = "hom_sex" torso = "hom_sex" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+hom_sex_2 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex_2 = {
+			animation = { head = "hom_sex" torso = "hom_sex" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_back
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex_2 = {
+			animation = { head = "hom_sex_2" torso = "hom_sex_2" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		hom_sex = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+
+sex_standing = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_general = {
+			animation = { head = "sex_standing" torso = "sex_standing" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = dwarf_standing_height_correction
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = giant_standing_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = normal_standing_height_correction
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_general = {
+			animation = { head = "sex_standing" torso = "sex_standing" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_standing_2 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_2_general = {
+			animation = { head = "sex_standing_2" torso = "sex_standing_2" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = dwarf_standing_height_correction
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = giant_standing_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = normal_standing_height_correction
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_2_general = {
+			animation = { head = "sex_standing_2" torso = "sex_standing_2" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cowgirl = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_general = {
+			animation = { head = "sex_cowgirl" torso = "sex_cowgirl" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_general = {
+			animation = { head = "sex_cowgirl" torso = "sex_cowgirl" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_reverse_cowgirl = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_reverse_cowgirl_general = {
+			animation = { head = "sex_reverse_cowgirl" torso = "sex_reverse_cowgirl" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_reverse_cowgirl_general = {
+			animation = { head = "sex_reverse_cowgirl" torso = "sex_reverse_cowgirl" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_back
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_reverse_cowgirl_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_reverse_cowgirl_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_doggy = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_doggy_general = {
+			animation = { head = "sex_doggy" torso = "sex_doggy" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_doggy_general = {
+			animation = { head = "sex_doggy" torso = "sex_doggy" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_back
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_doggy_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_doggy_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_missionary = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_missionary_general = {
+			animation = { head = "sex_missionary" torso = "sex_missionary" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_missionary_general = {
+			animation = { head = "sex_missionary" torso = "sex_missionary" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_missionary_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_missionary_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cowgirl_mff_threesome_1 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_1_general = {
+			animation = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_1_general = {
+			animation = { head = "sex_cowgirl_mff_threesome_1" torso = "sex_cowgirl_mff_threesome_1" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cowgirl_mff_threesome_2 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_2_general = {
+			animation = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_2_general = {
+			animation = { head = "sex_cowgirl_mff_threesome_2" torso = "sex_cowgirl_mff_threesome_2" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cowgirl_mff_threesome_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_standing_doggy = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_doggy_general = {
+			animation = { head = "sex_standing_doggy" torso = "sex_standing_doggy" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = dwarf_standing_height_correction
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = giant_standing_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+				sex_animations = normal_standing_height_correction
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_doggy_general = {
+			animation = { head = "sex_standing_doggy" torso = "sex_standing_doggy" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = erection_animation_correction_upskirt_back
+				sex_animations = dwarf_standing_height_correction
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = erection_animation_correction_upskirt_back
+				sex_animations = giant_standing_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_back
+				sex_animations = normal_standing_height_correction
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_doggy_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_standing_doggy_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_fellatio = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_general = {
+			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_general = {
+			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = dwarf_fellatio_height_correction
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = giant_fellatio_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = normal_fellatio_height_correction
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_fellatio_hom = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_hom_general = {
+			animation = { head = "sex_fellatio_hom" torso = "sex_fellatio_hom" }
+			
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = dwarf_fellatio_height_correction
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = giant_fellatio_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = normal_fellatio_height_correction
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_hom_general = {
+			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			
+			portrait_modifier = {
+				trigger = { has_trait = dwarf }
+				sex_animations = erection_animation_correction
+				sex_animations = dwarf_fellatio_height_correction
+			}
+			portrait_modifier = {
+				trigger = { has_trait = giant }
+				sex_animations = erection_animation_correction
+				sex_animations = giant_fellatio_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = erection_animation_correction
+				sex_animations = normal_fellatio_height_correction
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_fellatio_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cunnilingus = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_general = {
+			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			
+			portrait_modifier = {
+				trigger = {
+					has_trait = dwarf
+				}
+				sex_animations = dwarf_cunnilingus_height_correction
+			}
+			portrait_modifier = {
+				trigger = {
+					has_trait = giant
+				}
+				sex_animations = giant_cunnilingus_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = normal_cunnilingus_height_correction
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_general = {
+			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			
+			portrait_modifier = {
+				sex_animations = erection_animation_correction_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cunnilingus_hom = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_hom_general = {
+			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			
+			portrait_modifier = {
+				trigger = {
+					has_trait = dwarf
+				}
+				sex_animations = dwarf_cunnilingus_height_correction
+			}
+			portrait_modifier = {
+				trigger = {
+					has_trait = giant
+				}
+				sex_animations = giant_cunnilingus_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = normal_cunnilingus_height_correction
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_hom_general = {
+			animation = { head = "sex_cunnilingus_hom" torso = "sex_cunnilingus_hom" }
+
+			portrait_modifier = {
+				trigger = {
+					has_trait = dwarf
+				}
+				sex_animations = dwarf_cunnilingus_height_correction
+			}
+			portrait_modifier = {
+				trigger = {
+					has_trait = giant
+				}
+				sex_animations = giant_cunnilingus_height_correction
+			}
+			portrait_modifier = {
+				sex_animations = normal_cunnilingus_height_correction
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cunnilingus_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cuddle = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_general = {
+			animation = { head = "cuddle" torso = "cuddle" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_general = {
+			animation = { head = "cuddle" torso = "cuddle" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cuddle_hom = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_general = {
+			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_general = {
+			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_cuddle_hom_2 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_2_general = {
+			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_2_general = {
+			animation = { head = "cuddle_hom_2" torso = "cuddle_hom_2" }
+			
+			portrait_modifier = {
+				sex_animations = erection_upskirt_front
+			}
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					age >= 18
+				}
+			}
+		}
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					age < 18
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_cuddle_hom_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}

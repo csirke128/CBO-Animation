@@ -1,0 +1,186 @@
+﻿# 'Severly Injured'
+cum_doggy_1 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_doggy_1_desc
+			}
+			desc = trait_cum_doggy_1_character_desc
+		}
+	}
+}
+
+cum_doggy_2 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_doggy_2_desc
+			}
+			desc = trait_cum_doggy_2_character_desc
+		}
+	}
+}
+
+cum_miss_1 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_miss_1_desc
+			}
+			desc = trait_cum_miss_1_character_desc
+		}
+	}
+ 
+}
+
+cum_miss_2 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_miss_2_desc
+			}
+			desc = trait_cum_miss_2_character_desc
+		}
+	}
+ 
+}
+
+cum_oral_1 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_oral_1_desc
+			}
+			desc = trait_cum_oral_1_character_desc
+		}
+	}
+ 
+}
+
+cum_oral_2 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_oral_2_desc
+			}
+			desc = trait_cum_oral_2_character_desc
+		}
+	}
+}
+
+cum_doggy_3 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_doggy_3_desc
+			}
+			desc = trait_cum_doggy_3_character_desc
+		}
+	}
+}
+
+cum_miss_3 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_miss_3_desc
+			}
+			desc = trait_cum_miss_3_character_desc
+		}
+	}
+ 
+}
+
+cum_oral_3 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_oral_3_desc
+			}
+			desc = trait_cum_oral_3_character_desc
+		}
+	}
+ 
+}
+
+cum_oral_4 = {
+	attraction_opinion = -1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cum_oral_4_desc
+			}
+			desc = trait_cum_oral_4_character_desc
+		}
+	}
+ 
+}

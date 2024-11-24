@@ -1,0 +1,32 @@
+pdxmesh = {
+	name = "female_ankle_boot_heels_03_mesh"
+	file = "female_ankle_boot_heels_03.mesh"
+
+	blend_shape = { id = "female_ankle_boot_heels_03_bs_no_left_leg"					type = "female_ankle_boot_heels_03_bs_no_left_leg.mesh" }
+
+	meshsettings = {
+		name = "female_ankle_boot_heels_03Shape"
+		index = 0
+		texture_diffuse = "female_mid_calf_boot_heels_01_diffuse.dds"
+		texture_normal = "female_mid_calf_boot_heels_01_normal.dds"
+		texture_specular = "female_mid_calf_boot_heels_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_ankle_boot_heels_03_entity"
+	pdxmesh = "female_ankle_boot_heels_03_mesh"
+
+	attribute = { name = "bs_body_no_left_leg"					blend_shape = "female_ankle_boot_heels_03_bs_no_left_leg" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/f_shoes/heels/mid_calf_boot_heels_01/female_mid_calf_boot_heels_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "boots_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}

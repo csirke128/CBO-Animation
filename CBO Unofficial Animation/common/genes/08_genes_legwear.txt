@@ -1,0 +1,240 @@
+﻿special_genes = {
+	accessory_genes = {
+		shoes = {
+		
+			most_shoes = {
+				index = 0
+				male = {
+					1 = male_shoes_western_common_01
+					1 = male_shoes_mena_war_nobility_01
+					1 = male_shoes_mena_common_01
+					1 = male_shoes_fp1_common_01
+					1 = male_shoes_ep1_jester_01
+				}
+				female = {
+					1 = female_shoes_western_common_01
+					1 = female_shoes_mena_war_nobility_01
+					1 = female_shoes_mena_common_01
+					1 = female_shoes_fp1_common_01
+					1 = female_shoes_ep1_jester_01
+				}
+				boy = male
+				girl = female
+			}
+
+			no_shoes = {
+				index = 1
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			western_shoes = {
+				index = 2
+				male = {
+					1 = male_shoes_western_common_01
+				}
+				female = {
+					1 = female_shoes_western_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_war_shoes = {
+				index = 3
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_war_nobility_shoes = {
+				index = 4
+				male = {
+					1 = male_shoes_mena_war_nobility_01
+				}
+				female = {
+					1 = female_shoes_mena_war_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_shoes = {
+				index = 5
+				male = {
+					1 = male_shoes_mena_common_01
+				}
+				female = {
+					1 = female_shoes_mena_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_nobility_shoes = {
+				index = 6
+				male = {
+					1 = male_shoes_mena_common_01
+				}
+				female = {
+					1 = female_shoes_mena_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			fp1_shoes = {
+				index = 7
+				male = {
+					1 = male_shoes_fp1_common_01
+				}
+				female = {
+					1 = female_shoes_fp1_common_01
+				}
+				boy = male
+				girl = female
+			}
+			jester_shoes = {
+				index = 8
+				male = {
+					1 = male_shoes_ep1_jester_01
+				}
+				female = {
+					1 = female_shoes_ep1_jester_01
+				}
+				boy = male
+				girl = female
+			}
+			ep2_western_war_shoes = {
+				index = 9
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+			heels_mid_calf = {
+				index = 10
+				male = {
+					1 = male_mid_calf_boot_heels_01
+				}
+				female = {
+					1 = female_mid_calf_boot_heels_01
+				}
+				boy = male
+				girl = female
+			}
+			heels_thigh_high_01 = {
+				index = 11
+				male = {
+					1 = male_thigh_high_boot_heels_01
+				}
+				female = {
+					1 = female_thigh_high_boot_heels_01
+				}
+				boy = male
+				girl = female
+			}
+			heels_thigh_high_02 = {
+				index = 12
+				male = {
+					1 = male_thigh_high_boot_heels_01
+				}
+				female = {
+					1 = female_thigh_high_boot_heels_02
+				}
+				boy = male
+				girl = female
+			}
+			westrn_shoes = {
+				index = 13
+				male = {
+					1 = male_shoes_western_common_01
+				}
+				female = {
+					1 = female_shoes_western_common_01
+				}
+				boy = male
+				girl = female
+			}
+			thigh_high_war = {
+				index = 14
+				male = {
+					1 = male_thigh_high_war_boot_01
+				}
+				female = {
+					1 = female_thigh_high_war_boot_01
+				}
+				boy = male
+				girl = female
+			}
+			ankle_boot_heels_01 = {
+				index = 15
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_ankle_boot_heels_01
+				}
+				boy = male
+				girl = female
+			}
+			ankle_boot_heels_02 = {
+				index = 16
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_ankle_boot_heels_02
+				}
+				boy = male
+				girl = female
+			}
+			ankle_boot_heels_03 = {
+				index = 17
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_ankle_boot_heels_03
+				}
+				boy = male
+				girl = female
+			}
+		}
+		shos = {
+			westrn_shos = {
+				index = 0
+				male = { }
+				female = { }
+				boy = { }
+				girl = { }
+			}
+			westrn_shoes = {
+				index = 1
+				male = {
+					1 = male_shoes_western_common_01
+				}
+				female = {
+					1 = female_shoes_western_common_01
+				}
+				boy = male
+				girl = female
+			}
+		}
+	}
+}

@@ -1,0 +1,87 @@
+﻿namespace = carn_sex_scene
+
+carn_sex_scene.0047 = {
+    type = character_event
+    window = big_event_window
+    title = carnal_court_sex_scene_title_cunnilingus
+    desc = carnal_court_sex_scene_desc_cunnilingus
+    theme = seduction
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:carn_sex_player = { sex_opposite_of = scope:carn_sex_partner }
+        scope:carn_sex_player.age >= 18
+        scope:carn_sex_partner.age >= 18
+    }
+
+    immediate = {
+        cunnilingus_animations = yes
+    }
+
+    option = {
+        name = carnal_court_sex_scene_option_doggy
+        trigger_event = { id = carn_sex_scene.0041 }
+    }
+
+    option = {
+        name = carnal_court_sex_scene_option_missionary
+        trigger_event = { id = carn_sex_scene.0042 }
+    }
+
+    option = {
+        name = carnal_court_sex_scene_option_cowgirl
+        trigger_event = { id = carn_sex_scene.0043 }
+    }
+
+    option = {
+        name = carnal_court_sex_scene_option_standing
+        trigger_event = { id = carn_sex_scene.0044 }
+    }
+
+    option = {
+        name = carnal_court_sex_scene_option_oral
+        trigger_event = { id = carn_sex_scene.0045 }
+    }
+
+    option = {
+        name = carnal_court_sex_scene_option_standing_oral
+        trigger_event = { id = carn_sex_scene.0046 }
+    }
+
+    option = {
+        name = carnal_court_sex_scene_option_cunnilingus
+        trigger_event = { id = carn_sex_scene.0047 }
+    }
+
+    # Cum Inside
+    option = {
+        name = carnal_court_sex_scene_option_cum_in
+        carn_sex_scene_is_cum_inside_effect = yes
+        trigger_event = { id = carn_sex_scene.0056 }
+    }
+
+    # Cum Outside
+    option = {
+        name = carnal_court_sex_scene_option_cum_out
+        trigger = { scope:carn_sex_player = { is_female = yes } }
+        cum_oral_trait_player = yes
+        trigger_event = { id = carn_sex_scene.0056 }
+    }
+
+    # Cum Outside
+    option = {
+        name = carnal_court_sex_scene_option_cum_out
+        trigger = { scope:carn_sex_partner = { is_female = yes } }
+        cum_oral_trait_partner = yes
+        trigger_event = { id = carn_sex_scene.0056 }
+    }
+}

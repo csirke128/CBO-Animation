@@ -1,0 +1,68 @@
+pdxmesh = {
+	name = "male_legwear_tights_01_mesh"
+	file = "male_legwear_tights_01.mesh"
+
+	blend_shape = { id = "male_legwear_tights_01_bs_abs"						type = "male_legwear_tights_01_bs_abs.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_butt_size_2_max"			type = "male_legwear_tights_01_bs_butt_size_2_max.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_butt_size_max"				type = "male_legwear_tights_01_bs_butt_size_max.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_butt_size_min"				type = "male_legwear_tights_01_bs_butt_size_min.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_dwarf"						type = "male_legwear_tights_01_bs_dwarf.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_fat"		  				type = "male_legwear_tights_01_bs_fat.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_gaunt"						type = "male_legwear_tights_01_bs_gaunt.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_hips_max"		  			type = "male_legwear_tights_01_bs_hips_max.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_hips_min"					type = "male_legwear_tights_01_bs_hips_min.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_infant"						type = "male_legwear_tights_01_bs_infant.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_muscular"					type = "male_legwear_tights_01_bs_muscular.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_old"						type = "male_legwear_tights_01_bs_old.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_penis_max_clothed"			type = "male_legwear_tights_01_bs_penis_max.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_waist_max"		  			type = "male_legwear_tights_01_bs_waist_max.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_waist_min"					type = "male_legwear_tights_01_bs_waist_min.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_briefs"						type = "male_legwear_tights_01_bs_briefs.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_g_string"					type = "male_legwear_tights_01_bs_g_string.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_panties"					type = "male_legwear_tights_01_bs_panties.mesh" }
+	blend_shape = { id = "male_legwear_tights_01_bs_thong"						type = "male_legwear_tights_01_bs_thong.mesh" }
+
+	meshsettings = {
+		name = "male_legwear_tights_01Shape"
+		index = 0
+		texture_diffuse = "female_mid_calf_boot_heels_01_diffuse.dds"
+		texture_normal = "female_cbo_underwear_bottoms_panties_01_normal.dds"
+		texture_specular = "female_cbo_underwear_bottoms_panties_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_legwear_tights_01_entity"
+	pdxmesh = "male_legwear_tights_01_mesh"
+
+	attribute = { name = "bs_body_abs"							blend_shape = "male_legwear_tights_01_bs_abs" }
+	attribute = { name = "bs_body_butt_size_max_2"				blend_shape = "male_legwear_tights_01_bs_butt_size_2_max" }
+	attribute = { name = "bs_body_butt_size_max_1"				blend_shape = "male_legwear_tights_01_bs_butt_size_max" }
+	attribute = { name = "bs_body_butt_size_min"				blend_shape = "male_legwear_tights_01_bs_butt_size_min" }
+	attribute = { name = "bs_body_dwarf_1"						blend_shape = "male_legwear_tights_01_bs_dwarf" }
+	attribute = { name = "bs_body_fat_1"						blend_shape = "male_legwear_tights_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"						blend_shape = "male_legwear_tights_01_bs_gaunt" }
+	attribute = { name = "bs_body_hips_max"						blend_shape = "male_legwear_tights_01_bs_hips_max" }
+	attribute = { name = "bs_body_hips_min"						blend_shape = "male_legwear_tights_01_bs_hips_min" }
+	attribute = { name = "bs_body_infant_1"						blend_shape = "male_legwear_tights_01_bs_infant" }
+	attribute = { name = "bs_body_muscular_1"					blend_shape = "male_legwear_tights_01_bs_muscular" }
+	attribute = { name = "bs_body_old_1"						blend_shape = "male_legwear_tights_01_bs_old" }
+	attribute = { name = "bs_body_penis_size_max_clothed"		blend_shape = "male_legwear_tights_01_bs_penis_max_clothed" }
+	attribute = { name = "bs_body_waist_max"					blend_shape = "male_legwear_tights_01_bs_waist_max" }
+	attribute = { name = "bs_body_waist_min"					blend_shape = "male_legwear_tights_01_bs_waist_min" }
+	attribute = { name = "bs_body_briefs"						blend_shape = "male_legwear_tights_01_bs_briefs" }
+	attribute = { name = "bs_body_g_string"						blend_shape = "male_legwear_tights_01_bs_g_string" }
+	attribute = { name = "bs_body_panties"						blend_shape = "male_legwear_tights_01_bs_panties" }
+	attribute = { name = "bs_body_thong"						blend_shape = "male_legwear_tights_01_bs_thong" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/f_shoes/heels/mid_calf_boot_heels_01/female_mid_calf_boot_heels_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "boots_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}

@@ -1,0 +1,156 @@
+﻿cum_shots = {
+	cum_shots_1 = {
+		traits = {
+			cum_doggy_1
+		}
+		dna_modifiers = {
+            human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_doggy
+                    value = 1.0
+                    template = cumshots_doggy_1
+                }
+            }
+		}
+	}
+
+	cum_shots_2 = {
+		traits = {
+			cum_doggy_2
+		}
+		dna_modifiers = {
+            human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_doggy
+                    value = 1.0
+                    template = cumshots_doggy_2
+                }
+            }
+		}
+	}
+	cum_shots_3 = {
+		traits = {
+			cum_miss_1
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_miss 
+                    value = 1.0
+                    template = cumshots_miss_1
+                }
+            }
+		}
+	}
+	cum_shots_4 = {
+		traits = {
+			cum_miss_2
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_miss
+                    value = 1.0
+                    template = cumshots_miss_2
+                }
+            }
+		}
+	}
+	cum_shots_5 = {
+		traits = {
+			cum_oral_1
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_oral
+                    value = 1.0
+                    template = cumshots_oral_1
+                }
+            }
+		}
+	}
+	cum_shots_6 = {
+		traits = {
+			cum_oral_2
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_oral
+                    value = 1.0
+                    template = cumshots_oral_2
+                }
+            }
+		}
+	}
+	
+	cum_shots_7 = {
+		traits = {
+			cum_oral_3
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_oral
+                    value = 1.0
+                    template = cumshots_oral_3
+                }
+            }
+		}
+	}
+	
+	cum_shots_8 = {
+		traits = {
+			cum_oral_4
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_oral
+                    value = 1.0
+                    template = cumshots_oral_4
+                }
+            }
+		}
+	}
+	
+	cum_shots_9 = {
+		traits = {
+			cum_doggy_3
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_doggy
+                    value = 1.0
+                    template = cumshots_doggy_3
+                }
+            }
+		}
+	}
+	cum_shots_10 = {
+		traits = {
+			cum_miss_3
+		}
+		dna_modifiers = {
+			human = {
+                morph = {
+                    mode = add
+                    gene = gene_cumshots_miss
+                    value = 1.0
+                    template = cumshots_miss_3
+                }
+            }
+		}
+	}
+}

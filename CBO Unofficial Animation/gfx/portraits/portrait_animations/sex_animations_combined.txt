@@ -1,0 +1,1357 @@
+﻿#  id	 animation name
+#----------------------
+#  0	 idle_entry
+#  1	 sex
+#  2	 hom_sex
+#  3	 hom_sex
+#  4	 sex_standing
+#  5	 sex_standing_2
+#  6	 sex_cowgirl
+#  7	 sex_reverse_cowgirl
+#  8	 sex_doggy
+#  9	 sex_missionary
+#  10	 sex_cowgirl_mff_threesome
+#  11	 sex_cowgirl_mff_threesome
+#  12	 sex_standing_doggy
+#  13	 sex_fellatio
+#  14	 sex_fellatio_hom
+#  15	 sex_cunnilingus
+#  16	 sex_cunnilingus
+#  17	 cuddle
+#  18	 cuddle_hom
+#  19	 cuddle_hom_2
+#  20	 sex_doggy_1
+#  21	 sex_doggy_2
+#  22	 sex_doggy_3
+#  23	 sex_doggy_4
+#  24	 sex_doggy_5
+#  25	 sex_doggy_6
+#  26	 sex_doggy_7
+#  27	 sex_doggy_8
+#  28	 sex_doggy_9
+#  29	 sex_doggy_10
+#  30	 slave_doggy_1
+#  31	 slave_doggy_2
+#  32	 sex_missionary_l1
+#  33	 sex_missionary_l2
+#  34	 sex_missionary_l3
+#  35	 sex_missionary_l4
+#  36	 sex_missionary_l5
+#  37	 sex_missionary_l6
+#  38	 sex_missionary_l7
+#  39	 sex_missionary_fm1
+#  40	 sex_slave_miss_1
+#  41	 sex_standing_doggy_a
+#  42	 sex_standing_doggy_b
+#  43	 sex_standing_doggy_c
+#  44	 sex_standing_doggy_d
+#  45	 sex_slave_st_doggy_1
+#  46	 oral_love_1
+#  47	 oral_love_2
+#  48	 sex_slave_oral_1
+#  49	 sex_cowgirl_1
+#  50	 sex_cowgirl_3
+#  51	 sex_love_stand_1
+#  52	 sex_love_stand_2
+#  53	 sex_handjob_1
+#  54	 sex_cow_cum_1
+#  55	 sex_cow_cum_re
+#  56	 sex_doggy_cum_1
+#  57	 sex_doggy_cum_2
+#  58	 sex_doggy_cum_3
+#  59	 sex_missionary_cum_1
+#  60	 sex_missionary_cum_2
+#  61	 sex_stand_doggy_1_cum
+#  62	 sex_handjob_cum_1
+
+sex_combined = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" }
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 1000
+					age < 18
+				}
+				modifier = {
+					add = 1000
+					is_adult = no
+				}
+				modifier = {
+					add = 100
+					var:sex_animation ?= 0
+				}
+			}
+		}
+		sex = {
+			animation = { head = "sex" torso = "sex" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 1
+				}
+			}
+		}
+		hom_sex = {
+			animation = { head = "hom_sex" torso = "hom_sex" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 2
+				}
+			}
+		}
+		hom_sex_2 = {
+			animation = { head = "hom_sex" torso = "hom_sex" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 3
+				}
+			}
+		}
+		sex_standing = {
+			animation = { head = "sex_standing" torso = "sex_standing" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 4
+				}
+			}
+		}
+		sex_standing_2 = {
+			animation = { head = "sex_standing_2" torso = "sex_standing_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 5
+				}
+			}
+		}
+		sex_cowgirl = {
+			animation = { head = "sex_cowgirl" torso = "sex_cowgirl" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 6
+				}
+			}
+		}
+		sex_reverse = {
+			animation = { head = "sex_reverse_cowgirl" torso = "sex_reverse_cowgirl" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 7
+				}
+			}
+		}
+		sex_doggy = {
+			animation = { head = "sex_doggy" torso = "sex_doggy" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 8
+				}
+			}
+		}
+		sex_missionary = {
+			animation = { head = "sex_missionary" torso = "sex_missionary" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 9
+				}
+			}
+		}
+		sex_cowgirl_mff_threesome_1 = {
+			animation = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 10
+				}
+			}
+		}
+		sex_cowgirl_mff_threesome_2 = {
+			animation = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 11
+				}
+			}
+		}
+		sex_standing_doggy = {
+			animation = { head = "sex_standing_doggy" torso = "sex_standing_doggy" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 12
+				}
+			}
+		}
+		sex_fellatio = {
+			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 13
+				}
+			}
+		}
+		sex_fellatio_hom = {
+			animation = { head = "sex_fellatio_hom" torso = "sex_fellatio_hom" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 14
+				}
+			}
+		}
+		sex_cunnilingus = {
+			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 15
+				}
+			}
+		}
+		sex_cunnilingus_hom = {
+			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 16
+				}
+			}
+		}
+		sex_cuddle = {
+			animation = { head = "cuddle" torso = "cuddle" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 17
+				}
+			}
+		}
+		sex_cuddle_hom = {
+			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 18
+				}
+			}
+		}
+		sex_cuddle_hom_2 = {
+			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 19
+				}
+			}
+		}
+		sex_doggy_1 = {
+			animation = { head = "sex_doggy_1" torso = "sex_doggy_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 20
+				}
+			}
+		}
+		sex_doggy_2 = {
+			animation = { head = "sex_doggy_2" torso = "sex_doggy_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 21
+				}
+			}
+		}
+		sex_doggy_3 = {
+			animation = { head = "sex_doggy_3" torso = "sex_doggy_3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 22
+				}
+			}
+		}
+		sex_doggy_4 = {
+			animation = { head = "sex_doggy_4" torso = "sex_doggy_4" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 23
+				}
+			}
+		}
+		sex_doggy_5 = {
+			animation = { head = "sex_doggy_5" torso = "sex_doggy_5" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 24
+				}
+			}
+		}
+		sex_doggy_6 = {
+			animation = { head = "sex_doggy_6" torso = "sex_doggy_6" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 25
+				}
+			}
+		}
+		sex_doggy_7 = {
+			animation = { head = "sex_doggy_7" torso = "sex_doggy_7" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 26
+				}
+			}
+		}
+		sex_doggy_8 = {
+			animation = { head = "sex_doggy_8" torso = "sex_doggy_8" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 27
+				}
+			}
+		}
+		sex_doggy_9 = {
+			animation = { head = "sex_doggy_9" torso = "sex_doggy_9" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 28
+				}
+			}
+		}
+		sex_doggy_10_general = {
+			animation = { head = "sex_doggy_10" torso = "sex_doggy_10" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 29
+				}
+			}
+		}
+		sex_slave_doggy_1 = {
+			animation = { head = "slave_doggy_1" torso = "slave_doggy_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 30
+				}
+			}
+		}
+		sex_slave_doggy_2 = {
+			animation = { head = "slave_doggy_2" torso = "slave_doggy_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 31
+				}
+			}
+
+		}
+		sex_missionary_l1 = {
+			animation = { head = "sex_missionary_l1" torso = "sex_missionary_l1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 32
+				}
+			}
+		}
+		sex_missionary_l2 = {
+			animation = { head = "sex_missionary_l2" torso = "sex_missionary_l2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 33
+				}
+			}
+		}
+		sex_missionary_l3 = {
+			animation = { head = "sex_missionary_l3" torso = "sex_missionary_l3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 34
+				}
+			}
+		}
+		sex_missionary_l4 = {
+			animation = { head = "sex_missionary_l4" torso = "sex_missionary_l4" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 35
+				}
+			}
+		}
+		sex_missionary_l5 = {
+			animation = { head = "sex_missionary_l5" torso = "sex_missionary_l5" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 36
+				}
+			}
+		}
+		sex_missionary_l6 = {
+			animation = { head = "sex_missionary_l6" torso = "sex_missionary_l6" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 37
+				}
+			}
+		}
+		sex_missionary_l7 = {
+			animation = { head = "sex_missionary_l7" torso = "sex_missionary_l7" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 38
+				}
+			}
+		}
+		sex_missionary_fm1 = {
+			animation = { head = "sex_missionary_fm1" torso = "sex_missionary_fm1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 39
+				}
+			}
+		}
+		sex_slave_miss_1 = {
+			animation = { head = "sex_slave_miss_1" torso = "sex_slave_miss_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 40
+				}
+			}
+		}
+		sex_standing_doggy_a = {
+			animation = { head = "sex_standing_doggy_a" torso = "sex_standing_doggy_a" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 41
+				}
+			}
+		}
+		sex_standing_doggy_b = {
+			animation = { head = "sex_standing_doggy_b" torso = "sex_standing_doggy_b" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 42
+				}
+			}
+		}
+		sex_standing_doggy_c = {
+			animation = { head = "sex_standing_doggy_c" torso = "sex_standing_doggy_c" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 43
+				}
+			}
+		}
+		sex_standing_doggy_d = {
+			animation = { head = "sex_standing_doggy_d" torso = "sex_standing_doggy_d" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 44
+				}
+			}
+		}
+		sex_slave_st_doggy_1 = {
+			animation = { head = "sex_slave_st_doggy_1" torso = "sex_slave_st_doggy_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 45
+				}
+			}
+		}
+		sex_oral_love_1 = {
+			animation = { head = "sex_standing_doggy" torso = "oral_love_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 46
+				}
+			}
+		}
+		sex_oral_love_2 = {
+			animation = { head = "sex_doggy_cum_3" torso = "oral_love_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 47
+				}
+			}
+		}
+		sex_slave_oral_1 = {
+			animation = { head = "sex_slave_oral_1" torso = "sex_slave_oral_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 48
+				}
+			}
+		}
+		sex_cowgirl_1 = {
+			animation = { head = "sex_cowgirl_1" torso = "sex_cowgirl_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 49
+				}
+			}
+		}
+		sex_cowgirl_3 = {
+			animation = { head = "sex_cowgirl_3" torso = "sex_cowgirl_3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 50
+				}
+			}
+		}
+		sex_love_stand_1 = {
+			animation = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 51
+				}
+			}
+		}
+		sex_love_stand_2 = {
+			animation = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 52
+				}
+			}
+		}
+		sex_handjob_1 = {
+			animation = { head = "sex_handjob_1" torso = "sex_handjob_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 53
+				}
+			}
+		}
+		sex_cow_cum_1 = {
+			animation = { head = "sex_cow_cum_1" torso = "sex_cow_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 54
+				}
+			}
+		}
+		sex_cow_cum_re = {
+			animation = { head = "sex_cow_cum_re" torso = "sex_cow_cum_re" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 55
+				}
+			}
+		}
+		sex_doggy_cum_1 = {
+			animation = { head = "sex_doggy_cum_1" torso = "sex_doggy_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 56
+				}
+			}
+		}
+		sex_doggy_cum_2 = {
+			animation = { head = "sex_doggy_cum_2" torso = "sex_doggy_cum_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 57
+				}
+			}
+		}
+		sex_doggy_cum_3 = {
+			animation = { head = "sex_doggy_cum_3" torso = "sex_doggy_cum_3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 58
+				}
+			}
+		}
+		sex_missionary_cum_1 = {
+			animation = { head = "sex_missionary_cum_1" torso = "sex_missionary_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 59
+				}
+			}
+		}
+		sex_missionary_cum_2 = {
+			animation = { head = "sex_missionary_cum_2" torso = "sex_missionary_cum_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 60
+				}
+			}
+		}
+		sex_stand_doggy_1_cum = {
+			animation = { head = "sex_stand_doggy_1_cum" torso = "sex_stand_doggy_1_cum" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 61
+				}
+			}
+		}
+		sex_handjob_cum_1 = {
+			animation = { head = "sex_handjob_cum_1" torso = "sex_handjob_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 62
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" }
+		sex_failsafe = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 1000
+					age < 18
+				}
+				modifier = {
+					add = 1000
+					is_adult = no
+				}
+				modifier = {
+					add = 100
+					var:sex_animation ?= 0
+				}
+			}
+		}
+		sex = {
+			animation = { head = "sex" torso = "sex" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 1
+				}
+			}
+		}
+		hom_sex = {
+			animation = { head = "hom_sex" torso = "hom_sex" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 2
+				}
+			}
+		}
+		hom_sex_2 = {
+			animation = { head = "hom_sex_2" torso = "hom_sex_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 3
+				}
+			}
+		}
+		sex_standing = {
+			animation = { head = "sex_standing" torso = "sex_standing" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 4
+				}
+			}
+		}
+		sex_standing_2 = {
+			animation = { head = "sex_standing_2" torso = "sex_standing_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 5
+				}
+			}
+		}
+		sex_cowgirl = {
+			animation = { head = "sex_cowgirl" torso = "sex_cowgirl" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 6
+				}
+			}
+		}
+		sex_reverse_cowgirl = {
+			animation = { head = "sex_reverse_cowgirl" torso = "sex_reverse_cowgirl" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 7
+				}
+			}
+		}
+		sex_doggy = {
+			animation = { head = "sex_doggy" torso = "sex_doggy" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 8
+				}
+			}
+		}
+		sex_missionary = {
+			animation = { head = "sex_missionary" torso = "sex_missionary" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 9
+				}
+			}
+		}
+		sex_cowgirl_mff_threesome_1 = {
+			animation = { head = "sex_cowgirl_mff_threesome_1" torso = "sex_cowgirl_mff_threesome_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 10
+				}
+			}
+		}
+		sex_cowgirl_mff_threesome_2 = {
+			animation = { head = "sex_cowgirl_mff_threesome_2" torso = "sex_cowgirl_mff_threesome_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 11
+				}
+			}
+		}
+		sex_standing_doggy = {
+			animation = { head = "sex_standing_doggy" torso = "sex_standing_doggy" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 12
+				}
+			}
+		}
+		sex_fellatio_general = {
+			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 13
+				}
+			}
+		}
+		sex_fellatio_hom = {
+			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 14
+				}
+			}
+		}
+		sex_cunnilingus = {
+			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 15
+				}
+			}
+		}
+		sex_cunnilingus_hom = {
+			animation = { head = "sex_cunnilingus_hom" torso = "sex_cunnilingus_hom" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 16
+				}
+			}
+		}
+		sex_cuddle = {
+			animation = { head = "cuddle" torso = "cuddle" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 17
+				}
+			}
+		}
+		sex_cuddle_hom = {
+			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 18
+				}
+			}
+		}
+		sex_cuddle_hom_2 = {
+			animation = { head = "cuddle_hom_2" torso = "cuddle_hom_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 19
+				}
+			}
+		}
+		sex_doggy_1 = {
+			animation = { head = "sex_doggy_1" torso = "sex_doggy_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 20
+				}
+			}
+		}
+		sex_doggy_2 = {
+			animation = { head = "sex_doggy_2" torso = "sex_doggy_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 21
+				}
+			}
+		}
+		sex_doggy_3 = {
+			animation = { head = "sex_doggy_3" torso = "sex_doggy_3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 22
+				}
+			}
+		}
+		sex_doggy_4 = {
+			animation = { head = "sex_doggy_4" torso = "sex_doggy_4" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 23
+				}
+			}
+		}
+		sex_doggy_5 = {
+			animation = { head = "sex_doggy_5" torso = "sex_doggy_5" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 24
+				}
+			}
+		}
+		sex_doggy_6 = {
+			animation = { head = "sex_doggy_6" torso = "sex_doggy_6" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 25
+				}
+			}
+		}
+		sex_doggy_7 = {
+			animation = { head = "sex_doggy_7" torso = "sex_doggy_7" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 26
+				}
+			}
+		}
+		sex_doggy_8 = {
+			animation = { head = "sex_doggy_8" torso = "sex_doggy_8" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 27
+				}
+			}
+		}
+		sex_doggy_9 = {
+			animation = { head = "sex_doggy_9" torso = "sex_doggy_9" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 28
+				}
+			}
+		}
+		sex_doggy_10 = {
+			animation = { head = "sex_doggy_10" torso = "sex_doggy_10" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 29
+				}
+			}
+		}
+		sex_slave_doggy_1 = {
+			animation = { head = "slave_doggy_1" torso = "slave_doggy_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 30
+				}
+			}
+		}
+		sex_slave_doggy_2 = {
+			animation = { head = "slave_doggy_2" torso = "slave_doggy_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 31
+				}
+			}
+		}
+		sex_missionary_l1 = {
+			animation = { head = "sex_missionary_l1" torso = "sex_missionary_l1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 32
+				}
+			}
+		}
+		sex_missionary_l2 = {
+			animation = { head = "sex_missionary_l2" torso = "sex_missionary_l2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 33
+				}
+			}
+		}
+		sex_missionary_l3 = {
+			animation = { head = "sex_missionary_l3" torso = "sex_missionary_l3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 34
+				}
+			}
+		}
+		sex_missionary_l4 = {
+			animation = { head = "sex_missionary_l4" torso = "sex_missionary_l4" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 35
+				}
+			}
+		}
+		sex_missionary_l5 = {
+			animation = { head = "sex_missionary_l5" torso = "sex_missionary_l5" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 36
+				}
+			}
+		}
+		sex_missionary_l6 = {
+			animation = { head = "sex_missionary_l6" torso = "sex_missionary_l6" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 37
+				}
+			}
+		}
+		sex_missionary_l7 = {
+			animation = { head = "sex_missionary_l7" torso = "sex_missionary_l7" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 38
+				}
+			}
+		}
+		sex_missionary_fm1 = {
+			animation = { head = "sex_missionary_fm1" torso = "sex_missionary_fm1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 39
+				}
+			}
+		}
+		sex_slave_miss_1 = {
+			animation = { head = "sex_slave_miss_1" torso = "sex_slave_miss_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 40
+				}
+			}
+		}
+		sex_standing_doggy_a = {
+			animation = { head = "sex_standing_doggy_a" torso = "sex_standing_doggy_a" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 41
+				}
+			}
+		}
+		sex_standing_doggy_b = {
+			animation = { head = "sex_standing_doggy_b" torso = "sex_standing_doggy_b" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 42
+				}
+			}
+		}
+		sex_standing_doggy_c = {
+			animation = { head = "sex_standing_doggy_c" torso = "sex_standing_doggy_c" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 43
+				}
+			}
+		}
+		sex_standing_doggy_d = {
+			animation = { head = "sex_standing_doggy_d" torso = "sex_standing_doggy_d" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 44
+				}
+			}
+		}
+		sex_slave_st_doggy_1 = {
+			animation = { head = "sex_slave_st_doggy_1" torso = "sex_slave_st_doggy_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 45
+				}
+			}
+		}
+		sex_oral_love_1 = {
+			animation = { head = "sex_standing_doggy" torso = "oral_love_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 46
+				}
+			}
+		}
+		sex_oral_love_2 = {
+			animation = { head = "sex_oral_love_2" torso = "oral_love_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 47
+				}
+			}
+		}
+		sex_slave_oral_1 = {
+			animation = { head = "sex_slave_oral_1" torso = "sex_slave_oral_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 48
+				}
+			}
+		}
+		sex_cowgirl_1 = {
+			animation = { head = "sex_cowgirl_1" torso = "sex_cowgirl_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 49
+				}
+			}
+		}
+		sex_cowgirl_3 = {
+			animation = { head = "sex_cowgirl_3" torso = "sex_cowgirl_3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 50
+				}
+			}
+		}
+		sex_love_stand_1 = {
+			animation = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 51
+				}
+			}
+		}
+		sex_love_stand_2 = {
+			animation = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 52
+				}
+			}
+		}
+		sex_handjob_1 = {
+			animation = { head = "sex_handjob_1" torso = "sex_handjob_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 53
+				}
+			}
+		}
+		sex_cow_cum_1 = {
+			animation = { head = "sex_cow_cum_1" torso = "sex_cow_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 54
+				}
+			}
+		}
+		sex_cow_cum_re = {
+			animation = { head = "sex_cow_cum_re" torso = "sex_cow_cum_re" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 55
+				}
+			}
+		}
+		sex_doggy_cum_1 = {
+			animation = { head = "sex_doggy_cum_1" torso = "sex_doggy_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 56
+				}
+			}
+		}
+		sex_doggy_cum_2 = {
+			animation = { head = "sex_doggy_cum_2" torso = "sex_doggy_cum_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 57
+				}
+			}
+		}
+		sex_doggy_cum_3 = {
+			animation = { head = "sex_doggy_cum_3" torso = "sex_doggy_cum_3" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 58
+				}
+			}
+		}
+		sex_missionary_cum_1 = {
+			animation = { head = "sex_missionary_cum_1" torso = "sex_missionary_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 59
+				}
+			}
+		}
+		sex_missionary_cum_2_general = {
+			animation = { head = "sex_missionary_cum_2" torso = "sex_missionary_cum_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 60
+				}
+			}
+		}
+		sex_stand_doggy_1_cum = {
+			animation = { head = "sex_stand_doggy_1_cum" torso = "sex_stand_doggy_1_cum" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 61
+				}
+			}
+		}
+		sex_handjob_cum_1 = {
+			animation = { head = "sex_handjob_cum_1" torso = "sex_handjob_cum_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					var:sex_animation ?= 62
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" }
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" }
+	}
+}

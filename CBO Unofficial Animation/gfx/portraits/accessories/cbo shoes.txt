@@ -1,0 +1,139 @@
+﻿
+## Female Shoes ##
+
+
+female_shoes_ep1_jester_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_shoes_ep1_jester_01_entity }
+}
+
+female_shoes_fp1_common_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_shoes_fp1_common_01_entity }
+}
+
+female_shoes_mena_common_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_shoes_mena_common_01_entity }
+}
+
+female_shoes_mena_war_nobility_01 = {
+    set_tags = "shoes"
+	set_tags = "shrink_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_shoes_mena_war_nobility_01_entity }
+}
+
+female_shoes_western_common_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_shoes_western_common_01_entity }
+}
+
+female_ankle_boot_heels_01 = {
+    set_tags = "shoes"
+	set_tags = "heels_full,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_ankle_boot_heels_01_entity }
+}
+
+female_ankle_boot_heels_02 = {
+    set_tags = "shoes"
+	set_tags = "heels_high,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_ankle_boot_heels_02_entity }
+}
+
+female_ankle_boot_heels_03 = {
+    set_tags = "shoes"
+	set_tags = "heels_high,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_ankle_boot_heels_03_entity }
+}
+
+female_mid_calf_boot_heels_01 = {
+    set_tags = "shoes"
+	set_tags = "heels_half,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_mid_calf_boot_heels_01_entity }
+}
+
+female_thigh_high_boot_heels_01 = { 
+    set_tags = "shoes"
+	set_tags = "heels_full,shrink_legs_boots,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = "high_catholic"		shared_pose_entity = torso		entity = female_thigh_high_boot_heels_01_white_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_thigh_high_boot_heels_01_entity }
+}
+
+female_thigh_high_boot_heels_02 = {
+    set_tags = "shoes"
+	set_tags = "heels_high,shrink_legs_boots,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = "high_catholic"		shared_pose_entity = torso		entity = female_thigh_high_boot_heels_02_white_entity }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_thigh_high_boot_heels_02_entity }
+}
+
+female_thigh_high_war_boot_01 = {
+    set_tags = "shoes"
+	set_tags = "shrink_legs_boots,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_thigh_high_war_boot_01_entity }
+}
+
+## Male Shoes ##
+
+
+male_shoes_ep1_jester_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_shoes_ep1_jester_01_entity }
+}
+
+male_shoes_fp1_common_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_shoes_fp1_common_01_entity }
+}
+
+male_shoes_mena_common_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_shoes_mena_common_01_entity }
+}
+
+male_shoes_mena_war_nobility_01 = {
+    set_tags = "shoes"
+	set_tags = "shrink_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_shoes_mena_war_nobility_01_entity }
+}
+
+male_shoes_western_common_01 = {
+    set_tags = "shoes"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_shoes_western_common_01_entity }
+}
+
+male_mid_calf_boot_heels_01 = {
+    set_tags = "shoes"
+	set_tags = "heels_half,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_mid_calf_boot_heels_01_entity }
+}
+
+male_thigh_high_boot_heels_01 = {
+    set_tags = "shoes"
+	set_tags = "heels_full,shrink_legs_boots,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_thigh_high_boot_heels_01_entity }
+}
+
+male_thigh_high_war_boot_01 = {
+    set_tags = "shoes"
+	set_tags = "shrink_legs_boots,shrink_feet,pinched_feet"
+	entity = { required_tags = "undressed"		shared_pose_entity = torso }
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_thigh_high_war_boot_01_entity }
+}

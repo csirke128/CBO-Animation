@@ -1,0 +1,109 @@
+﻿sex_love_stand_1 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_1_general = {
+			animation = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_1_general = {
+			animation = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_1_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}
+
+sex_love_stand_2 = {
+	male = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_2_general = {
+			animation = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	female = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_2_general = {
+			animation = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	boy = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+	girl = {
+		default = { head = "idle_entry" torso = "idle_entry" } 
+		sex_love_stand_2_general = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+				}
+			}
+		}
+	}
+}

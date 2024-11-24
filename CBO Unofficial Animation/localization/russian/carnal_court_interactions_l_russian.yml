@@ -1,0 +1,5 @@
+﻿l_russian:
+ carnal_court_sex_interaction: "Занятся любовью при дворе"
+ carnal_court_sex_interaction_desc: "Станьте свидетелем интимного момента с [recipient.GetShortUINameNoTooltip]"
+ carnal_court_sex_interaction_cd_tt: "#weak Никаких игровых эффектов не произойдет, потому что вы использовали аналогичное взаимодействие в прошлом [EmptyScope.ScriptValue('carn_sex_interaction_cooldown_base')|0] месяце#!"
+ carnal_court_sex_interaction_not_attracted_to_warning_tt: "#X Вас не привлекает [recipient.GetShortUINameNoTooltip]#!"

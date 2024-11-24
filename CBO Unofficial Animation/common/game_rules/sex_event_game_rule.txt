@@ -1,0 +1,14 @@
+﻿cbo_sex_event = {
+	default = cbo_sex_event_animation_pack
+
+	cbo_sex_event_animation_pack = {
+		flag = cbo_sex_event_animation_pack
+		flag = GG_can_change_rule
+	}
+	
+	cbo_sex_event_carnalitas = {
+		flag = cbo_sex_event_carnalitas
+		flag = GG_can_change_rule
+	}
+}
+

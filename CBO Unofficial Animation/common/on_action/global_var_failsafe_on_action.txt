@@ -1,0 +1,11 @@
+﻿yearly_global_pulse = {
+	on_actions = {
+		global_variable_failsafe
+	}
+}
+
+global_variable_failsafe = {
+			effect = {
+				remove_global_variable = sex_animation_event
+				}
+			}

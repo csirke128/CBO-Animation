@@ -1,0 +1,8 @@
+﻿
+carnal_court_sex_scene = {
+	random_events = {
+		100 = intro_carnal_court_sex_scene.0001
+		100 = intro_carnal_court_sex_scene.0002
+		100 = intro_carnal_court_sex_scene.0003
+	}
+}

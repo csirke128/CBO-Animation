@@ -1,0 +1,201 @@
+﻿sex_animations = {
+	usage = none
+	erection = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+		}
+	}
+	
+	erection_upskirt_front = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+			morph = {
+				mode = add
+				gene = gene_upskirt
+				value = 1.0
+				template = upskirt_front
+			}
+		}	
+	}
+	
+	erection_upskirt_back = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+			morph = {
+				mode = add
+				gene = gene_upskirt
+				value = 1.0
+				template = upskirt_back
+			}
+		}
+	}
+	
+	erection_animation_correction = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = penis_erection_correction
+				template = penis_erection_correction
+				value = 1
+			}
+		}	
+	}
+	
+	erection_animation_correction_upskirt_front = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = penis_erection_correction
+				template = penis_erection_correction
+				value = 1
+			}
+			morph = {
+				mode = add
+				gene = gene_upskirt
+				value = 1.0
+				template = upskirt_front
+			}
+		}	
+	}
+	
+	erection_animation_correction_upskirt_back = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = penis_erection
+				template = penis_erection
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = penis_erection_correction
+				template = penis_erection_correction
+				value = 1
+			}
+			morph = {
+				mode = add
+				gene = gene_upskirt
+				value = 1.0
+				template = upskirt_back
+			}
+		}	
+	}
+	
+	normal_standing_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = normal_standing_height_correction
+			}
+		}	
+	}
+	dwarf_standing_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = dwarf_standing_height_correction
+			}
+		}	
+	}
+	giant_standing_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = giant_standing_height_correction
+			}
+		}	
+	}
+	normal_fellatio_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = normal_fellatio_height_correction
+			}
+		}	
+	}
+	dwarf_fellatio_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = dwarf_fellatio_height_correction
+			}
+		}	
+	}
+	giant_fellatio_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = giant_fellatio_height_correction
+			}
+		}	
+	}
+	normal_cunnilingus_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = normal_cunnilingus_height_correction
+			}
+		}	
+	}
+	dwarf_cunnilingus_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = dwarf_cunnilingus_height_correction
+			}
+		}	
+	}
+	giant_cunnilingus_height_correction = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_height
+				value = 1.0
+				template = giant_cunnilingus_height_correction
+			}
+		}	
+	}
+}

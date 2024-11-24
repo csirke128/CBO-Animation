@@ -1,0 +1,654 @@
+﻿morph_genes = {
+    gene_height = {
+        can_have_portrait_extremity_shift = no
+        group = body
+        full_height = {
+            index = 0
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_height_2"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                    age = age_preset_old_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+            boy = male
+            girl = male
+        }
+
+        normal_height = {
+            index = 1
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_height_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 0.5  0.0 }
+                        { 1.0  0.25 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+            boy = male
+            girl = male
+        }
+
+        dwarf_height = {
+            index = 2
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_height_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 1.0  -0.15 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = -0.30 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+
+            }
+            female = male
+            boy = male
+            girl = male
+        }
+
+        giant_height = {
+            index = 3
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_height_2"
+                    curve = {
+                        { 0.0  0.20 }
+                        { 1.0  0.30 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = 0.30 max = 0.5 }
+                    age = age_preset_height
+                }
+            }
+            female = male
+            boy = male
+            girl = male
+        }
+
+        normal_height_sex = {
+            index = 4
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 0.5  0.0 }
+                        { 1.0  0.25 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    # value = { min = 1.0 max = -1.0 }
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    # value = { min = 1.0 max = -1.0 }
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        dwarf_height_sex = {
+            index = 5
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 1.0  -0.15 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = -0.30 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+
+            }
+            female = male
+        }
+
+        giant_height_sex = {
+            index = 6
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  0.20 }
+                        { 1.0  0.30 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = 0.30 max = 0.499 }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        normal_standing_height_correction = {
+            index = 7
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_standing_height_correction"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 0.5  0.0 }
+                        { 1.0  0.25 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        dwarf_standing_height_correction = {
+            index = 8
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_standing_height_correction"
+                    value = { min = -0.5 max = -0.25 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 1.0  -0.15 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = -0.30 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+
+        giant_standing_height_correction = {
+            index = 9
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_standing_height_correction"
+                    value = { min = 0.38 max = 0.5 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  0.20 }
+                        { 1.0  0.30 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = 0.30 max = 0.499 }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        normal_fellatio_height_correction = {
+            index = 10
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_sex_fellatio_height_2"
+                    value = { min = -0.2499 max = 0.2499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 0.5  0.0 }
+                        { 1.0  0.25 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        dwarf_fellatio_height_correction = {
+            index = 11
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_sex_fellatio_height_2"
+                    value = { min = -0.2499 max = -0.125 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 1.0  -0.15 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = -0.30 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+
+        giant_fellatio_height_correction = {
+            index = 12
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_sex_fellatio_height_2"
+                    value = { min = 0.19 max = 0.2499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  0.20 }
+                        { 1.0  0.30 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = 0.30 max = 0.499 }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        normal_cunnilingus_height_correction = {
+            index = 13
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_sex_cunnilingus_height"
+                    value = { min = -0.2499 max = 0.2499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 0.5  0.0 }
+                        { 1.0  0.25 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = 0.499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 0.5   0.0 }
+                        { 1.0   0.0 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        dwarf_cunnilingus_height_correction = {
+            index = 14
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_sex_cunnilingus_height"
+                    value = { min = -0.2499 max = -0.125 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  -0.23 }
+                        { 1.0  -0.15 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = -0.5 max = -0.30 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "bs_body_dwarf_1"
+                    curve = {
+                        { 0.0   1.0 }
+                        { 1.0   0.75 }
+                    }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+
+        giant_cunnilingus_height_correction = {
+            index = 15
+            visible = no
+            male = {
+                setting = {
+                    attribute = "body_height"
+                    value = { min = 0.0 max = 0.0 }
+                }
+                setting = {
+                    attribute = "body_sex_cunnilingus_height"
+                    value = { min = 0.19 max = 0.2499 }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "body_height_sex_2"
+                    curve = {
+                        { 0.0  0.20 }
+                        { 1.0  0.30 }
+                    }
+                    age = age_preset_height
+                }
+                setting = {
+                    attribute = "head_body_height"
+                    value = { min = 0.30 max = 0.499 }
+                    age = age_preset_height
+                }
+            }
+            female = male
+        }
+    }
+}

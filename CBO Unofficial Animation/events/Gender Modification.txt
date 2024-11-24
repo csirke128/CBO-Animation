@@ -1,0 +1,470 @@
+﻿namespace = gender_morph
+
+#modify gender
+gender_morph.0001 = {
+	title = gender_morph.0001.t
+	desc = gender_morph.0001.desc
+	theme = seduce_scheme
+	left_portrait = {
+		character = scope:modified_character
+		animation = personality_zealous
+		outfit_tags = { no_cloak no_hat no_pants no_clothes }
+	}
+
+	option = {
+		#modify active variable
+		name = gender_morph.0001.a
+		scope:modified_character = {
+			if = {
+				limit = { Not = { has_variable = gender_morph } }
+				set_variable = {
+					name = gender_morph
+					value = 0
+				}
+			}
+		}
+		trigger_event = gender_morph.0002
+	}
+	
+	option = {
+		#modify active variable
+		name = gender_morph.0001.b
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_male = yes }
+					Or = {
+						has_character_flag = full_genital_morph
+						has_character_flag = half_genital_morph
+					}
+				}
+				trigger_else = {
+					Not = { has_character_flag = full_genital_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = half_genital_morph
+			remove_character_flag = full_genital_morph
+			if = {
+				limit = { is_female = yes }
+				add_character_flag = full_genital_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	
+	option = {
+		#modify active variable
+		name = gender_morph.0001.c
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_female = yes }
+					Or = {
+						has_character_flag = full_genital_morph
+						has_character_flag = half_genital_morph
+					}
+				}
+				trigger_else = {
+					Not = { has_character_flag = full_genital_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = half_genital_morph
+			remove_character_flag = full_genital_morph
+			if = {
+				limit = { is_male = yes }
+				add_character_flag = full_genital_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.d
+		trigger = {
+			scope:modified_character = { 
+				Not = { has_character_flag = half_genital_morph }
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = half_genital_morph
+			remove_character_flag = full_genital_morph
+			add_character_flag = half_genital_morph
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.e
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_female = yes }
+					has_character_flag = body_hair_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = body_hair_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = body_hair_gender_morph
+			if = {
+				limit = { is_male = yes }
+				add_character_flag = body_hair_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.f
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_male = yes }
+					has_character_flag = body_hair_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = body_hair_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = body_hair_gender_morph
+			if = {
+				limit = { is_female = yes }
+				add_character_flag = body_hair_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.g
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_female = yes }
+					has_character_flag = chest_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = chest_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = chest_gender_morph
+			if = {
+				limit = { is_male = yes }
+				add_character_flag = chest_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.h
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_male = yes }
+					has_character_flag = chest_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = chest_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = chest_gender_morph
+			if = {
+				limit = { is_female = yes }
+				add_character_flag = chest_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.i
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_female = yes }
+					has_character_flag = muscular_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = muscular_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = muscular_gender_morph
+			if = {
+				limit = { is_male = yes }
+				add_character_flag = muscular_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.j
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_male = yes }
+					has_character_flag = muscular_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = muscular_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = muscular_gender_morph
+			if = {
+				limit = { is_female = yes }
+				add_character_flag = muscular_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.k
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_female = yes }
+					has_character_flag = fat_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = fat_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = fat_gender_morph
+			if = {
+				limit = { is_male = yes }
+				add_character_flag = fat_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.l
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_male = yes }
+					has_character_flag = fat_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = fat_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = fat_gender_morph
+			if = {
+				limit = { is_female = yes }
+				add_character_flag = fat_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.m
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_female = yes }
+					has_character_flag = butt_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = butt_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = butt_gender_morph
+			if = {
+				limit = { is_male = yes }
+				add_character_flag = butt_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#modify active variable
+		name = gender_morph.0001.n
+		trigger = {
+			scope:modified_character = { 
+				trigger_if = {
+					limit = { is_male = yes }
+					has_character_flag = butt_gender_morph
+				}
+				trigger_else = {
+					Not = { has_character_flag = butt_gender_morph }
+				}
+			}
+		}
+		scope:modified_character = {
+			remove_character_flag = butt_gender_morph
+			if = {
+				limit = { is_female = yes }
+				add_character_flag = butt_gender_morph
+			}
+		}
+		trigger_event = gender_morph.0001
+	}
+	option = {
+		#Done
+		name = gender_morph.0001.o
+	}
+}
+
+gender_morph.0002 = {
+	title = gender_morph.0002.t
+	desc = {
+		desc = gender_morph.0002.opening.desc
+		desc = gender_morph.0002.explain.desc
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = scope:modified_character
+		animation = personality_zealous
+		outfit_tags = { no_cloak no_hat no_pants no_clothes }
+	}
+	immediate = {
+		scope:modified_character = {
+			if = {
+				limit = { Not = { has_variable = gender_morph } }
+				set_variable = {
+					name = gender_morph
+					value = 0
+				}
+			}
+		}
+	}
+	option = {
+		#add 25%
+		name = gender_morph.0002.a
+		scope:modified_character = {
+			change_variable = {
+				name = gender_morph
+				add = 0.25
+			}
+			if = {
+				limit = { var:gender_morph > 1 }
+				remove_variable = gender_morph
+				set_variable = {
+					name = gender_morph
+					value = 1
+				}
+			}
+		}
+		trigger_event = gender_morph.0002
+	}
+
+	option = {
+		#add 5%
+		name = gender_morph.0002.b
+		scope:modified_character = {
+			change_variable = {
+				name = gender_morph
+				add = 0.05
+			}
+			if = {
+				limit = { var:gender_morph > 1 }
+				remove_variable = gender_morph
+				set_variable = {
+					name = gender_morph
+					value = 1
+				}
+			}
+		}
+		trigger_event = gender_morph.0002
+	}
+
+	option = {
+		#add 1%
+		name = gender_morph.0002.c
+		scope:modified_character = {
+			change_variable = {
+				name = gender_morph
+				add = 0.01
+			}
+			if = {
+				limit = { var:gender_morph > 1 }
+				remove_variable = gender_morph
+				set_variable = {
+					name = gender_morph
+					value = 1
+				}
+			}
+		}
+		trigger_event = gender_morph.0002
+	}
+
+	option = {
+		#subtract 1%
+		name = gender_morph.0002.d
+		scope:modified_character = {
+			change_variable = {
+				name = gender_morph
+				add = -0.01
+			}
+			if = {
+				limit = { var:gender_morph <= 0 }
+				remove_variable = gender_morph
+			}
+		}
+		trigger_event = gender_morph.0002
+	}
+
+	option = {
+		#subtract 5%
+		name = gender_morph.0002.e
+		scope:modified_character = {
+			change_variable = {
+				name = gender_morph
+				add = -0.05
+			}
+			if = {
+				limit = { var:gender_morph <= 0 }
+				remove_variable = gender_morph
+			}
+		}
+		trigger_event = gender_morph.0002
+	}
+
+	option = {
+		#subtract 25%
+		name = gender_morph.0002.f
+		scope:modified_character = {
+			change_variable = {
+				name = gender_morph
+				add = -0.25
+			}
+			if = {
+				limit = { var:gender_morph <= 0 }
+				remove_variable = gender_morph
+			}
+		}
+		trigger_event = gender_morph.0002
+	}
+	option = {
+		#Done
+		name = gender_morph.0002.g
+		trigger_event = gender_morph.0001
+	}
+}

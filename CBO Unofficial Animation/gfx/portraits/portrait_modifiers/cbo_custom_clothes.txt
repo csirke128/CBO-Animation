@@ -1,0 +1,93 @@
+﻿cbo_clothes = {
+    usage = customization
+    interface_position = 15
+    add_accessory_modifiers = {
+        gene = cbo_clothes
+        template = no_clothes
+    }
+    add_accessory_modifiers = {
+        gene = cbo_clothes
+        template = cbo_sub_harness
+        is_valid_custom = {
+            lida_active = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = cbo_clothes
+        template = cbo_skimpy_plate
+        is_valid_custom = {
+            lida_active = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = cbo_clothes
+        template = cbo_dress_harness
+        is_valid_custom = {
+            lida_active = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = cbo_clothes
+        template = cbo_asymmetric_dress
+        is_valid_custom = {
+            lida_active = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = cbo_clothes
+        template = cbo_plunge_dress
+        is_valid_custom = {
+            lida_active = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = cbo_clothes
+        template = all_clothes
+        is_valid_custom = {
+            cbo_body_mesh_active = yes
+        }
+    }
+}
+
+cbo_headgear = {
+    usage = customization
+    interface_position = 15
+    add_accessory_modifiers = {
+        gene = cbo_headgear
+        template = no_headgear
+    }
+    add_accessory_modifiers = {
+        gene = cbo_headgear
+        template = cbo_sub_collar
+        is_valid_custom = {
+            lida_active = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = cbo_headgear
+        template = cbo_all_headgear
+        is_valid_custom = {
+            cbo_body_mesh_active = yes
+        }
+    }
+}
+
+cbo_legwear = {
+    usage = customization
+    interface_position = 15
+    add_accessory_modifiers = {
+        gene = cbo_legwear
+        template = no_cbo_legwear
+    }
+    add_accessory_modifiers = {
+        gene = cbo_legwear
+        template = cbo_skimpy_plate_legs
+        is_valid_custom = {
+            lida_active = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = cbo_legwear
+        template = cbo_all_legwear
+    }
+}

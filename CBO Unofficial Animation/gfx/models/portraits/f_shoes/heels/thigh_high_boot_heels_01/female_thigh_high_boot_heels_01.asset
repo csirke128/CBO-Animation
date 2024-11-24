@@ -1,0 +1,107 @@
+pdxmesh = {
+	name = "female_thigh_high_boot_heels_01_mesh"
+	file = "female_thigh_high_boot_heels_01.mesh"
+
+
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_butt_size_2_max"				type = "female_thigh_high_boot_heels_01_bs_butt_size_2_max.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_butt_size_max"					type = "female_thigh_high_boot_heels_01_bs_butt_size_max.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_clothes"						type = "female_thigh_high_boot_heels_01_bs_clothes.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_dwarf"							type = "female_thigh_high_boot_heels_01_bs_dwarf.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_fat"		  					type = "female_thigh_high_boot_heels_01_bs_fat.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_gaunt"							type = "female_thigh_high_boot_heels_01_bs_gaunt.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_hips_max"		  				type = "female_thigh_high_boot_heels_01_bs_hips_max.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_hips_min"						type = "female_thigh_high_boot_heels_01_bs_hips_min.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_muscular"						type = "female_thigh_high_boot_heels_01_bs_muscular.mesh" }
+	#blend_shape = { id = "female_thigh_high_boot_heels_01_bs_no_left_leg"					type = "female_thigh_high_boot_heels_01_bs_no_left_leg.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_old"							type = "female_thigh_high_boot_heels_01_bs_old.mesh" }
+
+	meshsettings = {
+		name = "female_thigh_high_boot_heels_01Shape"
+		index = 0
+		texture_diffuse = "female_mid_calf_boot_heels_01_diffuse.dds"
+		texture_normal = "female_mid_calf_boot_heels_01_normal.dds"
+		texture_specular = "female_mid_calf_boot_heels_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_thigh_high_boot_heels_01_entity"
+	pdxmesh = "female_thigh_high_boot_heels_01_mesh"
+
+	attribute = { name = "bs_body_butt_size_max_2"				blend_shape = "female_thigh_high_boot_heels_01_bs_butt_size_2_max" }
+	attribute = { name = "bs_body_butt_size_max_1"				blend_shape = "female_thigh_high_boot_heels_01_bs_butt_size_max" }
+	attribute = { name = "bs_body_clothed"						blend_shape = "female_thigh_high_boot_heels_01_bs_clothes" }
+	attribute = { name = "bs_body_dwarf_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_dwarf" }
+	attribute = { name = "bs_body_fat_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_gaunt" }
+	attribute = { name = "bs_body_hips_max"						blend_shape = "female_thigh_high_boot_heels_01_bs_hips_max" }
+	attribute = { name = "bs_body_hips_min"						blend_shape = "female_thigh_high_boot_heels_01_bs_hips_min" }
+	attribute = { name = "bs_body_muscular_1"					blend_shape = "female_thigh_high_boot_heels_01_bs_muscular" }
+	#attribute = { name = "bs_body_no_left_leg"					blend_shape = "female_thigh_high_boot_heels_01_bs_no_left_leg" }
+	attribute = { name = "bs_body_old_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_old" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/f_shoes/heels/mid_calf_boot_heels_01/female_mid_calf_boot_heels_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "boots_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+pdxmesh = {
+	name = "female_thigh_high_boot_heels_01_white_mesh"
+	file = "female_thigh_high_boot_heels_01.mesh"
+
+
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_butt_size_2_max"				type = "female_thigh_high_boot_heels_01_bs_butt_size_2_max.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_butt_size_max"					type = "female_thigh_high_boot_heels_01_bs_butt_size_max.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_clothes"						type = "female_thigh_high_boot_heels_01_bs_clothes.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_dwarf"							type = "female_thigh_high_boot_heels_01_bs_dwarf.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_fat"		  					type = "female_thigh_high_boot_heels_01_bs_fat.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_gaunt"							type = "female_thigh_high_boot_heels_01_bs_gaunt.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_hips_max"		  				type = "female_thigh_high_boot_heels_01_bs_hips_max.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_hips_min"						type = "female_thigh_high_boot_heels_01_bs_hips_min.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_muscular"						type = "female_thigh_high_boot_heels_01_bs_muscular.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_no_left_leg"					type = "female_thigh_high_boot_heels_01_bs_no_left_leg.mesh" }
+	blend_shape = { id = "female_thigh_high_boot_heels_01_bs_old"							type = "female_thigh_high_boot_heels_01_bs_old.mesh" }
+
+	meshsettings = {
+		name = "female_thigh_high_boot_heels_01Shape"
+		index = 0
+		texture_diffuse = "female_cbo_underwear_tops_one_piece_01_white_diffuse.dds"
+		texture_normal = "female_mid_calf_boot_heels_01_normal.dds"
+		texture_specular = "female_mid_calf_boot_heels_01_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_thigh_high_boot_heels_01_white_entity"
+	pdxmesh = "female_thigh_high_boot_heels_01_white_mesh"
+
+	attribute = { name = "bs_body_butt_size_max_2"				blend_shape = "female_thigh_high_boot_heels_01_bs_butt_size_2_max" }
+	attribute = { name = "bs_body_butt_size_max_1"				blend_shape = "female_thigh_high_boot_heels_01_bs_butt_size_max" }
+	attribute = { name = "bs_body_clothed"						blend_shape = "female_thigh_high_boot_heels_01_bs_clothes" }
+	attribute = { name = "bs_body_dwarf_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_dwarf" }
+	attribute = { name = "bs_body_fat_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_gaunt" }
+	attribute = { name = "bs_body_hips_max"						blend_shape = "female_thigh_high_boot_heels_01_bs_hips_max" }
+	attribute = { name = "bs_body_hips_min"						blend_shape = "female_thigh_high_boot_heels_01_bs_hips_min" }
+	attribute = { name = "bs_body_muscular_1"					blend_shape = "female_thigh_high_boot_heels_01_bs_muscular" }
+	attribute = { name = "bs_body_no_left_leg"					blend_shape = "female_thigh_high_boot_heels_01_bs_no_left_leg" }
+	attribute = { name = "bs_body_old_1"						blend_shape = "female_thigh_high_boot_heels_01_bs_old" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/f_shoes/heels/mid_calf_boot_heels_01/female_mid_calf_boot_heels_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "boots_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}

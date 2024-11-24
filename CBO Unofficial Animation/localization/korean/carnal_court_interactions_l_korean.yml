@@ -1,0 +1,5 @@
+﻿l_korean:
+ carnal_court_sex_interaction: "궁전에서 사랑나누기"
+ carnal_court_sex_interaction_desc: "[recipient.GetShortUINameNoTooltip](와)과 친밀한 시간을 보냅니다."
+ carnal_court_sex_interaction_cd_tt: "#weak 게임에 아무런 효과도 일어나지 않습니다. 이 상호작용은 지난 [EmptyScope.ScriptValue('carn_sex_interaction_cooldown_base')|0]개월 동안 이미 사용되었습니다#!"
+ carnal_court_sex_interaction_not_attracted_to_warning_tt: "#X 당신은 [recipient.GetShortUINameNoTooltip]에게 매력적이지 않습니다#!"
