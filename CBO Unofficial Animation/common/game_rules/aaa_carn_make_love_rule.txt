@@ -1,0 +1,12 @@
+﻿carn_sex_interaction = {
+	default = carn_sex_interaction_enabled
+	carn_sex_interaction_disabled = {
+		flag = GG_can_change_rule
+	}
+	carn_sex_interaction_enabled = {
+		flag = GG_can_change_rule
+	}
+	carn_sex_interaction_no_cd = {
+		flag = GG_can_change_rule
+	}
+}
