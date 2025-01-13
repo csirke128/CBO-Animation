@@ -1,0 +1,12 @@
+ on_game_start_after_lobby = {
+    on_actions = {
+        cbo_animation_enabled_on_action
+    }
+}
+
+cbo_animation_enabled_on_action = {
+    #to check the flag, exists = global_var:cbo_animation_enabled
+    effect = {
+        set_global_variable = cbo_animation_enabled
+    }
+}

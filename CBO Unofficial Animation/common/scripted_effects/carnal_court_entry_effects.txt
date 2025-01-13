@@ -80,5 +80,4 @@ carnal_court_sex_scene_effect = {
         carnal_court_enter_court_effect = yes
         trigger_event = { on_action = carnal_court_sex_scene }
     }
-    carn_clear_sex_scene_flags_effect = yes
 }

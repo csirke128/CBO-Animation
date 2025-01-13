@@ -1,0 +1,3 @@
+﻿carn_prostitute_sex_interaction_price_value = 15
+carn_sex_interaction_cooldown = 12
+carn_sex_interaction_cooldown_base = 12
