@@ -1,0 +1,59 @@
+﻿carn_had_sex_with_effect_v2 = {
+	had_sex_with_effect = {
+		CHARACTER = $PARTNER$
+		PREGNANCY_CHANCE = pregnancy_chance
+	}
+}
+
+carn_sex_scene_character_is_giving_player_effect = {}
+carn_sex_scene_character_is_receiving_player_effect = {}
+carn_sex_scene_character_is_dom_player_effect = {}
+carn_sex_scene_character_is_sub_player_effect = {}
+carn_sex_scene_is_vaginal_effect = {}
+carn_sex_scene_is_anal_effect = {}
+carn_sex_scene_is_oral_effect = {}
+carn_sex_scene_is_handjob_effect = {}
+carn_sex_scene_is_cum_inside_effect = {}
+carn_sex_scene_is_cum_outside_effect = {}
+carn_sex_scene_is_consensual_effect = {}
+carn_sex_scene_is_noncon_effect = {}
+carn_sex_scene_is_dubcon_effect = {}
+
+carn_undress_character_effect = {
+	if = {
+		limit = {
+			NOT = { has_character_flag = is_naked }
+		}
+		add_character_flag = {
+			flag = is_naked
+			days = 180 # So character won't stay naked forever when something goes wrong
+		}
+	}
+	else = {
+		# A local variable will be automatically removed after the event chain has been completed.
+		set_local_variable = {
+			name = character_was_already_naked
+			value = yes
+		}
+	}
+}
+
+carn_dress_character_effect = {
+	if = {
+		limit = {
+			NOT = { exists = local_var:character_was_already_naked }
+		}
+		remove_character_flag = is_naked
+	}
+}
+
+carn_sex_scene_clean_up_flags_effect = {
+	clear_variable_list = carn_sex_scene_flag_list
+	clear_variable_list = carn_sex_scene_excluded_flag_list
+	clear_variable_list = carn_sex_scene_option_flag_list
+}
+
+carn_sex_scene_clean_up_character_flags_effect = {
+	clear_variable_list = carn_sex_scene_character_flag_list
+	clear_variable_list = carn_sex_scene_character_excluded_flag_list
+}

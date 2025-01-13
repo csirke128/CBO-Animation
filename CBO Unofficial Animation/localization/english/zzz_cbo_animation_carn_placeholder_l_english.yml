@@ -1,0 +1,7 @@
+rule_carn_sex_interaction: "#X Carnalitas:#! $carn_sex_interaction$"
+ setting_carn_sex_interaction_disabled: "Disabled"
+ setting_carn_sex_interaction_disabled_desc: "Carnalitas's Character Interaction to have sex with a chosen character will be disabled."
+ setting_carn_sex_interaction_enabled: "#high Enabled#!"
+ setting_carn_sex_interaction_enabled_desc: "You can have sex with spouses, lovers, slaves, and so on through a Character Interaction. This reduces Stress and can be done once every [EmptyScope.ScriptValue('carn_sex_interaction_cooldown_base')|0] months."
+ setting_carn_sex_interaction_no_cd: "#high No Cooldown#!"
+ setting_carn_sex_interaction_no_cd_desc: "You can use the $carn_sex_interaction$ Character Interaction as much as you want. However, its game effects will only trigger once every [EmptyScope.ScriptValue('carn_sex_interaction_cooldown_base')|0] months."

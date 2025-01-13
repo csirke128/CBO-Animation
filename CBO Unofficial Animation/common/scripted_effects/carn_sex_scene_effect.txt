@@ -27,7 +27,6 @@
 }
 
 carn_sex_scene_cleanup = {
-    trigger_event = { on_action = carn_on_sex }
     scope:carn_sex_player = {
         carn_dress_character_effect = yes
         remove_character_flag = sex_animation_event
