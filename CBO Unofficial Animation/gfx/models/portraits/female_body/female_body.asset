@@ -316,93 +316,100 @@ pdxmesh = {
     additive_animation = { id = "body_height_sex" 					                type = "female_body_height_sex.anim" }
     additive_animation = { id = "body_height_sex_2" 					            type = "female_body_height_sex_2.anim" }
 
-	animation = { id = "body_sex"													type = "female_body_sex.anim" }
-	animation = { id = "body_hom_sex"												type = "female_body_hom_sex.anim" }
-	animation = { id = "body_hom_sex_2"												type = "female_body_hom_sex_2.anim" }
-	animation = { id = "body_sex_cowgirl_threesome"									type = "female_body_sex_cowgirl_threesome.anim" }
-	animation = { id = "body_sex_standing"											type = "female_body_sex_standing.anim" }
-	animation = { id = "body_sex_standing_2"										type = "female_body_sex_standing_2.anim" }
-	animation = { id = "body_sex_cowgirl"											type = "female_body_sex_cowgirl.anim" }
-	animation = { id = "body_sex_reverse_cowgirl"									type = "female_body_sex_reverse_cowgirl.anim" }
-	animation = { id = "body_sex_doggy"												type = "female_body_sex_doggy.anim" }
-	animation = { id = "body_sex_standing_doggy"									type = "female_body_sex_standing_doggy.anim" }
-	animation = { id = "body_sex_missionary"										type = "female_body_sex_missionary.anim" }
-	animation = { id = "body_sex_fellatio"											type = "female_body_sex_fellatio.anim" }
-	animation = { id = "body_sex_cunnilingus"										type = "female_body_sex_cunnilingus.anim" }
-	animation = { id = "body_sex_cunnilingus_hom"									type = "female_body_sex_cunnilingus_hom.anim" }
-	animation = { id = "body_cuddle_hom_2"											type = "female_body_cuddle_hom_2.anim" }
-	animation = { id = "body_cuddle_hom"											type = "female_body_cuddle_hom.anim" }
-	animation = { id = "body_cuddle"												type = "female_body_cuddle.anim" }
+    additive_animation = { id = "body_offset_xp255" 					            type = "female_body_offset_xp255.anim" }
+    additive_animation = { id = "body_offset_xn255" 					            type = "female_body_offset_xn255.anim" }
+    additive_animation = { id = "body_offset_yp255" 					            type = "female_body_offset_yp255.anim" }
+    additive_animation = { id = "body_offset_yn255" 					            type = "female_body_offset_yn255.anim" }
+    additive_animation = { id = "body_offset_zp255" 					            type = "female_body_offset_zp255.anim" }
+    additive_animation = { id = "body_offset_zn255" 					            type = "female_body_offset_zn255.anim" }
+
+	animation = { id = "body_sex"													type = "sex_animation/female_body_sex.anim" }
+	animation = { id = "body_sex_hom"											    type = "sex_animation/female_body_sex_hom.anim" }
+	animation = { id = "body_sex_hom_2"											    type = "sex_animation/female_body_sex_hom_2.anim" }
+	animation = { id = "body_sex_cowgirl_threesome"									type = "sex_animation/female_body_sex_cowgirl_threesome.anim" }
+	animation = { id = "body_sex_standing"											type = "sex_animation/female_body_sex_standing.anim" }
+	animation = { id = "body_sex_standing_2"										type = "sex_animation/female_body_sex_standing_2.anim" }
+	animation = { id = "body_sex_cowgirl"											type = "sex_animation/female_body_sex_cowgirl.anim" }
+	animation = { id = "body_sex_reverse_cowgirl"									type = "sex_animation/female_body_sex_reverse_cowgirl.anim" }
+	animation = { id = "body_sex_doggy"												type = "sex_animation/female_body_sex_doggy.anim" }
+	animation = { id = "body_sex_standing_doggy"									type = "sex_animation/female_body_sex_standing_doggy.anim" }
+	animation = { id = "body_sex_missionary"										type = "sex_animation/female_body_sex_missionary.anim" }
+	animation = { id = "body_sex_fellatio"											type = "sex_animation/female_body_sex_fellatio.anim" }
+	animation = { id = "body_sex_cunnilingus"										type = "sex_animation/female_body_sex_cunnilingus.anim" }
+	animation = { id = "body_sex_cunnilingus_hom"									type = "sex_animation/female_body_sex_cunnilingus_hom.anim" }
+	animation = { id = "body_sex_cuddle_hom_2"										type = "sex_animation/female_body_sex_cuddle_hom_2.anim" }
+	animation = { id = "body_sex_cuddle_hom"										type = "sex_animation/female_body_sex_cuddle_hom.anim" }
+	animation = { id = "body_sex_cuddle"											type = "sex_animation/female_body_sex_cuddle.anim" }
 
 	#CAP
-	animation = { id = "body_oral_love_1"											type = "female_body_oral_love_1.anim" }
-	animation = { id = "body_oral_love_2"											type = "female_body_oral_love_2.anim" }
-	animation = { id = "body_sex_cow_cum_1"											type = "female_body_sex_cow_cum_1.anim" }
-	animation = { id = "body_sex_cow_cum_re"										type = "female_body_sex_cow_cum_re.anim" }
-	animation = { id = "body_sex_cowgirl_1"											type = "female_body_sex_cowgirl_1.anim" }
-	animation = { id = "body_sex_cowgirl_3"											type = "female_body_sex_cowgirl_3.anim" }
-	animation = { id = "body_sex_doggy_1"											type = "female_body_sex_doggy_1.anim" }
-	animation = { id = "body_sex_doggy_10"											type = "female_body_sex_doggy_10.anim" }
-	animation = { id = "body_sex_doggy_2"											type = "female_body_sex_doggy_2.anim" }
-	animation = { id = "body_sex_doggy_3"											type = "female_body_sex_doggy_3.anim" }
-	animation = { id = "body_sex_doggy_4"											type = "female_body_sex_doggy_4.anim" }
-	animation = { id = "body_sex_doggy_5"											type = "female_body_sex_doggy_5.anim" }
-	animation = { id = "body_sex_doggy_6"											type = "female_body_sex_doggy_6.anim" }
-	animation = { id = "body_sex_doggy_7"											type = "female_body_sex_doggy_7.anim" }
-	animation = { id = "body_sex_doggy_8"											type = "female_body_sex_doggy_8.anim" }
-	animation = { id = "body_sex_doggy_9"											type = "female_body_sex_doggy_9.anim" }
-	animation = { id = "body_sex_doggy_cum_1"										type = "female_body_sex_doggy_cum_1.anim" }
-	animation = { id = "body_sex_doggy_cum_2"										type = "female_body_sex_doggy_cum_2.anim" }
-	animation = { id = "body_sex_doggy_cum_3"										type = "female_body_sex_doggy_cum_3.anim" }
-	animation = { id = "body_sex_doggy2"											type = "female_body_sex_doggy2.anim" }
-	animation = { id = "body_sex_handjob_1"											type = "female_body_sex_handjob_1.anim" }
-	animation = { id = "body_sex_handjob_cum_1"										type = "female_body_sex_handjob_cum_1.anim" }
-	animation = { id = "body_sex_love_stand_1"										type = "female_body_sex_love_stand_1.anim" }
-	animation = { id = "body_sex_love_stand_2"										type = "female_body_sex_love_stand_2.anim" }
-	animation = { id = "body_sex_love_stand_3"										type = "female_body_sex_love_stand_3.anim" }
-	animation = { id = "body_sex_love_stand_4"										type = "female_body_sex_love_stand_4.anim" }
-	animation = { id = "body_sex_missionary_cum_1"									type = "female_body_sex_missionary_cum_1.anim" }
-	animation = { id = "body_sex_missionary_cum_2"									type = "female_body_sex_missionary_cum_2.anim" }
-	animation = { id = "body_sex_missionary_fm1"									type = "female_body_sex_missionary_fm1.anim" }
-	animation = { id = "body_sex_missionary_l1"										type = "female_body_sex_missionary_l1.anim" }
-	animation = { id = "body_sex_missionary_l2"										type = "female_body_sex_missionary_l2.anim" }
-	animation = { id = "body_sex_missionary_l3"										type = "female_body_sex_missionary_l3.anim" }
-	animation = { id = "body_sex_missionary_l4"										type = "female_body_sex_missionary_l4.anim" }
-	animation = { id = "body_sex_missionary_l5"										type = "female_body_sex_missionary_l5.anim" }
-	animation = { id = "body_sex_missionary_l6"										type = "female_body_sex_missionary_l6.anim" }
-	animation = { id = "body_sex_missionary_l7"										type = "female_body_sex_missionary_l7.anim" }
-	animation = { id = "body_sex_slave_miss_1"										type = "female_body_sex_slave_miss_1.anim" }
-	animation = { id = "body_sex_slave_oral_1"										type = "female_body_sex_slave_oral_1.anim" }
-	animation = { id = "body_sex_slave_st_doggy_1"									type = "female_body_sex_slave_st_doggy_1.anim" }
-	animation = { id = "body_sex_stand_doggy_1_cum"									type = "female_body_sex_stand_doggy_1_cum.anim" }
-	animation = { id = "body_sex_standing_doggy_a"									type = "female_body_sex_standing_doggy_a.anim" }
-	animation = { id = "body_sex_standing_doggy_b"									type = "female_body_sex_standing_doggy_b.anim" }
-	animation = { id = "body_sex_standing_doggy_c"									type = "female_body_sex_standing_doggy_c.anim" }
-	animation = { id = "body_sex_standing_doggy_d"									type = "female_body_sex_standing_doggy_d.anim" }
-	animation = { id = "body_slave_doggy_1"											type = "female_body_slave_doggy_1.anim" }
-	animation = { id = "body_slave_doggy_2"											type = "female_body_slave_doggy_2.anim" }
+	animation = { id = "body_sex_oral_love_1"										type = "sex_animation/female_body_sex_oral_love_1.anim" }
+	animation = { id = "body_sex_oral_love_2"										type = "sex_animation/female_body_sex_oral_love_2.anim" }
+	animation = { id = "body_sex_cow_cum_1"											type = "sex_animation/female_body_sex_cow_cum_1.anim" }
+	animation = { id = "body_sex_cow_cum_re"										type = "sex_animation/female_body_sex_cow_cum_re.anim" }
+	animation = { id = "body_sex_cowgirl_1"											type = "sex_animation/female_body_sex_cowgirl_1.anim" }
+	animation = { id = "body_sex_cowgirl_3"											type = "sex_animation/female_body_sex_cowgirl_3.anim" }
+	animation = { id = "body_sex_doggy_1"											type = "sex_animation/female_body_sex_doggy_1.anim" }
+	animation = { id = "body_sex_doggy_10"											type = "sex_animation/female_body_sex_doggy_10.anim" }
+	animation = { id = "body_sex_doggy_2"											type = "sex_animation/female_body_sex_doggy_2.anim" }
+	animation = { id = "body_sex_doggy_3"											type = "sex_animation/female_body_sex_doggy_3.anim" }
+	animation = { id = "body_sex_doggy_4"											type = "sex_animation/female_body_sex_doggy_4.anim" }
+	animation = { id = "body_sex_doggy_5"											type = "sex_animation/female_body_sex_doggy_5.anim" }
+	animation = { id = "body_sex_doggy_6"											type = "sex_animation/female_body_sex_doggy_6.anim" }
+	animation = { id = "body_sex_doggy_7"											type = "sex_animation/female_body_sex_doggy_7.anim" }
+	animation = { id = "body_sex_doggy_8"											type = "sex_animation/female_body_sex_doggy_8.anim" }
+	animation = { id = "body_sex_doggy_9"											type = "sex_animation/female_body_sex_doggy_9.anim" }
+	animation = { id = "body_sex_doggy_cum_1"										type = "sex_animation/female_body_sex_doggy_cum_1.anim" }
+	animation = { id = "body_sex_doggy_cum_2"										type = "sex_animation/female_body_sex_doggy_cum_2.anim" }
+	animation = { id = "body_sex_doggy_cum_3"										type = "sex_animation/female_body_sex_doggy_cum_3.anim" }
+	animation = { id = "body_sex_doggy2"											type = "sex_animation/female_body_sex_doggy2.anim" }
+	animation = { id = "body_sex_handjob_1"											type = "sex_animation/female_body_sex_handjob_1.anim" }
+	animation = { id = "body_sex_handjob_cum_1"										type = "sex_animation/female_body_sex_handjob_cum_1.anim" }
+	animation = { id = "body_sex_love_stand_1"										type = "sex_animation/female_body_sex_love_stand_1.anim" }
+	animation = { id = "body_sex_love_stand_2"										type = "sex_animation/female_body_sex_love_stand_2.anim" }
+	animation = { id = "body_sex_love_stand_3"										type = "sex_animation/female_body_sex_love_stand_3.anim" }
+	animation = { id = "body_sex_love_stand_4"										type = "sex_animation/female_body_sex_love_stand_4.anim" }
+	animation = { id = "body_sex_missionary_cum_1"									type = "sex_animation/female_body_sex_missionary_cum_1.anim" }
+	animation = { id = "body_sex_missionary_cum_2"									type = "sex_animation/female_body_sex_missionary_cum_2.anim" }
+	animation = { id = "body_sex_missionary_fm1"									type = "sex_animation/female_body_sex_missionary_fm1.anim" }
+	animation = { id = "body_sex_missionary_l1"										type = "sex_animation/female_body_sex_missionary_l1.anim" }
+	animation = { id = "body_sex_missionary_l2"										type = "sex_animation/female_body_sex_missionary_l2.anim" }
+	animation = { id = "body_sex_missionary_l3"										type = "sex_animation/female_body_sex_missionary_l3.anim" }
+	animation = { id = "body_sex_missionary_l4"										type = "sex_animation/female_body_sex_missionary_l4.anim" }
+	animation = { id = "body_sex_missionary_l5"										type = "sex_animation/female_body_sex_missionary_l5.anim" }
+	animation = { id = "body_sex_missionary_l6"										type = "sex_animation/female_body_sex_missionary_l6.anim" }
+	animation = { id = "body_sex_missionary_l7"										type = "sex_animation/female_body_sex_missionary_l7.anim" }
+	animation = { id = "body_sex_slave_miss_1"										type = "sex_animation/female_body_sex_slave_miss_1.anim" }
+	animation = { id = "body_sex_slave_oral_1"										type = "sex_animation/female_body_sex_slave_oral_1.anim" }
+	animation = { id = "body_sex_slave_st_doggy_1"									type = "sex_animation/female_body_sex_slave_st_doggy_1.anim" }
+	animation = { id = "body_sex_stand_doggy_1_cum"									type = "sex_animation/female_body_sex_stand_doggy_1_cum.anim" }
+	animation = { id = "body_sex_standing_doggy_a"									type = "sex_animation/female_body_sex_standing_doggy_a.anim" }
+	animation = { id = "body_sex_standing_doggy_b"									type = "sex_animation/female_body_sex_standing_doggy_b.anim" }
+	animation = { id = "body_sex_standing_doggy_c"									type = "sex_animation/female_body_sex_standing_doggy_c.anim" }
+	animation = { id = "body_sex_standing_doggy_d"									type = "sex_animation/female_body_sex_standing_doggy_d.anim" }
+	animation = { id = "body_sex_slave_doggy_1"										type = "sex_animation/female_body_sex_slave_doggy_1.anim" }
+	animation = { id = "body_sex_slave_doggy_2"										type = "sex_animation/female_body_sex_slave_doggy_2.anim" }
 
 	#===========================================================================
 	# CBO Animations+
 	#===========================================================================
 
 	# Missionary
-	animation = { id = "body_sex_missionary_1a_1"									type = "female_body_sex_missionary_1a_1.anim" }
-	animation = { id = "body_sex_missionary_1a_2"									type = "female_body_sex_missionary_1a_2.anim" }
-	animation = { id = "body_sex_missionary_1a_3"									type = "female_body_sex_missionary_1a_3.anim" }
-	animation = { id = "body_sex_missionary_1b_1"									type = "female_body_sex_missionary_1b_1.anim" }
-	animation = { id = "body_sex_missionary_1b_2"									type = "female_body_sex_missionary_1b_2.anim" }
-	animation = { id = "body_sex_missionary_1b_3"									type = "female_body_sex_missionary_1b_3.anim" }
-	animation = { id = "body_sex_missionary_1c_1"									type = "female_body_sex_missionary_1c_1.anim" }
-	animation = { id = "body_sex_missionary_1c_2"									type = "female_body_sex_missionary_1c_2.anim" }
-	animation = { id = "body_sex_missionary_1c_3"									type = "female_body_sex_missionary_1c_3.anim" }
-	animation = { id = "body_sex_missionary_1d_1"									type = "female_body_sex_missionary_1d_1.anim" }
-	animation = { id = "body_sex_missionary_1d_2"									type = "female_body_sex_missionary_1d_2.anim" }
-	animation = { id = "body_sex_missionary_1d_3"									type = "female_body_sex_missionary_1d_3.anim" }
+	animation = { id = "body_sex_missionary_1a_1"									type = "sex_animation/female_body_sex_missionary_1a_1.anim" }
+	animation = { id = "body_sex_missionary_1a_2"									type = "sex_animation/female_body_sex_missionary_1a_2.anim" }
+	animation = { id = "body_sex_missionary_1a_3"									type = "sex_animation/female_body_sex_missionary_1a_3.anim" }
+	animation = { id = "body_sex_missionary_1b_1"									type = "sex_animation/female_body_sex_missionary_1b_1.anim" }
+	animation = { id = "body_sex_missionary_1b_2"									type = "sex_animation/female_body_sex_missionary_1b_2.anim" }
+	animation = { id = "body_sex_missionary_1b_3"									type = "sex_animation/female_body_sex_missionary_1b_3.anim" }
+	animation = { id = "body_sex_missionary_1c_1"									type = "sex_animation/female_body_sex_missionary_1c_1.anim" }
+	animation = { id = "body_sex_missionary_1c_2"									type = "sex_animation/female_body_sex_missionary_1c_2.anim" }
+	animation = { id = "body_sex_missionary_1c_3"									type = "sex_animation/female_body_sex_missionary_1c_3.anim" }
+	animation = { id = "body_sex_missionary_1d_1"									type = "sex_animation/female_body_sex_missionary_1d_1.anim" }
+	animation = { id = "body_sex_missionary_1d_2"									type = "sex_animation/female_body_sex_missionary_1d_2.anim" }
+	animation = { id = "body_sex_missionary_1d_3"									type = "sex_animation/female_body_sex_missionary_1d_3.anim" }
 
 	# Doggy	
-	animation = { id = "body_sex_doggy_1a"											type = "female_body_sex_doggy_1a.anim" }
-	animation = { id = "body_sex_doggy_1b"											type = "female_body_sex_doggy_1b.anim" }
+	animation = { id = "body_sex_doggy_1a"											type = "sex_animation/female_body_sex_doggy_1a.anim" }
+	animation = { id = "body_sex_doggy_1b"											type = "sex_animation/female_body_sex_doggy_1b.anim" }
 }
 
 entity = {
@@ -1530,9 +1537,16 @@ entity = {
     attribute = { name = "body_height_sex" 											additive_animation = "body_height_sex" default = 0.5 }
     attribute = { name = "body_height_sex_2" 									    additive_animation = "body_height_sex_2" default = 0.5 }
 
+	attribute = { name = "body_offset_xp255" 										additive_animation = "body_offset_xp255" }
+    attribute = { name = "body_offset_xn255" 										additive_animation = "body_offset_xn255" }
+    attribute = { name = "body_offset_yp255" 										additive_animation = "body_offset_yp255" }
+    attribute = { name = "body_offset_yn255" 										additive_animation = "body_offset_yn255" }
+    attribute = { name = "body_offset_zp255" 										additive_animation = "body_offset_zp255" }
+    attribute = { name = "body_offset_zn255" 										additive_animation = "body_offset_zn255" }
+
 	state = {	name = "sex"														animation = "body_sex" next_state = "sex" }
-	state = {	name = "hom_sex"													animation = "body_hom_sex" next_state = "hom_sex" }
-	state = {	name = "hom_sex_2"													animation = "body_hom_sex_2" next_state = "hom_sex_2" }
+	state = {	name = "sex_hom"												    animation = "body_sex_hom" next_state = "sex_hom" }
+	state = {	name = "sex_hom_2"												    animation = "body_sex_hom_2" next_state = "sex_hom_2" }
 	state = {	name = "sex_cowgirl_threesome"										animation = "body_sex_cowgirl_threesome" next_state = "sex_cowgirl_threesome" }
 	state = {	name = "sex_standing"												animation = "body_sex_standing" next_state = "sex_standing" }
 	state = {	name = "sex_standing_2"												animation = "body_sex_standing_2" next_state = "sex_standing" }
@@ -1553,13 +1567,13 @@ entity = {
 	state = {	name = "sex_cowgirl_rotation"										animation = "body_sex_cowgirl" next_state = "sex_standing_doggy_rotation" }
 	state = {	name = "sex_standing_doggy_rotation"								animation = "body_sex_standing_doggy" next_state = "sex_standing_rotation" }
 	state = {	name = "sex_standing_rotation"										animation = "body_sex_standing" next_state = "sex_rotation" }
-	state = {	name = "cuddle_hom_2"												animation = "body_cuddle_hom_2" next_state = "cuddle_hom_2" }
-	state = {	name = "cuddle_hom"													animation = "body_cuddle_hom" next_state = "cuddle_hom" }
-	state = {	name = "cuddle"														animation = "body_cuddle" next_state = "cuddle" }
+	state = {	name = "sex_cuddle_hom_2"											animation = "body_sex_cuddle_hom_2" next_state = "sex_cuddle_hom_2" }
+	state = {	name = "sex_cuddle_hom"												animation = "body_sex_cuddle_hom" next_state = "sex_cuddle_hom" }
+	state = {	name = "sex_cuddle"													animation = "body_sex_cuddle" next_state = "sex_cuddle" }
 
 	#CAP
-	state = {	name = "oral_love_1"												animation = "body_oral_love_1" next_state = "oral_love_1" }
-	state = {	name = "oral_love_2"												animation = "body_oral_love_2" next_state = "oral_love_2" }
+	state = {	name = "sex_oral_love_1"											animation = "body_sex_oral_love_1" next_state = "sex_oral_love_1" }
+	state = {	name = "sex_oral_love_2"											animation = "body_sex_oral_love_2" next_state = "sex_oral_love_2" }
 	state = {	name = "sex_cow_cum_1"												animation = "body_sex_cow_cum_1" next_state = "sex_cow_cum_1" }
 	state = {	name = "sex_cow_cum_re"												animation = "body_sex_cow_cum_re" next_state = "sex_cow_cum_re" }
 	state = {	name = "sex_cowgirl_1"												animation = "body_sex_cowgirl_1" next_state = "sex_cowgirl_1" }
@@ -1602,8 +1616,8 @@ entity = {
 	state = {	name = "sex_standing_doggy_b"										animation = "body_sex_standing_doggy_b" next_state = "sex_standing_doggy_b" }
 	state = {	name = "sex_standing_doggy_c"										animation = "body_sex_standing_doggy_c" next_state = "sex_standing_doggy_c" }
 	state = {	name = "sex_standing_doggy_d"										animation = "body_sex_standing_doggy_d" next_state = "sex_standing_doggy_d" }
-	state = {	name = "slave_doggy_1"												animation = "body_slave_doggy_1" next_state = "slave_doggy_1" }
-	state = {	name = "slave_doggy_2"												animation = "body_slave_doggy_2" next_state = "slave_doggy_2" }
+	state = {	name = "sex_slave_doggy_1"											animation = "body_sex_slave_doggy_1" next_state = "sex_slave_doggy_1" }
+	state = {	name = "sex_slave_doggy_2"											animation = "body_sex_slave_doggy_2" next_state = "sex_slave_doggy_2" }
 
 	#===========================================================================
 	# CBO Animations+

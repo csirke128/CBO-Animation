@@ -1297,6 +1297,673 @@ window = {
 
 	}
 
+    window = {
+        name = "cbo_editor_window"
+        size = { 500 400 }
+        position = { 0 0 }
+        parentanchor = left|bottom
+        filter_mouse = all
+        layer = middle
+        visible = "[InDebugMode]"
+        resizable = yes
+        using = Window_Movable
+        using = Window_Background_Sidebar
+        
+        vbox = {
+        
+            vbox = {
+                datacontext = "[GetGlobalVariable('carn_sex_player').Char]"
+                layoutpolicy_vertical = expanding
+                layoutpolicy_horizontal = expanding
+                margin = { 10 0 }
+                margin_top = 5
+                
+                text_single = {
+                    raw_text = "[Character.GetFirstNameNoTooltip]"
+                    size = { 200 40 }
+                    autoresize = no
+                }          
+
+                # sex_animation
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('sex_animation_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('sex_animation_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_sex_animation')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('sex_animation').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('sex_animation').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_sex_animation')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+                }
+     
+                # +X/-X
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xp255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xp255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_xp255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_xp255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_xp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_xp255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xn255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xn255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_xn255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_xn255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_xn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_xn255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+                }
+                
+                # +Y/-Y
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yp255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yp255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_yp255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_yp255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_yp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_yp255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yn255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yn255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_yn255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_yn255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_yn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_yn255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+                }
+                
+                # +Z/-Z
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zp255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zp255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_zp255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_zp255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_zp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_zp255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zn255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zn255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_zn255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_zn255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_zn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_zn255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+                }
+                
+                expand = {}
+            }
+            
+            vbox = {
+                datacontext = "[GetGlobalVariable('carn_sex_partner').Char]"
+                layoutpolicy_vertical = expanding
+                layoutpolicy_horizontal = expanding
+                margin = { 10 0 }
+                margin_top = 5
+                
+                text_single = {
+                    raw_text = "[Character.GetFirstNameNoTooltip]"
+                    size = { 200 40 }
+                    autoresize = no
+                }          
+
+                # sex_animation
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('sex_animation_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('sex_animation_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_sex_animation')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('sex_animation').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('sex_animation').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_sex_animation')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+                }
+
+                # +X/-X
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xp255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xp255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_xp255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_xp255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_xp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_xp255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xn255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_xn255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_xn255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_xn255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_xn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_xn255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+                }
+                
+                # +Y/-Y
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yp255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yp255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_yp255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_yp255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_yp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_yp255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yn255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_yn255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_yn255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_yn255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_yn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_yn255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+                }
+                
+                # +Z/-Z
+                hbox = {
+                    layoutpolicy_horizontal = expanding
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zp255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zp255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+                    
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_zp255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_zp255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_zp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_zp255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+
+                    expand = {}
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zn255_minus')]"
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('offset_zn255_plus')]"
+                        blockoverride "icon" {
+                            button_plus_small = {
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    bb_button_round = {
+                        datacontext = "[GetScriptedGui('reset_offset_zn255')]"
+                        blockoverride "icon" {
+                            button_replace = {
+                                size = { 20 20 }
+                                parentanchor = center
+                                alwaystransparent = yes
+                            }
+                        }
+                    }
+
+                    text_single = {
+                        raw_text = "[Character.MakeScope.Var('offset_zn255').GetValue|=v^]"
+                        align = nobaseline|center
+                        alpha = "[Select_float(  Character.MakeScope.Var('offset_zn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                        size = { 40 25 }
+                        autoresize = no
+                    }
+
+                    text_single = {
+                        raw_text = "[Localize('bb_offset_zn255')]"
+                        align = nobaseline
+                        size = { 100 25 }
+                        autoresize = no
+                    }
+                }
+                
+                expand = {}
+            }
+            
+            expand = {}
+        }
+
+    }
+
 	artifact_test_helper_window = {
 		visible = "[And( Not(VariableSystem.Exists('royal_court_screenshot_window')), And( InDebugMode, VariableSystem.Exists( 'artifact_test' ) ) )]"
 		datacontext = "[RoyalCourtWindow.AccessArtifactHelperWindow]"
@@ -2051,6 +2718,36 @@ types RoyalCourtTypes
 			}
 		}
 	}
+    
+    type bb_button_round = button {
+        size = { 21 25 }
+        block "icon" {
+            button_minus_small = {
+                parentanchor = center
+                alwaystransparent = yes
+            }
+        }
+        click_modifiers = {
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        }
+        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
+        button_ignore = none
+    }
 }
 
 template Pending_Court_Events_Data

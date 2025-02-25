@@ -2,24 +2,24 @@
 #----------------------
 #  0	 idle_entry
 #  1	 sex
-#  2	 hom_sex
-#  3	 hom_sex
+#  2	 sex_hom
+#  3	 sex_hom_2
 #  4	 sex_standing
 #  5	 sex_standing_2
 #  6	 sex_cowgirl
 #  7	 sex_reverse_cowgirl
 #  8	 sex_doggy
 #  9	 sex_missionary
-#  10	 sex_cowgirl_mff_threesome
-#  11	 sex_cowgirl_mff_threesome
+#  10	 sex_cowgirl_mff_threesome_1
+#  11	 sex_cowgirl_mff_threesome_2
 #  12	 sex_standing_doggy
 #  13	 sex_fellatio
 #  14	 sex_fellatio_hom
 #  15	 sex_cunnilingus
 #  16	 sex_cunnilingus
-#  17	 cuddle
-#  18	 cuddle_hom
-#  19	 cuddle_hom_2
+#  17	 sex_cuddle
+#  18	 sex_cuddle_hom
+#  19	 sex_cuddle_hom_2
 #  20	 sex_doggy_1
 #  21	 sex_doggy_2
 #  22	 sex_doggy_3
@@ -30,8 +30,8 @@
 #  27	 sex_doggy_8
 #  28	 sex_doggy_9
 #  29	 sex_doggy_10
-#  30	 slave_doggy_1
-#  31	 slave_doggy_2
+#  30	 sex_slave_doggy_1
+#  31	 sex_slave_doggy_2
 #  32	 sex_missionary_l1
 #  33	 sex_missionary_l2
 #  34	 sex_missionary_l3
@@ -46,8 +46,8 @@
 #  43	 sex_standing_doggy_c
 #  44	 sex_standing_doggy_d
 #  45	 sex_slave_st_doggy_1
-#  46	 oral_love_1
-#  47	 oral_love_2
+#  46	 sex_oral_love_1
+#  47	 sex_oral_love_2
 #  48	 sex_slave_oral_1
 #  49	 sex_cowgirl_1
 #  50	 sex_cowgirl_3
@@ -72,14 +72,6 @@ sex_combined = {
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
-					age < 18
-				}
-				modifier = {
-					add = 1000
-					is_adult = no
-				}
-				modifier = {
 					add = 100
 					var:sex_animation ?= 0
 				}
@@ -87,6 +79,24 @@ sex_combined = {
 		}
 		sex = {
 			animation = { head = "sex" torso = "sex" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -95,8 +105,26 @@ sex_combined = {
 				}
 			}
 		}
-		hom_sex = {
-			animation = { head = "hom_sex" torso = "hom_sex" }
+		sex_hom = {
+			animation = { head = "sex_hom" torso = "sex_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -105,8 +133,26 @@ sex_combined = {
 				}
 			}
 		}
-		hom_sex_2 = {
-			animation = { head = "hom_sex" torso = "hom_sex" }
+		sex_hom_2 = {
+			animation = { head = "sex_hom" torso = "sex_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -117,6 +163,24 @@ sex_combined = {
 		}
 		sex_standing = {
 			animation = { head = "sex_standing" torso = "sex_standing" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -127,6 +191,24 @@ sex_combined = {
 		}
 		sex_standing_2 = {
 			animation = { head = "sex_standing_2" torso = "sex_standing_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -137,6 +219,24 @@ sex_combined = {
 		}
 		sex_cowgirl = {
 			animation = { head = "sex_cowgirl" torso = "sex_cowgirl" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -145,8 +245,26 @@ sex_combined = {
 				}
 			}
 		}
-		sex_reverse = {
+		sex_reverse_cowgirl = {
 			animation = { head = "sex_reverse_cowgirl" torso = "sex_reverse_cowgirl" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_reverse_cowgirl
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_reverse_cowgirl
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_reverse_cowgirl
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -157,6 +275,24 @@ sex_combined = {
 		}
 		sex_doggy = {
 			animation = { head = "sex_doggy" torso = "sex_doggy" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -167,6 +303,24 @@ sex_combined = {
 		}
 		sex_missionary = {
 			animation = { head = "sex_missionary" torso = "sex_missionary" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -177,6 +331,24 @@ sex_combined = {
 		}
 		sex_cowgirl_mff_threesome_1 = {
 			animation = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_mff_threesome_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_mff_threesome_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_mff_threesome_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -187,6 +359,24 @@ sex_combined = {
 		}
 		sex_cowgirl_mff_threesome_2 = {
 			animation = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_mff_threesome_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_mff_threesome_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_mff_threesome_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -197,6 +387,24 @@ sex_combined = {
 		}
 		sex_standing_doggy = {
 			animation = { head = "sex_standing_doggy" torso = "sex_standing_doggy" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -207,6 +415,24 @@ sex_combined = {
 		}
 		sex_fellatio = {
 			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_fellatio
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_fellatio
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_fellatio
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -217,6 +443,24 @@ sex_combined = {
 		}
 		sex_fellatio_hom = {
 			animation = { head = "sex_fellatio_hom" torso = "sex_fellatio_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_fellatio_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_fellatio_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_fellatio_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -227,6 +471,24 @@ sex_combined = {
 		}
 		sex_cunnilingus = {
 			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cunnilingus
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cunnilingus
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cunnilingus
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -237,6 +499,24 @@ sex_combined = {
 		}
 		sex_cunnilingus_hom = {
 			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cunnilingus_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cunnilingus_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cunnilingus_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -246,7 +526,25 @@ sex_combined = {
 			}
 		}
 		sex_cuddle = {
-			animation = { head = "cuddle" torso = "cuddle" }
+			animation = { head = "sex_cuddle" torso = "sex_cuddle" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -256,7 +554,25 @@ sex_combined = {
 			}
 		}
 		sex_cuddle_hom = {
-			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			animation = { head = "sex_cuddle_hom" torso = "sex_cuddle_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -266,7 +582,25 @@ sex_combined = {
 			}
 		}
 		sex_cuddle_hom_2 = {
-			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			animation = { head = "sex_cuddle_hom" torso = "sex_cuddle_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle_hom_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle_hom_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cuddle_hom_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -277,6 +611,24 @@ sex_combined = {
 		}
 		sex_doggy_1 = {
 			animation = { head = "sex_doggy_1" torso = "sex_doggy_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -287,6 +639,24 @@ sex_combined = {
 		}
 		sex_doggy_2 = {
 			animation = { head = "sex_doggy_2" torso = "sex_doggy_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -297,6 +667,24 @@ sex_combined = {
 		}
 		sex_doggy_3 = {
 			animation = { head = "sex_doggy_3" torso = "sex_doggy_3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -307,6 +695,24 @@ sex_combined = {
 		}
 		sex_doggy_4 = {
 			animation = { head = "sex_doggy_4" torso = "sex_doggy_4" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_4
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_4
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_4
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -317,6 +723,24 @@ sex_combined = {
 		}
 		sex_doggy_5 = {
 			animation = { head = "sex_doggy_5" torso = "sex_doggy_5" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_5
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_5
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_5
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -327,6 +751,24 @@ sex_combined = {
 		}
 		sex_doggy_6 = {
 			animation = { head = "sex_doggy_6" torso = "sex_doggy_6" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_6
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_6
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_6
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -337,6 +779,24 @@ sex_combined = {
 		}
 		sex_doggy_7 = {
 			animation = { head = "sex_doggy_7" torso = "sex_doggy_7" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_7
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_7
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_7
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -347,6 +807,24 @@ sex_combined = {
 		}
 		sex_doggy_8 = {
 			animation = { head = "sex_doggy_8" torso = "sex_doggy_8" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_8
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_8
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_8
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -357,6 +835,24 @@ sex_combined = {
 		}
 		sex_doggy_9 = {
 			animation = { head = "sex_doggy_9" torso = "sex_doggy_9" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_9
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_9
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_9
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -367,6 +863,24 @@ sex_combined = {
 		}
 		sex_doggy_10_general = {
 			animation = { head = "sex_doggy_10" torso = "sex_doggy_10" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_10
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_10
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_doggy_10
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -376,7 +890,25 @@ sex_combined = {
 			}
 		}
 		sex_slave_doggy_1 = {
-			animation = { head = "slave_doggy_1" torso = "slave_doggy_1" }
+			animation = { head = "sex_slave_doggy_1" torso = "sex_slave_doggy_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_doggy_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_doggy_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_doggy_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -386,7 +918,25 @@ sex_combined = {
 			}
 		}
 		sex_slave_doggy_2 = {
-			animation = { head = "slave_doggy_2" torso = "slave_doggy_2" }
+			animation = { head = "sex_slave_doggy_2" torso = "sex_slave_doggy_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_doggy_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_doggy_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_doggy_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -398,6 +948,24 @@ sex_combined = {
 		}
 		sex_missionary_l1 = {
 			animation = { head = "sex_missionary_l1" torso = "sex_missionary_l1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -408,6 +976,24 @@ sex_combined = {
 		}
 		sex_missionary_l2 = {
 			animation = { head = "sex_missionary_l2" torso = "sex_missionary_l2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -418,6 +1004,24 @@ sex_combined = {
 		}
 		sex_missionary_l3 = {
 			animation = { head = "sex_missionary_l3" torso = "sex_missionary_l3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -428,6 +1032,24 @@ sex_combined = {
 		}
 		sex_missionary_l4 = {
 			animation = { head = "sex_missionary_l4" torso = "sex_missionary_l4" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l4
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l4
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l4
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -438,6 +1060,24 @@ sex_combined = {
 		}
 		sex_missionary_l5 = {
 			animation = { head = "sex_missionary_l5" torso = "sex_missionary_l5" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l5
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l5
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l5
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -448,6 +1088,24 @@ sex_combined = {
 		}
 		sex_missionary_l6 = {
 			animation = { head = "sex_missionary_l6" torso = "sex_missionary_l6" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l6
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l6
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l6
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -458,6 +1116,24 @@ sex_combined = {
 		}
 		sex_missionary_l7 = {
 			animation = { head = "sex_missionary_l7" torso = "sex_missionary_l7" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l7
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l7
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_l7
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -468,6 +1144,24 @@ sex_combined = {
 		}
 		sex_missionary_fm1 = {
 			animation = { head = "sex_missionary_fm1" torso = "sex_missionary_fm1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_fm1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_fm1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_missionary_fm1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -478,6 +1172,24 @@ sex_combined = {
 		}
 		sex_slave_miss_1 = {
 			animation = { head = "sex_slave_miss_1" torso = "sex_slave_miss_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_miss_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_miss_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_miss_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -488,6 +1200,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_a = {
 			animation = { head = "sex_standing_doggy_a" torso = "sex_standing_doggy_a" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_a
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_a
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_a
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -498,6 +1228,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_b = {
 			animation = { head = "sex_standing_doggy_b" torso = "sex_standing_doggy_b" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_b
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_b
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_b
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -508,6 +1256,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_c = {
 			animation = { head = "sex_standing_doggy_c" torso = "sex_standing_doggy_c" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_c
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_c
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_c
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -518,6 +1284,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_d = {
 			animation = { head = "sex_standing_doggy_d" torso = "sex_standing_doggy_d" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_d
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_d
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_standing_doggy_d
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -528,6 +1312,24 @@ sex_combined = {
 		}
 		sex_slave_st_doggy_1 = {
 			animation = { head = "sex_slave_st_doggy_1" torso = "sex_slave_st_doggy_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_st_doggy_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_st_doggy_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_st_doggy_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -537,7 +1339,25 @@ sex_combined = {
 			}
 		}
 		sex_oral_love_1 = {
-			animation = { head = "sex_standing_doggy" torso = "oral_love_1" }
+			animation = { head = "sex_standing_doggy" torso = "sex_oral_love_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_oral_love_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_oral_love_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_oral_love_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -547,8 +1367,26 @@ sex_combined = {
 			}
 		}
 		sex_oral_love_2 = {
-			animation = { head = "sex_doggy_cum_3" torso = "oral_love_2" }
-			weight = {
+			animation = { head = "sex_doggy_cum_3" torso = "sex_oral_love_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_oral_love_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_oral_love_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_oral_love_2
+			}
+            weight = {
 				base = 0
 				modifier = {
 					add = 100
@@ -558,6 +1396,24 @@ sex_combined = {
 		}
 		sex_slave_oral_1 = {
 			animation = { head = "sex_slave_oral_1" torso = "sex_slave_oral_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_oral_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_oral_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_slave_oral_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -568,6 +1424,24 @@ sex_combined = {
 		}
 		sex_cowgirl_1 = {
 			animation = { head = "sex_cowgirl_1" torso = "sex_cowgirl_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -578,6 +1452,24 @@ sex_combined = {
 		}
 		sex_cowgirl_3 = {
 			animation = { head = "sex_cowgirl_3" torso = "sex_cowgirl_3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_cowgirl_3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -588,6 +1480,24 @@ sex_combined = {
 		}
 		sex_love_stand_1 = {
 			animation = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_love_stand_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_love_stand_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_love_stand_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -598,6 +1508,24 @@ sex_combined = {
 		}
 		sex_love_stand_2 = {
 			animation = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_love_stand_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_love_stand_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_love_stand_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -608,6 +1536,24 @@ sex_combined = {
 		}
 		sex_handjob_1 = {
 			animation = { head = "sex_handjob_1" torso = "sex_handjob_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_handjob_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_handjob_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = male_sex_handjob_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -618,6 +1564,24 @@ sex_combined = {
 		}
 		sex_cow_cum_1 = {
 			animation = { head = "sex_cow_cum_1" torso = "sex_cow_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_cow_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_cow_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_cow_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -628,6 +1592,24 @@ sex_combined = {
 		}
 		sex_cow_cum_re = {
 			animation = { head = "sex_cow_cum_re" torso = "sex_cow_cum_re" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_cow_cum_re
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_cow_cum_re
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_cow_cum_re
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -638,6 +1620,24 @@ sex_combined = {
 		}
 		sex_doggy_cum_1 = {
 			animation = { head = "sex_doggy_cum_1" torso = "sex_doggy_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -648,6 +1648,24 @@ sex_combined = {
 		}
 		sex_doggy_cum_2 = {
 			animation = { head = "sex_doggy_cum_2" torso = "sex_doggy_cum_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -658,6 +1676,24 @@ sex_combined = {
 		}
 		sex_doggy_cum_3 = {
 			animation = { head = "sex_doggy_cum_3" torso = "sex_doggy_cum_3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_doggy_cum_3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -668,6 +1704,24 @@ sex_combined = {
 		}
 		sex_missionary_cum_1 = {
 			animation = { head = "sex_missionary_cum_1" torso = "sex_missionary_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_missionary_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_missionary_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_missionary_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -678,6 +1732,24 @@ sex_combined = {
 		}
 		sex_missionary_cum_2 = {
 			animation = { head = "sex_missionary_cum_2" torso = "sex_missionary_cum_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_missionary_cum_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_missionary_cum_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_missionary_cum_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -688,6 +1760,24 @@ sex_combined = {
 		}
 		sex_stand_doggy_1_cum = {
 			animation = { head = "sex_stand_doggy_1_cum" torso = "sex_stand_doggy_1_cum" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_stand_doggy_1_cum
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_stand_doggy_1_cum
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_stand_doggy_1_cum
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -698,6 +1788,24 @@ sex_combined = {
 		}
 		sex_handjob_cum_1 = {
 			animation = { head = "sex_handjob_cum_1" torso = "sex_handjob_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_handjob_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_handjob_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = male_sex_handjob_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -714,14 +1822,6 @@ sex_combined = {
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
-					age < 18
-				}
-				modifier = {
-					add = 1000
-					is_adult = no
-				}
-				modifier = {
 					add = 100
 					var:sex_animation ?= 0
 				}
@@ -729,6 +1829,24 @@ sex_combined = {
 		}
 		sex = {
 			animation = { head = "sex" torso = "sex" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -737,8 +1855,26 @@ sex_combined = {
 				}
 			}
 		}
-		hom_sex = {
-			animation = { head = "hom_sex" torso = "hom_sex" }
+		sex_hom = {
+			animation = { head = "sex_hom" torso = "sex_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -747,8 +1883,26 @@ sex_combined = {
 				}
 			}
 		}
-		hom_sex_2 = {
-			animation = { head = "hom_sex_2" torso = "hom_sex_2" }
+		sex_hom_2 = {
+			animation = { head = "sex_hom_2" torso = "sex_hom_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_hom_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_hom_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_hom_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -759,6 +1913,24 @@ sex_combined = {
 		}
 		sex_standing = {
 			animation = { head = "sex_standing" torso = "sex_standing" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -769,6 +1941,24 @@ sex_combined = {
 		}
 		sex_standing_2 = {
 			animation = { head = "sex_standing_2" torso = "sex_standing_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -779,6 +1969,24 @@ sex_combined = {
 		}
 		sex_cowgirl = {
 			animation = { head = "sex_cowgirl" torso = "sex_cowgirl" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -789,6 +1997,24 @@ sex_combined = {
 		}
 		sex_reverse_cowgirl = {
 			animation = { head = "sex_reverse_cowgirl" torso = "sex_reverse_cowgirl" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_reverse_cowgirl
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_reverse_cowgirl
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_reverse_cowgirl
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -799,6 +2025,24 @@ sex_combined = {
 		}
 		sex_doggy = {
 			animation = { head = "sex_doggy" torso = "sex_doggy" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -809,6 +2053,24 @@ sex_combined = {
 		}
 		sex_missionary = {
 			animation = { head = "sex_missionary" torso = "sex_missionary" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -819,6 +2081,24 @@ sex_combined = {
 		}
 		sex_cowgirl_mff_threesome_1 = {
 			animation = { head = "sex_cowgirl_mff_threesome_1" torso = "sex_cowgirl_mff_threesome_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_mff_threesome_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_mff_threesome_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_mff_threesome_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -829,6 +2109,24 @@ sex_combined = {
 		}
 		sex_cowgirl_mff_threesome_2 = {
 			animation = { head = "sex_cowgirl_mff_threesome_2" torso = "sex_cowgirl_mff_threesome_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_mff_threesome_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_mff_threesome_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_mff_threesome_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -839,6 +2137,24 @@ sex_combined = {
 		}
 		sex_standing_doggy = {
 			animation = { head = "sex_standing_doggy" torso = "sex_standing_doggy" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -849,6 +2165,24 @@ sex_combined = {
 		}
 		sex_fellatio_general = {
 			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_fellatio
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_fellatio
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_fellatio
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -859,6 +2193,24 @@ sex_combined = {
 		}
 		sex_fellatio_hom = {
 			animation = { head = "sex_fellatio" torso = "sex_fellatio" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_fellatio_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_fellatio_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_fellatio_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -869,6 +2221,24 @@ sex_combined = {
 		}
 		sex_cunnilingus = {
 			animation = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cunnilingus
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cunnilingus
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cunnilingus
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -879,6 +2249,24 @@ sex_combined = {
 		}
 		sex_cunnilingus_hom = {
 			animation = { head = "sex_cunnilingus_hom" torso = "sex_cunnilingus_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cunnilingus_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cunnilingus_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cunnilingus_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -888,7 +2276,25 @@ sex_combined = {
 			}
 		}
 		sex_cuddle = {
-			animation = { head = "cuddle" torso = "cuddle" }
+			animation = { head = "sex_cuddle" torso = "sex_cuddle" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -898,7 +2304,25 @@ sex_combined = {
 			}
 		}
 		sex_cuddle_hom = {
-			animation = { head = "cuddle_hom" torso = "cuddle_hom" }
+			animation = { head = "sex_cuddle_hom" torso = "sex_cuddle_hom" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -908,7 +2332,25 @@ sex_combined = {
 			}
 		}
 		sex_cuddle_hom_2 = {
-			animation = { head = "cuddle_hom_2" torso = "cuddle_hom_2" }
+			animation = { head = "sex_cuddle_hom_2" torso = "sex_cuddle_hom_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle_hom
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle_hom
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cuddle_hom
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -919,6 +2361,24 @@ sex_combined = {
 		}
 		sex_doggy_1 = {
 			animation = { head = "sex_doggy_1" torso = "sex_doggy_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -929,6 +2389,24 @@ sex_combined = {
 		}
 		sex_doggy_2 = {
 			animation = { head = "sex_doggy_2" torso = "sex_doggy_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -939,6 +2417,24 @@ sex_combined = {
 		}
 		sex_doggy_3 = {
 			animation = { head = "sex_doggy_3" torso = "sex_doggy_3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -949,6 +2445,24 @@ sex_combined = {
 		}
 		sex_doggy_4 = {
 			animation = { head = "sex_doggy_4" torso = "sex_doggy_4" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_4
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_4
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_4
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -959,6 +2473,24 @@ sex_combined = {
 		}
 		sex_doggy_5 = {
 			animation = { head = "sex_doggy_5" torso = "sex_doggy_5" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_5
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_5
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_5
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -969,6 +2501,24 @@ sex_combined = {
 		}
 		sex_doggy_6 = {
 			animation = { head = "sex_doggy_6" torso = "sex_doggy_6" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_6
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_6
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_6
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -979,6 +2529,24 @@ sex_combined = {
 		}
 		sex_doggy_7 = {
 			animation = { head = "sex_doggy_7" torso = "sex_doggy_7" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_7
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_7
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_7
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -989,6 +2557,24 @@ sex_combined = {
 		}
 		sex_doggy_8 = {
 			animation = { head = "sex_doggy_8" torso = "sex_doggy_8" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_8
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_8
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_8
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -999,6 +2585,24 @@ sex_combined = {
 		}
 		sex_doggy_9 = {
 			animation = { head = "sex_doggy_9" torso = "sex_doggy_9" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_9
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_9
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_9
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1009,6 +2613,24 @@ sex_combined = {
 		}
 		sex_doggy_10 = {
 			animation = { head = "sex_doggy_10" torso = "sex_doggy_10" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_10
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_10
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_doggy_10
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1018,7 +2640,25 @@ sex_combined = {
 			}
 		}
 		sex_slave_doggy_1 = {
-			animation = { head = "slave_doggy_1" torso = "slave_doggy_1" }
+			animation = { head = "sex_slave_doggy_1" torso = "sex_slave_doggy_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_doggy_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_doggy_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_doggy_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1028,7 +2668,25 @@ sex_combined = {
 			}
 		}
 		sex_slave_doggy_2 = {
-			animation = { head = "slave_doggy_2" torso = "slave_doggy_2" }
+			animation = { head = "sex_slave_doggy_2" torso = "sex_slave_doggy_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_doggy_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_doggy_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_doggy_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1039,6 +2697,24 @@ sex_combined = {
 		}
 		sex_missionary_l1 = {
 			animation = { head = "sex_missionary_l1" torso = "sex_missionary_l1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1049,6 +2725,24 @@ sex_combined = {
 		}
 		sex_missionary_l2 = {
 			animation = { head = "sex_missionary_l2" torso = "sex_missionary_l2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1059,6 +2753,24 @@ sex_combined = {
 		}
 		sex_missionary_l3 = {
 			animation = { head = "sex_missionary_l3" torso = "sex_missionary_l3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1069,6 +2781,24 @@ sex_combined = {
 		}
 		sex_missionary_l4 = {
 			animation = { head = "sex_missionary_l4" torso = "sex_missionary_l4" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l4
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l4
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l4
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1079,6 +2809,24 @@ sex_combined = {
 		}
 		sex_missionary_l5 = {
 			animation = { head = "sex_missionary_l5" torso = "sex_missionary_l5" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l5
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l5
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l5
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1089,6 +2837,24 @@ sex_combined = {
 		}
 		sex_missionary_l6 = {
 			animation = { head = "sex_missionary_l6" torso = "sex_missionary_l6" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l6
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l6
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l6
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1099,6 +2865,24 @@ sex_combined = {
 		}
 		sex_missionary_l7 = {
 			animation = { head = "sex_missionary_l7" torso = "sex_missionary_l7" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l7
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l7
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_l7
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1109,6 +2893,24 @@ sex_combined = {
 		}
 		sex_missionary_fm1 = {
 			animation = { head = "sex_missionary_fm1" torso = "sex_missionary_fm1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_fm1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_fm1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_missionary_fm1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1119,6 +2921,24 @@ sex_combined = {
 		}
 		sex_slave_miss_1 = {
 			animation = { head = "sex_slave_miss_1" torso = "sex_slave_miss_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_miss_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_miss_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_miss_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1129,6 +2949,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_a = {
 			animation = { head = "sex_standing_doggy_a" torso = "sex_standing_doggy_a" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_a
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_a
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_a
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1139,6 +2977,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_b = {
 			animation = { head = "sex_standing_doggy_b" torso = "sex_standing_doggy_b" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_b
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_b
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_b
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1149,6 +3005,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_c = {
 			animation = { head = "sex_standing_doggy_c" torso = "sex_standing_doggy_c" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_c
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_c
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_c
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1159,6 +3033,24 @@ sex_combined = {
 		}
 		sex_standing_doggy_d = {
 			animation = { head = "sex_standing_doggy_d" torso = "sex_standing_doggy_d" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_d
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_d
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_standing_doggy_d
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1169,6 +3061,24 @@ sex_combined = {
 		}
 		sex_slave_st_doggy_1 = {
 			animation = { head = "sex_slave_st_doggy_1" torso = "sex_slave_st_doggy_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_st_doggy_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_st_doggy_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_st_doggy_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1178,7 +3088,25 @@ sex_combined = {
 			}
 		}
 		sex_oral_love_1 = {
-			animation = { head = "sex_standing_doggy" torso = "oral_love_1" }
+			animation = { head = "sex_standing_doggy" torso = "sex_oral_love_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_oral_love_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_oral_love_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_oral_love_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1188,7 +3116,25 @@ sex_combined = {
 			}
 		}
 		sex_oral_love_2 = {
-			animation = { head = "sex_oral_love_2" torso = "oral_love_2" }
+			animation = { head = "sex_oral_love_2" torso = "sex_oral_love_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_oral_love_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_oral_love_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_oral_love_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1199,6 +3145,24 @@ sex_combined = {
 		}
 		sex_slave_oral_1 = {
 			animation = { head = "sex_slave_oral_1" torso = "sex_slave_oral_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_oral_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_oral_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_slave_oral_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1209,6 +3173,24 @@ sex_combined = {
 		}
 		sex_cowgirl_1 = {
 			animation = { head = "sex_cowgirl_1" torso = "sex_cowgirl_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1219,6 +3201,24 @@ sex_combined = {
 		}
 		sex_cowgirl_3 = {
 			animation = { head = "sex_cowgirl_3" torso = "sex_cowgirl_3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_cowgirl_3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1229,6 +3229,24 @@ sex_combined = {
 		}
 		sex_love_stand_1 = {
 			animation = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_love_stand_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_love_stand_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_love_stand_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1239,6 +3257,24 @@ sex_combined = {
 		}
 		sex_love_stand_2 = {
 			animation = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_love_stand_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_love_stand_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_love_stand_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1249,6 +3285,24 @@ sex_combined = {
 		}
 		sex_handjob_1 = {
 			animation = { head = "sex_handjob_1" torso = "sex_handjob_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_handjob_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_handjob_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                sex_animations = erection
+                sex_animations = female_sex_handjob_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1259,6 +3313,24 @@ sex_combined = {
 		}
 		sex_cow_cum_1 = {
 			animation = { head = "sex_cow_cum_1" torso = "sex_cow_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_cow_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_cow_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_cow_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1269,6 +3341,24 @@ sex_combined = {
 		}
 		sex_cow_cum_re = {
 			animation = { head = "sex_cow_cum_re" torso = "sex_cow_cum_re" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_cow_cum_re
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_cow_cum_re
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_cow_cum_re
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1279,6 +3369,24 @@ sex_combined = {
 		}
 		sex_doggy_cum_1 = {
 			animation = { head = "sex_doggy_cum_1" torso = "sex_doggy_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1289,6 +3397,24 @@ sex_combined = {
 		}
 		sex_doggy_cum_2 = {
 			animation = { head = "sex_doggy_cum_2" torso = "sex_doggy_cum_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1299,6 +3425,24 @@ sex_combined = {
 		}
 		sex_doggy_cum_3 = {
 			animation = { head = "sex_doggy_cum_3" torso = "sex_doggy_cum_3" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_3
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_3
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_doggy_cum_3
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1309,6 +3453,24 @@ sex_combined = {
 		}
 		sex_missionary_cum_1 = {
 			animation = { head = "sex_missionary_cum_1" torso = "sex_missionary_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_missionary_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_missionary_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_missionary_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1319,6 +3481,24 @@ sex_combined = {
 		}
 		sex_missionary_cum_2_general = {
 			animation = { head = "sex_missionary_cum_2" torso = "sex_missionary_cum_2" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_missionary_cum_2
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_missionary_cum_2
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_missionary_cum_2
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1329,6 +3509,24 @@ sex_combined = {
 		}
 		sex_stand_doggy_1_cum = {
 			animation = { head = "sex_stand_doggy_1_cum" torso = "sex_stand_doggy_1_cum" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_stand_doggy_1_cum
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_stand_doggy_1_cum
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_stand_doggy_1_cum
+			}
 			weight = {
 				base = 0
 				modifier = {
@@ -1339,6 +3537,24 @@ sex_combined = {
 		}
 		sex_handjob_cum_1 = {
 			animation = { head = "sex_handjob_cum_1" torso = "sex_handjob_cum_1" }
+			portrait_modifier = {
+				trigger = { is_dwarf_sex_height = yes }
+				sex_animations = dwarf_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_handjob_cum_1
+			}
+			portrait_modifier = {
+				trigger = { is_giant_sex_height = yes }
+				sex_animations = giant_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_handjob_cum_1
+			}
+			portrait_modifier = {
+                trigger = { is_normal_sex_height = yes }
+				sex_animations = normal_sex_height
+                #sex_animations = erection
+                sex_animations = female_sex_handjob_cum_1
+			}
 			weight = {
 				base = 0
 				modifier = {

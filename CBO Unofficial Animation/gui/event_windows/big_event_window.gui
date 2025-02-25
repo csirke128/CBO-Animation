@@ -327,1714 +327,1110 @@ types BigWindowTypes {
 			}
 		}
 
-
         widget = {
             visible = "[GetGlobalVariable('sex_animation_event').IsSet]"
 			parentanchor = top|left
-            size = { 1200 600 }
-			position = { 200 0 }
+            size = { 800 500 }
+			position = { 50 50 }
         
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_10"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_9"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_8"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_7"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_6"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_5"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
-
-
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_4"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_3"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_2"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_far_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_far_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_far_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_far_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_far_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_far_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
-
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_far_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_far_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_far_1"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_far_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_1"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_1"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_1', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_2"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_2"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_2', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_3"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_3"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_3', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_4"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_4"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_4', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_5"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_5"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_5', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_6"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_6"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_6', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_7"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_7"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_7', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_8"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_8"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_8', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_9"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_9"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_9', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_left_mult_char_near_10"
                 datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_big_event_mult_char_near_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER CENTER CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_center_mult_char_near_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_center_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_center_portrait', 'camera_big_event_mult_char_near_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER LEFT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_left_mult_char_near_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_left_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_left_portrait', 'camera_big_event_mult_char_near_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### LOWER RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_lower_right_mult_char_near_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('lower_right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('lower_right_portrait', 'camera_big_event_mult_char_near_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
 
             ### RIGHT CHARACTER ###
-            portrait_event = {
+            portrait_event_sex = {
                 name = "portrait_right_mult_char_near_10"
                 datamodel = "[EventWindowData.GetInvolvedCharacters]"
                 visible = "[And(GetGlobalVariable( 'sex_animation_event' ).IsSet, EventWindowData.HasPortraitCharacter('right_portrait'))]"
-                size = { 100% 100% }
-                position = { 0 0 }
-                parentanchor = bottom|right
-                
                 blockoverride "portrait_button"
                 {
                     portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_big_event_mult_char_near_10', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-                    mask = "gfx/portraits/portrait_mask_blank.dds"
                 }
-                blockoverride "grayscale" {}
             }
         }
 
@@ -2147,6 +1543,10 @@ types BigWindowTypes {
 					name = "description_container"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
+                    
+                    expand = {
+                        visible = "[GetGlobalVariable('sex_animation_event').IsSet]"
+                    }
 
 					scrollarea = {
 						name = "description_scrollarea"
@@ -2231,7 +1631,7 @@ types BigWindowTypes {
 						}
 					}
 				}
-                
+
                 expand = {
                     visible = "[GetGlobalVariable('sex_animation_event').IsSet]"
                 }
@@ -2273,7 +1673,6 @@ types BigWindowTypes {
 					}
 
 					fixedgridbox = {
-                        visible = "[Not(GetGlobalVariable('sex_animation_event').IsSet)]"
 						name = "option_grid"
 						addcolumn = 500
 						addrow = 42
@@ -2281,20 +1680,6 @@ types BigWindowTypes {
 
 						item = {
 							button_eventoption = {}
-						}
-					}
-
-					fixedgridbox = {
-                        visible = "[GetGlobalVariable('sex_animation_event').IsSet]"
-						name = "option_grid_small"
-						addcolumn = 300
-						addrow = 42
-						datamodel = "[EventWindowData.GetOptions]"
-
-						item = {
-							button_eventoption = {
-                                size = { 300 36 }
-                            }
 						}
 					}
 				}
@@ -2725,6 +2110,673 @@ types BigWindowTypes {
 
 			using = Event_Window_Debug_Info
 		}
+        
+        window = {
+            name = "cbo_editor_window"
+            size = { 500 400 }
+            position = { -50 -50 }
+            parentanchor = top|right
+            filter_mouse = all
+            layer = middle
+            visible = "[InDebugMode]"
+            resizable = yes
+            using = Window_Movable
+            using = Window_Background_Sidebar
+            
+            vbox = {
+            
+                vbox = {
+                    datacontext = "[GetGlobalVariable('carn_sex_player').Char]"
+                    layoutpolicy_vertical = expanding
+                    layoutpolicy_horizontal = expanding
+                    margin = { 10 0 }
+                    margin_top = 5
+                    
+                    text_single = {
+                        raw_text = "[Character.GetFirstNameNoTooltip]"
+                        size = { 200 40 }
+                        autoresize = no
+                    }          
+
+                    # sex_animation
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('sex_animation_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('sex_animation_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_sex_animation')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('sex_animation').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('sex_animation').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_sex_animation')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+                    }
+         
+                    # +X/-X
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xp255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xp255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_xp255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_xp255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_xp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_xp255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xn255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xn255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_xn255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_xn255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_xn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_xn255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+                    }
+                    
+                    # +Y/-Y
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yp255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yp255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_yp255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_yp255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_yp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_yp255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yn255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yn255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_yn255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_yn255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_yn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_yn255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+                    }
+                    
+                    # +Z/-Z
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zp255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zp255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_zp255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_zp255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_zp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_zp255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zn255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zn255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_zn255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_zn255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_zn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_zn255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+                    }
+                    
+                    expand = {}
+                }
+                
+                vbox = {
+                    datacontext = "[GetGlobalVariable('carn_sex_partner').Char]"
+                    layoutpolicy_vertical = expanding
+                    layoutpolicy_horizontal = expanding
+                    margin = { 10 0 }
+                    margin_top = 5
+                    
+                    text_single = {
+                        raw_text = "[Character.GetFirstNameNoTooltip]"
+                        size = { 200 40 }
+                        autoresize = no
+                    }          
+
+                    # sex_animation
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('sex_animation_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('sex_animation_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_sex_animation')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('sex_animation').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('sex_animation').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_sex_animation')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+                    }
+
+                    # +X/-X
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xp255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xp255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_xp255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_xp255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_xp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_xp255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xn255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_xn255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_xn255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_xn255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_xn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_xn255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+                    }
+                    
+                    # +Y/-Y
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yp255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yp255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_yp255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_yp255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_yp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_yp255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yn255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_yn255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_yn255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_yn255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_yn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_yn255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+                    }
+                    
+                    # +Z/-Z
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zp255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zp255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+                        
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_zp255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_zp255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_zp255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_zp255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+
+                        expand = {}
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zn255_minus')]"
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('offset_zn255_plus')]"
+                            blockoverride "icon" {
+                                button_plus_small = {
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        bb_button_round = {
+                            datacontext = "[GetScriptedGui('reset_offset_zn255')]"
+                            blockoverride "icon" {
+                                button_replace = {
+                                    size = { 20 20 }
+                                    parentanchor = center
+                                    alwaystransparent = yes
+                                }
+                            }
+                        }
+
+                        text_single = {
+                            raw_text = "[Character.MakeScope.Var('offset_zn255').GetValue|=v^]"
+                            align = nobaseline|center
+                            alpha = "[Select_float(  Character.MakeScope.Var('offset_zn255').IsSet, '(float)1.0', '(float)0.5' )]"
+                            size = { 40 25 }
+                            autoresize = no
+                        }
+
+                        text_single = {
+                            raw_text = "[Localize('bb_offset_zn255')]"
+                            align = nobaseline
+                            size = { 100 25 }
+                            autoresize = no
+                        }
+                    }
+                    
+                    expand = {}
+                }
+                
+                expand = {}
+            }
+
+        }
 	}
 
 	type scheme_conclusion_window = big_event_window {

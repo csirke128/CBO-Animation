@@ -1,7 +1,6 @@
-﻿l_simp_chinese
- rule_carnal_court_make_love: "卡娜利塔斯宫廷做爱互动"
- setting_carnal_court_make_love_enabled: "卡娜利塔斯宫廷互动开启"
- setting_carnal_court_make_love_enabled_desc: "专门为卡娜利塔斯宫廷3d性爱场景提供不同选项"
- setting_carnal_court_make_love_disabled: "卡娜利塔斯宫廷互动关闭"
- setting_carnal_court_make_love_disabled_desc: "无不同做爱选项"
- 
+﻿l_simp_chinese:
+ rule_carnal_court_make_love: "肉欲宫廷性爱互动"
+ setting_carnal_court_make_love_enabled: "肉欲宫廷性爱互动开启"
+ setting_carnal_court_make_love_enabled_desc: "为3D肉欲宫廷性爱场景专门创建的独立做爱互动。"
+ setting_carnal_court_make_love_disabled: "肉欲宫廷性爱互动关闭"
+ setting_carnal_court_make_love_disabled_desc: "无独立的性爱互动"

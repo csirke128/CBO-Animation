@@ -1,0 +1,179 @@
+﻿offset_xp255 = {
+	usage = game
+	selection_behavior = max
+	offset_xp255 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+				value = {
+                    value = 1.0
+                    multiply = {
+                        value = var:offset_xp255
+                        divide = 255.0
+                        min = 0.0
+                        max = 1.0
+                    }
+                }
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = var:offset_xp255
+            }
+        }
+	}
+}
+
+offset_xn255 = {
+	usage = game
+	selection_behavior = max
+	offset_xn255 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+				value = {
+                    value = 1.0
+                    multiply = {
+                        value = var:offset_xn255
+                        divide = 255.0
+                        min = 0.0
+                        max = 1.0
+                    }
+                }
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = var:offset_xn255
+            }
+        }
+	}
+}
+
+offset_yp255 = {
+	usage = game
+	selection_behavior = max
+	offset_yp255 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+				value = {
+                    value = 1.0
+                    multiply = {
+                        value = var:offset_yp255
+                        divide = 255.0
+                        min = 0.0
+                        max = 1.0
+                    }
+                }
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = var:offset_yp255
+            }
+        }
+	}
+}
+
+offset_yn255 = {
+	usage = game
+	selection_behavior = max
+	offset_yn255 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+				value = {
+                    value = 1.0
+                    multiply = {
+                        value = var:offset_yn255
+                        divide = 255.0
+                        min = 0.0
+                        max = 1.0
+                    }
+                }
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = var:offset_yn255
+            }
+        }
+	}
+}
+
+offset_zp255 = {
+	usage = game
+	selection_behavior = max
+	offset_zp255 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+				value = {
+                    value = 1.0
+                    multiply = {
+                        value = var:offset_zp255
+                        divide = 255.0
+                        min = 0.0
+                        max = 1.0
+                    }
+                }
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = var:offset_zp255
+            }
+        }
+	}
+}
+
+offset_zn255 = {
+	usage = game
+	selection_behavior = max
+	offset_zn255 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+				value = {
+                    value = 1.0
+                    multiply = {
+                        value = var:offset_zn255
+                        divide = 255.0
+                        min = 0.0
+                        max = 1.0
+                    }
+                }
+			}
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = var:offset_zn255
+            }
+        }
+	}
+}

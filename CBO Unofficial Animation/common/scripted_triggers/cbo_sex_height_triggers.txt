@@ -1,0 +1,14 @@
+﻿is_dwarf_sex_height = {
+	has_trait = dwarf
+}
+
+is_giant_sex_height = {
+	has_trait = giant
+}
+
+is_normal_sex_height = {
+    NOR = {
+        has_trait = dwarf
+        has_trait = giant
+    }
+}

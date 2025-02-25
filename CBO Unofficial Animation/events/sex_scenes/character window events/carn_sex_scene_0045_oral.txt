@@ -3,9 +3,28 @@
 carn_sex_scene.0045 = {
     type = character_event
     window = big_event_window
-    title = carnal_court_sex_scene_title_oral
-    desc = carnal_court_sex_scene_desc_oral
     theme = seduction
+
+    title = carn_sex_scene.0500.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes}
+                }
+                desc = carn_sex_scene.0500.desc_mf
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                }
+                desc = carn_sex_scene.0500.desc_fm
+            }
+            desc = carn_sex_scene.002_generic_desc
+        }
+    }
 
     left_portrait = {
         character = scope:carn_sex_partner
@@ -74,7 +93,7 @@ carn_sex_scene.0045 = {
         name = carnal_court_sex_scene_option_cum_out
         trigger = { scope:carn_sex_player = { is_female = yes } }
         cum_oral_trait_player = yes
-        trigger_event = { id = carn_sex_scene.0056 }
+        trigger_event = { id = carn_sex_scene.0057 }
     }
 
     # Cum Outside
@@ -82,6 +101,6 @@ carn_sex_scene.0045 = {
         name = carnal_court_sex_scene_option_cum_out
         trigger = { scope:carn_sex_partner = { is_female = yes } }
         cum_oral_trait_partner = yes
-        trigger_event = { id = carn_sex_scene.0056 }
+        trigger_event = { id = carn_sex_scene.0057 }
     }
 }

@@ -3,9 +3,28 @@
 carn_sex_scene.0042 = {
     type = character_event
     window = big_event_window
-    title = carnal_court_sex_scene_title_missionary
-    desc = carnal_court_sex_scene_desc_missionary
     theme = seduction
+
+    title = carn_sex_scene.0200.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes}
+                }
+                desc = carn_sex_scene.0200.desc_mf
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                }
+                desc = carn_sex_scene.0200.desc_fm
+            }
+            desc = carn_sex_scene.002_generic_desc
+        }
+    }
 
     left_portrait = {
         character = scope:carn_sex_partner

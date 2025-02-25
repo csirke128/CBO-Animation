@@ -2,9 +2,28 @@
 
 carnal_court_sex_scene.0003 = {
     type = court_event
-    title = carnal_court_sex_scene_title_cowgirl
-    desc = carnal_court_sex_scene_desc_cowgirl
     theme = court
+
+    title = carn_sex_scene.0300.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_male = yes }
+                    scope:carn_sex_partner = { is_female = yes}
+                }
+                desc = carn_sex_scene.0400.desc_mf
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:carn_sex_player  = { is_female = yes }
+                    scope:carn_sex_partner = { is_male = yes}
+                }
+                desc = carn_sex_scene.0400.desc_fm
+            }
+            desc = carn_sex_scene.002_generic_desc
+        }
+    }
 
     court_scene = {
         court_owner = scope:ruler

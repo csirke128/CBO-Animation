@@ -187,6 +187,13 @@ pdxmesh = {
 	additive_animation = { id = "body_muscles_excess"								type = "male_body_muscles_excess.anim" }
 	additive_animation = { id = "body_butt_shape" 									type = "male_body_butt_shape.anim" }
 	additive_animation = { id = "body_heels" 										type = "male_body_heels.anim" }
+    
+    additive_animation = { id = "body_offset_xp255" 					                type = "male_body_offset_xp255.anim" }
+    additive_animation = { id = "body_offset_xn255" 					                type = "male_body_offset_xn255.anim" }
+    additive_animation = { id = "body_offset_yp255" 					                type = "male_body_offset_yp255.anim" }
+    additive_animation = { id = "body_offset_yn255" 					                type = "male_body_offset_yn255.anim" }
+    additive_animation = { id = "body_offset_zp255" 					                type = "male_body_offset_zp255.anim" }
+    additive_animation = { id = "body_offset_zn255" 					                type = "male_body_offset_zn255.anim" }
 }
 
 entity = {
@@ -1272,4 +1279,11 @@ entity = {
 	attribute = { name = "body_muscles_excess" 											additive_animation = "body_muscles_excess" }
 	attribute = { name = "body_butt_shape" 												additive_animation = "body_butt_shape" }
 	attribute = { name = "body_heels" 													additive_animation = "body_heels" }
+    
+	attribute = { name = "body_offset_xp255" 											additive_animation = "body_offset_xp255" }
+    attribute = { name = "body_offset_xn255" 											additive_animation = "body_offset_xn255" }
+    attribute = { name = "body_offset_yp255" 											additive_animation = "body_offset_yp255" }
+    attribute = { name = "body_offset_yn255" 											additive_animation = "body_offset_yn255" }
+    attribute = { name = "body_offset_zp255" 											additive_animation = "body_offset_zp255" }
+    attribute = { name = "body_offset_zn255" 											additive_animation = "body_offset_zn255" }
 }

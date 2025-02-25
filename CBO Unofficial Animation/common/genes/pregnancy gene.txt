@@ -7,27 +7,7 @@ special_genes = {
 				index = 0 
 				female = {
 					setting = { attribute = "bs_body_pregnant_1" value = { min = 0.0 max = 0.6 } }
-					setting = { attribute = "bs_body_pregnant" value = { min = 0.0 max = 0.6 } }
-					setting = {
-						required_tags = "waist_clothed,dressed,default_clothing"
-						attribute = "bs_body_pregnant_clothed" 
-						value = { min = 0.0 max = 0.6 }
-					}
-					setting = {
-						required_tags = "waist_clothed,dressed,default_clothing"
-						attribute = "bs_body_pregnant" 
-						value = { min = 0.0 max = -0.6 }
-					}
-					setting = {
-						required_tags = "waist_clothed_rev_2,dressed,revealing_2"
-						attribute = "bs_body_pregnant_clothed" 
-						value = { min = 0.0 max = -0.6 }
-					}
-					setting = {
-						required_tags = "waist_clothed_rev_2,dressed,revealing_2"
-						attribute = "bs_body_pregnant" 
-						value = { min = 0.0 max = 0.6 }
-					}
+                    setting = { attribute = "bs_body_pregnant" value = { min = 0.0 max = 0.6 } }
 					setting = { 
 						attribute = "bs_body_outie" 
 						curve = {

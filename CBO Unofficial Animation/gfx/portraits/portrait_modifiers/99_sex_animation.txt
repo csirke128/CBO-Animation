@@ -1,0 +1,3388 @@
+﻿sex_animations = {
+    usage = none
+
+    male_sex = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 32.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 6.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_standing = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 70.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_standing_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 70.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cowgirl = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_reverse_cowgirl = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 6.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cowgirl_mff_threesome_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cowgirl_mff_threesome_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_standing_doggy = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_fellatio = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_fellatio_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 65.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cunnilingus = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cunnilingus_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cuddle = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cuddle_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cuddle_hom_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 45.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_4 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_5 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 8.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 60.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_6 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_7 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_8 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_9 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_10 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_slave_doggy_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_slave_doggy_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_l1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_l2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_l3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_l4 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_l5 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_l6 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_l7 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_fm1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 4.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 23.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_slave_miss_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_standing_doggy_a = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_standing_doggy_b = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_standing_doggy_c = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 60.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_standing_doggy_d = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 50.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_slave_st_doggy_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 50.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_oral_love_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 3.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 80.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_oral_love_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 80.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 9.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_slave_oral_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 80.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cowgirl_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cowgirl_3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_love_stand_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 50.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_love_stand_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 60.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_handjob_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 80.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cow_cum_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_cow_cum_re = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_cum_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_cum_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 50.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_doggy_cum_3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_cum_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_missionary_cum_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_stand_doggy_1_cum = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 60.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    male_sex_handjob_cum_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 80.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 60.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zn255
+                template = offset_zn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_hom_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_standing = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 70.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_standing_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 70.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cowgirl = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_reverse_cowgirl = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 37.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cowgirl_mff_threesome_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cowgirl_mff_threesome_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 70.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_standing_doggy = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 77.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_fellatio = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 3.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 2.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_fellatio_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cunnilingus = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 36.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 12.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cunnilingus_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 27.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 14.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cuddle = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cuddle_hom = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_4 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_5 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 13.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 50.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_6 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_7 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 35.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_8 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_9 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_10 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 2.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_slave_doggy_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_slave_doggy_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_l1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_l2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_l3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_l4 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_l5 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_l6 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 27.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_l7 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_fm1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_slave_miss_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_standing_doggy_a = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_standing_doggy_b = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_standing_doggy_c = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_standing_doggy_d = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_slave_st_doggy_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 75.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_oral_love_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 70.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_oral_love_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 74.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 12.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_slave_oral_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cowgirl_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cowgirl_3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 15.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 25.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_love_stand_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_xn255
+                template = offset_xn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_love_stand_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_handjob_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 30.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_love_stand_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_cow_cum_1 = { }
+    female_sex_cow_cum_re = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 5.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_cum_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 20.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_cum_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 23.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yn255
+                template = offset_yn255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_doggy_cum_3 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_cum_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_missionary_cum_2 = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_xp255
+                template = offset_xp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 40.0
+                        divide = 255.0
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_offset_yp255
+                template = offset_yp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 10.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_stand_doggy_1_cum = {
+        dna_modifiers = {
+            morph = {
+                mode = add
+                gene = gene_offset_zp255
+                template = offset_zp255
+                value = {
+                    value = 1.0
+                    multiply = {
+                        value = 80.0
+                        divide = 255.0
+                    }
+                }
+            }
+        }
+    }
+    female_sex_handjob_cum_1 = { }
+
+
+    erection = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = penis_erection
+                template = penis_erection
+                value = 1
+            }
+        }
+    }
+
+    erection_upskirt_front = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = penis_erection
+                template = penis_erection
+                value = 1
+            }
+            morph = {
+                mode = add
+                gene = gene_upskirt
+                value = 1.0
+                template = upskirt_front
+            }
+        }
+    }
+
+    erection_upskirt_back = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = penis_erection
+                template = penis_erection
+                value = 1
+            }
+            morph = {
+                mode = add
+                gene = gene_upskirt
+                value = 1.0
+                template = upskirt_back
+            }
+        }
+    }
+
+    erection_animation_correction = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = penis_erection
+                template = penis_erection
+                value = 1
+            }
+            accessory = {
+                mode = add
+                gene = penis_erection_correction
+                template = penis_erection_correction
+                value = 1
+            }
+        }
+    }
+
+    normal_sex_height = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                template = normal_height_sex
+                value = 1.0
+            }
+        }
+    }
+
+    dwarf_sex_height = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                template = dwarf_height_sex
+                value = 1.0
+            }
+        }
+    }
+
+    giant_sex_height = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                template = giant_height_sex
+                value = 1.0
+            }
+        }
+    }
+
+
+    erection_animation_correction_upskirt_front = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = penis_erection
+                template = penis_erection
+                value = 1
+            }
+            accessory = {
+                mode = add
+                gene = penis_erection_correction
+                template = penis_erection_correction
+                value = 1
+            }
+            morph = {
+                mode = add
+                gene = gene_upskirt
+                value = 1.0
+                template = upskirt_front
+            }
+        }
+    }
+
+    erection_animation_correction_upskirt_back = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = penis_erection
+                template = penis_erection
+                value = 1
+            }
+            accessory = {
+                mode = add
+                gene = penis_erection_correction
+                template = penis_erection_correction
+                value = 1
+            }
+            morph = {
+                mode = add
+                gene = gene_upskirt
+                value = 1.0
+                template = upskirt_back
+            }
+        }
+    }
+
+    normal_standing_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = normal_standing_height_correction
+            }
+        }
+    }
+    dwarf_standing_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = dwarf_standing_height_correction
+            }
+        }
+    }
+    giant_standing_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = giant_standing_height_correction
+            }
+        }
+    }
+    normal_fellatio_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = normal_fellatio_height_correction
+            }
+        }
+    }
+    dwarf_fellatio_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = dwarf_fellatio_height_correction
+            }
+        }
+    }
+    giant_fellatio_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = giant_fellatio_height_correction
+            }
+        }
+    }
+    normal_cunnilingus_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = normal_cunnilingus_height_correction
+            }
+        }
+    }
+    dwarf_cunnilingus_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = dwarf_cunnilingus_height_correction
+            }
+        }
+    }
+    giant_cunnilingus_height_correction = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_height
+                value = 1.0
+                template = giant_cunnilingus_height_correction
+            }
+        }
+    }
+}
