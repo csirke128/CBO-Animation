@@ -10,8 +10,8 @@
 					}
 				}
 				female = male
-				boy = male
-				girl = male
+				boy = {}
+				girl = boy
 			}
 		}
 		gene_offset_xn255 = {
@@ -24,8 +24,8 @@
 					}
 				}
 				female = male
-				boy = male
-				girl = male
+				boy = {}
+				girl = boy
 			}
 		}
 		gene_offset_yp255 = {
@@ -38,8 +38,8 @@
 					}
 				}
 				female = male
-				boy = male
-				girl = male
+				boy = {}
+				girl = boy
 			}
 		}
 		gene_offset_yn255 = {
@@ -52,8 +52,8 @@
 					}
 				}
 				female = male
-				boy = male
-				girl = male
+				boy = {}
+				girl = boy
 			}
 		}
 		gene_offset_zp255 = {
@@ -66,8 +66,8 @@
 					}
 				}
 				female = male
-				boy = male
-				girl = male
+				boy = {}
+				girl = boy
 			}
 		}
 		gene_offset_zn255 = {
@@ -80,8 +80,8 @@
 					}
 				}
 				female = male
-				boy = male
-				girl = male
+				boy = {}
+				girl = boy
 			}
 		}
 	}

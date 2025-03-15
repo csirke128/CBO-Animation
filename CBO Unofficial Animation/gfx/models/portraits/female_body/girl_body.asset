@@ -273,6 +273,11 @@ pdxmesh = {
 	blend_shape = { id = "female_bs_body_penis_gen"									type = "blendshapes/female_bs_body_penis_gen.mesh" }
 	blend_shape = { id = "female_bs_body_penis_size_max_gen"						type = "blendshapes/female_bs_body_penis_size_max_gen.mesh" }
 
+	blend_shape = { id = "female_bs_body_shrink_bodice"								type = "blendshapes/female_bs_body_shrink_bodice.mesh" }
+	blend_shape = { id = "female_bs_body_cleavage"									type = "blendshapes/female_bs_body_cleavage.mesh" }
+	blend_shape = { id = "female_bs_body_shrink_meereen"							type = "blendshapes/female_bs_body_shrink_meereen.mesh" }
+	blend_shape = { id = "female_bs_body_base_cleavage"								type = "blendshapes/female_bs_body_cleavage.mesh" }
+
 	additive_animation = { id = "body_height_2" 									type = "female_body_height_2.anim" }
 	additive_animation = { id = "body_breast_shape_1" 								type = "female_body_breast_shape_1.anim" }
 	additive_animation = { id = "body_breast_shape_2" 								type = "female_body_breast_shape_2.anim" }
@@ -1393,6 +1398,11 @@ entity = {
 	attribute = { name = "bs_body_penis_erection_min_gen"							blend_shape = "female_bs_body_penis_erection_min_gen" }
 	attribute = { name = "bs_body_penis_gen" 										blend_shape = "female_bs_body_penis_gen" }
 	attribute = { name = "bs_body_penis_size_max_gen"								blend_shape = "female_bs_body_penis_size_max_gen" }
+
+	attribute = { name = "bs_body_shrink_bodice"									blend_shape = "female_bs_body_shrink_bodice" }
+	attribute = { name = "bs_body_cleavage"											blend_shape = "female_bs_body_cleavage" }
+	attribute = { name = "bs_body_shrink_meereen"									blend_shape = "female_bs_body_shrink_meereen" }
+	attribute = { name = "bs_body_base_cleavage"									blend_shape = "female_bs_body_base_cleavage" }
 
 	attribute = { name = "body_breast_shape_1" 										additive_animation = "body_breast_shape_1" }
 	attribute = { name = "body_breast_shape_2" 										additive_animation = "body_breast_shape_2" }
