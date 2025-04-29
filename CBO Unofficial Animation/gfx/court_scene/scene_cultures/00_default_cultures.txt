@@ -1,17 +1,25 @@
 ﻿byzantine = {
 	trigger = {
-		NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+		NOT = { government_has_flag = government_is_nomadic }
 		has_ep3_dlc_trigger = yes
 		OR = {
 			capital_county ?= title:c_byzantion
 			primary_title ?= title:e_byzantium
+			AND = {
+				primary_title ?= title:e_roman_empire
+				title:e_roman_empire = {
+					has_variable = rome_was_restored_by_byzantium
+				}
+			}
 		}
 	}
 }
 
 mediterranean = {
 	trigger = {
-		NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+		NOT = { government_has_flag = government_is_nomadic }
 		exists = capital_county
 		capital_county.culture = {
 			OR = {
@@ -29,6 +37,34 @@ mediterranean = {
 			NOR = {
 				capital_county ?= title:c_byzantion
 				primary_title ?= title:e_byzantium
+				AND = {
+					primary_title ?= title:e_roman_empire
+					title:e_roman_empire = {
+						has_variable = rome_was_restored_by_byzantium
+					}
+				}
+			}
+		}
+	}
+}
+
+steppe = {
+	trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+		has_mpo_dlc_trigger = yes
+		OR = {
+			government_has_flag = government_is_nomadic
+			capital_county ?= {
+				culture = {
+					has_graphical_steppe_culture_group_trigger = yes
+				}
+				title_province ?= {
+					has_holding = yes
+					OR = {
+						has_holding_type = nomad_holding
+						has_holding_type = tribal_holding
+					}
+				}
 			}
 		}
 	}
@@ -36,17 +72,40 @@ mediterranean = {
 
 mena = {
 	trigger = {
-		NOT = { carnal_court_has_sex_animation_event_trigger = yes }
-		exists = capital_county
-		capital_county.culture = {
-			OR = {
-				has_graphical_mena_culture_group_trigger = yes
-				has_graphical_iranian_culture_group_trigger = yes
-				has_graphical_african_culture_group_trigger = yes
+		trigger_if = {
+            NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+			limit = {
+				has_mpo_dlc_trigger = no			
+			}
+			exists = capital_county
+			capital_county.culture = {
 				has_graphical_steppe_culture_group_trigger = yes
-				AND = {
-					has_graphical_iberian_culture_group_trigger  = yes
-					prev.religion = religion:islam_religion
+			}
+		}
+		trigger_else = {
+            NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+			NOT = { government_has_flag = government_is_nomadic }
+			exists = capital_county
+			OR = {
+				capital_county = {
+					has_graphical_steppe_culture_group_trigger = yes
+					title_province ?= {
+						has_holding = yes
+						NOT = {
+							has_holding_type = tribal_holding
+						}
+					}
+				}
+				capital_county.culture = {
+					OR = {
+						has_graphical_mena_culture_group_trigger = yes
+						has_graphical_iranian_culture_group_trigger = yes
+						has_graphical_african_culture_group_trigger = yes				
+						AND = {
+							has_graphical_iberian_culture_group_trigger  = yes
+							prev.religion = religion:islam_religion
+						}
+					}
 				}
 			}
 		}
@@ -55,7 +114,8 @@ mena = {
 
 indian = {
 	trigger = {
-		NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+		NOT = { government_has_flag = government_is_nomadic }
 		exists = capital_county
 		capital_county.culture = {
 			has_graphical_india_culture_group_trigger = yes
@@ -65,7 +125,8 @@ indian = {
 
 western = {
 	trigger = {
-		NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+		NOT = { government_has_flag = government_is_nomadic }
 		exists = capital_county
 		capital_county.culture = {
 			OR = {

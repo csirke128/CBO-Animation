@@ -1,5 +1,5 @@
-﻿l_english:
- carnal_court_sex_interaction: "Carnal Court Make Love"
- carnal_court_sex_interaction_desc: "Witness an intimate moment with [recipient.GetShortUINameNoTooltip]"
- carnal_court_sex_interaction_cd_tt: "#weak No game effects will happen because you have used a similar interaction in the last [EmptyScope.ScriptValue('carn_sex_interaction_cooldown_base')|0] months#!"
- carnal_court_sex_interaction_not_attracted_to_warning_tt: "#X You are not attracted to [recipient.GetShortUINameNoTooltip]#!"
+﻿l_french:
+ carnal_court_sex_interaction: "Baiser"
+ carnal_court_sex_interaction_desc: "Soyez témoin d'un moment intime avec [recipient.GetShortUINameNoTooltip]"
+ carnal_court_sex_interaction_cd_tt: "#weak Aucun effet de jeu ne se produira car vous avez utilisé une interaction similaire au cours des [EmptyScope.ScriptValue('carn_sex_interaction_cooldown_base')|0] mois#!"
+ carnal_court_sex_interaction_not_attracted_to_warning_tt: "#X Vous n'êtes pas attiré par [recipient.GetShortUINameNoTooltip]#!"

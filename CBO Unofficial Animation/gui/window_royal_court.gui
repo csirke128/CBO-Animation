@@ -145,7 +145,7 @@ window = {
 						position = "[CourtEventItem.GetPositionCharacter.GetCourtScenePosition( PdxGuiWidget.AccessParent.Self )]"
 						direction = vertical
 						ignoreinvisible = yes
-						margin_bottom = 50
+						margin_bottom = 150
 
 						text_label_center = {
 							name = "court_event_timeout"
@@ -1117,6 +1117,17 @@ window = {
 						text = "INVENTORY_TAB_CLAIMS"
 						onclick = "[VariableSystem.SetOrToggle( 'artifacts_tab', 'artifact_claims' )]"
 						down = "[VariableSystem.HasValue( 'artifacts_tab', 'artifact_claims' )]"
+
+						text_single = {
+							min_width = 30
+							margin_right = 10
+							parentanchor = vcenter|right
+
+							autoresize = no
+							align = center|nobaseline
+							text = "[GetDataModelSize(RoyalCourtWindow.GetArtifactClaimsList.GetClaims)]"
+							default_format = "#clickable"
+						}	
 					}
 				}
 			}
@@ -1942,7 +1953,7 @@ types RoyalCourtTypes
 
 				block "tab_texture"
 				{
-					using = debug_square
+					using = Texture_Placeholder
 				}
 			}
 		}
@@ -1975,6 +1986,7 @@ types RoyalCourtTypes
 
 		button_round  = {
 			parentanchor = center
+			position = { 7 3 }
 			size = { 25 25 }
 			frame = 1
 			upframe = 1
@@ -1998,7 +2010,7 @@ types RoyalCourtTypes
 
 		button_round  = {
 			parentanchor = center
-			size = { 25 25 }
+			size = { 28 28 }
 			frame = 1
 			upframe = 1
 			alwaystransparent = yes
@@ -2020,7 +2032,7 @@ types RoyalCourtTypes
 
 		icon = {
 			size = { 25 25 }
-			visible = "[LessThan_int32( CourtGrandeurData.GetCurrentLevel, CourtGrandeurData.GetMinimumExpectedLevel )]"
+			visible = "[And(LessThan_int32( CourtGrandeurData.GetCurrentLevel, CourtGrandeurData.GetMinimumExpectedLevel ),HasDlcFeature( 'royal_court' ))]"
 			texture = "gfx/interface/icons/symbols/icon_warning.dds"
 		}
 	}
@@ -2051,36 +2063,6 @@ types RoyalCourtTypes
 			}
 		}
 	}
-    
-    type bb_button_round = button {
-        size = { 21 25 }
-        block "icon" {
-            button_minus_small = {
-                parentanchor = center
-                alwaystransparent = yes
-            }
-        }
-        click_modifiers = {
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-            onshift = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        }
-        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End)]"
-        button_ignore = none
-    }
 }
 
 template Pending_Court_Events_Data

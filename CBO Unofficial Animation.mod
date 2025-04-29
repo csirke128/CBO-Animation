@@ -1,9 +1,9 @@
-version="1.7.1"
+version="1.8"
 tags={
 	"Portraits"
 	"Graphics"
 	"Events"
 }
 name="CBO Unofficial Animation"
-supported_version="1.15.*"
+supported_version="1.16.*"
 path="mod/CBO Unofficial Animation"
