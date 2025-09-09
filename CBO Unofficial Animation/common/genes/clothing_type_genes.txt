@@ -41,8 +41,15 @@
 			}
 		}
 		clothing_type = {
-			default_clothing = {
+			none = {
 				index = 0
+				male = { }
+				female = male
+				boy = male
+				girl = male
+			}
+			default_clothing = {
+				index = 1
 				male = {
 					1 = default_clothing
 				}

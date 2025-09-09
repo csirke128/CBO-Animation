@@ -39,6 +39,10 @@ revealing_2 = {
 	entity = {	shared_pose_entity = torso }
 }
 
+clothing_none = {
+	entity = {	shared_pose_entity = torso }
+}
+
 butt_clothed = {
 	set_tags = "butt_clothed"
 	entity = {	shared_pose_entity = torso }
