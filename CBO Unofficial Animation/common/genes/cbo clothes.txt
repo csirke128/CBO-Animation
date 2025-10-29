@@ -41,7 +41,6 @@
                     1 = female_clothes_religious_orthodox_head_01_common
                     1 = female_clothes_religious_muslim_high_01
                     1 = female_clothes_religious_dde_muslim_head_01_common
-					1 = female_clothes_religious_catholic_devoted_01
 					1 = female_clothes_religious_catholic_devoted_02
 					1 = female_clothes_religious_catholic_high_01
 					2 = female_clothes_religious_dde_catholic_high_01_common
@@ -114,7 +113,6 @@
 					1 = male_clothes_religious_catholic_devoted_02_franciscan
 				}
 				female = {
-					1 = female_clothes_religious_catholic_devoted_01
 					1 = female_clothes_religious_catholic_devoted_02
 				}
 				boy = male

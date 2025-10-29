@@ -189,6 +189,7 @@ carn_sex_scene.001 = {
 
 carn_sex_scene.002 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -265,6 +266,7 @@ carn_sex_scene.002 = {
 
 carn_sex_scene.003 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -357,6 +359,7 @@ carn_sex_scene.003 = {
 
 carn_sex_scene.004 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -449,6 +452,7 @@ carn_sex_scene.004 = {
 
 carn_sex_scene.005 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -541,6 +545,7 @@ carn_sex_scene.005 = {
 
 carn_sex_scene.006 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -617,6 +622,7 @@ carn_sex_scene.006 = {
 
 carn_sex_scene.007 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -709,6 +715,7 @@ carn_sex_scene.007 = {
 
 carn_sex_scene.008 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -801,6 +808,7 @@ carn_sex_scene.008 = {
 
 carn_sex_scene.009 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -893,6 +901,7 @@ carn_sex_scene.009 = {
 
 carn_sex_scene.010 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -985,6 +994,7 @@ carn_sex_scene.010 = {
 
 carn_sex_scene.011 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -1077,6 +1087,7 @@ carn_sex_scene.011 = {
 
 carn_sex_scene.012 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -1169,6 +1180,7 @@ carn_sex_scene.012 = {
 
 carn_sex_scene.013 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -1261,6 +1273,7 @@ carn_sex_scene.013 = {
 
 carn_sex_scene.014 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -1353,6 +1366,7 @@ carn_sex_scene.014 = {
 
 carn_sex_scene.015 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -1445,6 +1459,7 @@ carn_sex_scene.015 = {
 
 carn_sex_scene.016 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -1537,6 +1552,7 @@ carn_sex_scene.016 = {
 
 carn_sex_scene.017 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = {
         first_valid = {
@@ -1629,6 +1645,7 @@ carn_sex_scene.017 = {
 
 carn_sex_scene.018 = {
     type = character_event
+    window = sex_event_window
     title = carn_sex_scene.002.t
     desc = carn_sex_scene.999_generic_desc
 

@@ -2,7 +2,7 @@
 
 carn_sex_scene.0052 = {
     type = character_event
-    window = big_event_window
+    window = sex_event_window
     theme = seduction
 
     title = carn_sex_scene.0500.t

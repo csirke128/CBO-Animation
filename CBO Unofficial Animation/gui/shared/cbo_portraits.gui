@@ -1,12 +1,11 @@
 ﻿types PortraitTypesCBO
 {
 	type portrait_event_sex = widget {
-
 		widget = {
-			size = { 800 500 }
+			size = { 1200 900 }
             position = { 0 0 }
 			portrait_button = {
-				size = { 800 500 }
+				size = { 1200 900 }
                 position = { 0 0 }
 				using = portrait_base
 				parentanchor = hcenter|bottom

@@ -2,7 +2,7 @@
 
 carn_sex_scene.0047 = {
     type = character_event
-    window = big_event_window
+    window = sex_event_window
     title = carnal_court_sex_scene_title_cunnilingus
     desc = carnal_court_sex_scene_desc_cunnilingus
     theme = seduction

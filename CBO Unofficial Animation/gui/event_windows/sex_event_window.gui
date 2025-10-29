@@ -1,14 +1,14 @@
-﻿big_event_window = {
-	name = "big_event_window"
+﻿sex_event_window = {
+	name = "sex_event_window"
 }
 
 types BigWindowTypes {
-	type big_event_window = window {
+	type sex_event_window = window {
 
 		parentanchor = center
 		widgetanchor = center
 
-		size = { 1390 750 }
+		size = { 90% 90% }
 
 		layer = events
 
@@ -95,243 +95,11 @@ types BigWindowTypes {
 			margin = { 30 20 }
 		}
 
-		###CHARACTERS
-		widget = {
-			name = "characters"
-            visible = "[Not(GetGlobalVariable('sex_animation_event').IsSet)]"
-			parentanchor = top|hcenter
-			position = { 0 34 }
-			size = { 100% 100% }
-			scissor = yes
-
-			hbox = {
-				layoutpolicy_horizontal = expanding
-
-				expand = {
-					visible = "[EventWindowData.HasPortraitCharacter('left_portrait')]"
-				}
-
-				## LEFT CHARACTER ###
-				widget = {
-					name = "left_character"
-					size = { 300 650 }
-
-					allow_outside = no
-
-					block "transition_left_character" {
-						alpha = 0
-
-						state = {
-							name = appear
-							trigger_on_create = yes
-							delay = 0.2
-							using = Animation_Curve_Default
-							alpha = 1
-							duration = 0.6
-						}
-					}
-
-					portrait_event = {
-						name = "portrait_left"
-						datacontext = "[EventWindowData.GetPortraitCharacter('left_portrait')]"
-						visible = "[EventWindowData.HasPortraitCharacter('left_portrait')]"
-						parentanchor = bottom|hcenter
-						size = { 500 650 }
-
-						blockoverride "portrait_button"
-						{
-							size = { 140% 140% }
-							portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('left_portrait', 'camera_event_scheme_left', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-							alwaystransparent = "[Not(EventWindowData.ShouldShowPortraitInfo('left_portrait'))]"
-
-							tooltip_visible = "[EventWindowData.ShouldShowPortraitInfo('left_portrait')]"
-							tooltip_widgetanchor = center
-							using = tooltip_below
-						}
-
-						blockoverride "highlight_visible"
-						{
-							visible = "[Or(Character.IsHovered, EventWindowData.IsCharacterHighlighted( EventWindowData.GetPortraitCharacter('left_portrait') ))]"
-							position = { -40 0 }
-						}
-
-						blockoverride "grayscale" {}
-
-						highlight_icon = {
-							name = "prison_bars"
-							visible = "[And(Character.IsImprisoned, Not(EventWindowData.ShouldHideImprisonment('left_portrait')))]"
-							visible_at_creation = no
-							parentanchor = bottom|left
-							position = { 70 32 }
-							size = { 340 100% }
-							effectname = "NoHighlight"
-							spriteType = corneredTiled
-							texture_density = 1.5
-							texture = "gfx/portraits/portrait_prison_body.dds"
-
-							modify_texture = {
-								name = "mask"
-								texture =  "gfx/portraits/portrait_mask_event.dds"
-								spriteType = Corneredstretched
-								blend_mode = alphamultiply
-							}
-						}
-					}
-				}
-
-				expand = {
-					visible = "[EventWindowData.HasPortraitCharacter('center_portrait')]"
-				}
-
-				## CENTER CHARACTER ###
-				widget = {
-					name = "center_character"
-					size = { 300 650 }
-
-					allow_outside = no
-
-					block "transition_center_character" {
-						alpha = 0
-
-						state = {
-							name = appear
-							trigger_on_create = yes
-							delay = 0.4
-							using = Animation_Curve_Default
-							alpha = 1
-							duration = 0.6
-						}
-					}
-					portrait_event = {
-						name = "portrait_center"
-						datacontext = "[EventWindowData.GetPortraitCharacter('center_portrait')]"
-						visible = "[EventWindowData.HasPortraitCharacter('center_portrait')]"
-						parentanchor = bottom|hcenter
-						size = { 500 650 }
-
-						blockoverride "portrait_button"
-						{
-							size = { 140% 140% }
-							portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('center_portrait', 'camera_event_scheme_left', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-							alwaystransparent = "[Not(EventWindowData.ShouldShowPortraitInfo('center_portrait'))]"
-
-							tooltip_visible = "[EventWindowData.ShouldShowPortraitInfo('center_portrait')]"
-							tooltip_widgetanchor = center
-							using = tooltip_below
-						}
-
-						blockoverride "highlight_visible"
-						{
-							visible = "[Or(Character.IsHovered, EventWindowData.IsCharacterHighlighted( EventWindowData.GetPortraitCharacter('center_portrait') ))]"
-							position = { -40 0 }
-						}
-
-						blockoverride "grayscale" {}
-
-						highlight_icon = {
-							name = "prison_bars"
-							visible = "[And(Character.IsImprisoned, Not(EventWindowData.ShouldHideImprisonment('center_portrait')))]"
-							visible_at_creation = no
-							parentanchor = bottom|hcenter
-							position = { -32 32 }
-							size = { 340 100% }
-							effectname = "NoHighlight"
-							spriteType = corneredTiled
-							texture_density = 1.5
-							texture = "gfx/portraits/portrait_prison_body.dds"
-
-							modify_texture = {
-								name = "mask"
-								texture =  "gfx/portraits/portrait_mask_event.dds"
-								spriteType = Corneredstretched
-								blend_mode = alphamultiply
-							}
-						}
-					}
-				}
-
-				expand = {
-					visible = "[EventWindowData.HasPortraitCharacter('center_portrait')]"
-				}
-
-				### RIGHT CHARACTER ###
-				widget = {
-					name = "right_character"
-					size = { 300 650 }
-
-					allow_outside = no
-
-					block "transition_right_character" {
-						alpha = 0
-
-						state = {
-							name = appear
-							trigger_on_create = yes
-							delay = 0.6
-							using = Animation_Curve_Default
-							alpha = 1
-							duration = 0.6
-						}
-					}
-
-					portrait_event = {
-						name = "portrait_right"
-						datacontext = "[EventWindowData.GetPortraitCharacter('right_portrait')]"
-						visible = "[EventWindowData.HasPortraitCharacter('right_portrait')]"
-						parentanchor = bottom|right
-						size = { 500 650 }
-
-						blockoverride "portrait_button"
-						{
-							size = { 140% 140% }
-							portrait_texture = "[EventWindowData.GetAnimatedEventPortraitTexture('right_portrait', 'camera_event_scheme_right', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
-							alwaystransparent = "[Not(EventWindowData.ShouldShowPortraitInfo('right_portrait'))]"
-
-							tooltip_visible = "[EventWindowData.ShouldShowPortraitInfo('right_portrait')]"
-							tooltip_offset = { -210 0 }
-						}
-
-						blockoverride "highlight_visible"
-						{
-							visible = "[Or(Character.IsHovered, EventWindowData.IsCharacterHighlighted( EventWindowData.GetPortraitCharacter('right_portrait') ))]"
-							position = { 80 0 }
-						}
-
-						blockoverride "grayscale" {}
-
-						highlight_icon = {
-							name = "prison_bars"
-							visible = "[And(Character.IsImprisoned, Not(EventWindowData.ShouldHideImprisonment('right_portrait')))]"
-							visible_at_creation = no
-							parentanchor = bottom|right
-							position = { -30 32 }
-							size = { 340 100% }
-							effectname = "NoHighlight"
-							spriteType = corneredTiled
-							texture_density = 1.5
-							texture = "gfx/portraits/portrait_prison_body.dds"
-
-							modify_texture = {
-								name = "mask"
-								texture =  "gfx/portraits/portrait_mask_event.dds"
-								spriteType = Corneredstretched
-								blend_mode = alphamultiply
-							}
-						}
-					}
-				}
-
-				expand = {
-					visible = "[Or(EventWindowData.HasPortraitCharacter('center_portrait'),EventWindowData.HasPortraitCharacter('right_portrait'))]"
-				}
-			}
-		}
-
         widget = {
             visible = "[GetGlobalVariable('sex_animation_event').IsSet]"
 			parentanchor = top|left
-            size = { 800 500 }
-			position = { 50 50 }
+            size = { 1400 900 }
+			position = { -50 50 }
         
             ### RIGHT CHARACTER ###
             portrait_event_sex = {
@@ -1490,199 +1258,141 @@ types BigWindowTypes {
 			margin = { 40 20 }
 		}
 
-		# Event description and options
-		vbox = {
-			name = "event_content_container"
-			layoutpolicy_vertical = expanding
-			margin_left = 10
-			margin_right = 60
-			margin_bottom = 20
+		hbox = {
+            expand = {}
 
-			block "transition_text" {
-				alpha = 0
+            # Event description and options
+            vbox = {
+                name = "event_content_container"
 
-				state = {
-					name = appear
-					trigger_on_create = yes
-					delay = 0.8
-					using = Animation_Curve_Default
-					alpha = 1
-					duration = 0.6
-				}
-			}
+                block "transition_text" {
+                    alpha = 0
 
-			expand = {}
-
-			hbox = {
-				name = "description_and_options"
-				layoutpolicy_horizontal = expanding
-
-				state = {
-					name = appear
-					trigger_on_create = yes
-					delay = 0.2
-					using = Animation_Curve_Default
-					alpha = 1
-					duration = 1.5
-				}
-
-				background = {
-					using = Background_Area_ExtraDark
-					margin_left = -28
-					margin_right = 23
-					margin_bottom = 2
-
-					modify_texture = {
-						texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-						blend_mode = alphamultiply
-						mirror = vertical
-					}
-				}
-
-				vbox = {
-					name = "description_container"
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-                    
-                    expand = {
-                        visible = "[GetGlobalVariable('sex_animation_event').IsSet]"
+                    state = {
+                        name = appear
+                        trigger_on_create = yes
+                        delay = 0.8
+                        using = Animation_Curve_Default
+                        alpha = 1
+                        duration = 0.6
                     }
-
-					scrollarea = {
-						name = "description_scrollarea"
-						size = { 700 300 }
-
-						scrollbarpolicy_horizontal = always_off
-
-						scrollbar_vertical = {
-							using = Scrollbar_Vertical
-
-							blockoverride "alpha"{
-								alpha = 0.6
-							}
-						}
-
-						scrollwidget = {
-							vbox = {
-								parentanchor = bottom
-								layoutpolicy_vertical = expanding
-
-								expand = {}
-
-								hbox = {
-									layoutpolicy_horizontal = expanding
-
-									### HEADER SUCCESS/FAILURE ###
-									widget = {
-										size = { 560 58 }
-
-										block "result_header" {}
-									}
-
-									expand = {}
-								}
-
-								hbox = {
-									layoutpolicy_horizontal = expanding
-
-									text_multi = {
-										name = "description"
-										layoutpolicy_horizontal = expanding
-										max_width = 700
-										text = "[EventWindowData.GetDescription]"
-										autoresize = yes
-										fontsize = 16
-
-										margin = { 0 15 }
-										margin_left = 20
-
-										background = {
-											using = Background_Area_ExtraDark
-											margin_top = 50
-											margin_right = 20
-											margin_left = 2
-
-											modify_texture = {
-												texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
-												blend_mode = alphamultiply
-											}
-
-											modify_texture = {
-												texture = "gfx/interface/component_masks/mask_fade_textured_vertical_down.dds"
-												spriteType = corneredtiled
-												spriteborder_top = 20
-												texture_density = 4
-												blend_mode = alphamultiply
-											}
-
-											modify_texture = {
-												texture = "gfx/interface/component_masks/mask_fade_textured_vertical_down.dds"
-												spriteType = corneredtiled
-												spriteborder_top = 20
-												texture_density = 4
-												blend_mode = alphamultiply
-											}
-										}
-									}
-
-									expand = {}
-								}
-							}
-						}
-					}
-				}
-
-                expand = {
-                    visible = "[GetGlobalVariable('sex_animation_event').IsSet]"
                 }
 
-				vbox = {
-					name = "options_container"
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					allow_outside = yes
-					ignoreinvisible = yes
+                vbox = {
+                    name = "description_and_options"
+                    layoutpolicy_horizontal = expanding
 
-					margin_bottom = 15
-					spacing = 5
+                    state = {
+                        name = appear
+                        trigger_on_create = yes
+                        delay = 0.2
+                        using = Animation_Curve_Default
+                        alpha = 1
+                        duration = 1.5
+                    }
 
-					expand = {}
+                    vbox = {
+                        name = "description_container"
 
-					hbox = {
-						spacing = 5
+                        scrollarea = {
+                            name = "description_scrollarea"
+                            size = { 500 500 }
 
-						hbox = {
-							name = "dynamic_birth_name"
-							margin = { 5 0 }
-						}
-					}
+                            scrollbarpolicy_horizontal = always_off
 
-					vbox = {
-						name = "custom_widgets_container"
-						visible = no
-						layoutpolicy_horizontal = expanding
+                            scrollbar_vertical = {
+                                using = Scrollbar_Vertical
 
-						state = {
-							trigger_on_create = yes
-							name = appear_test
-							delay = 0.8
-							using = Animation_Curve_Default
-							alpha = 1
-							duration = 0.6
-						}
-					}
+                                blockoverride "alpha"{
+                                    alpha = 0.6
+                                }
+                            }
 
-					fixedgridbox = {
-						name = "option_grid"
-						addcolumn = 500
-						addrow = 42
-						datamodel = "[EventWindowData.GetOptions]"
+                            scrollwidget = {
+                                vbox = {
+                                    hbox = {
+                                        layoutpolicy_horizontal = expanding
 
-						item = {
-							button_eventoption = {}
-						}
-					}
-				}
+                                        text_multi = {
+                                            name = "description"
+                                            layoutpolicy_horizontal = expanding
+                                            max_width = 400
+                                            text = "[EventWindowData.GetDescription]"
+                                            autoresize = yes
+                                            fontsize = 18
+
+                                            margin = { 0 15 }
+                                            margin_left = 20
+
+                                            background = {
+                                                using = Background_Area_ExtraDark
+                                                margin_top = 20
+                                                margin_bottom = 20
+                                                margin_right = 20
+                                                margin_left = 20
+
+                                            }
+                                        }
+
+                                        expand = {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    vbox = {
+                        name = "options_container"
+                        layoutpolicy_horizontal = expanding
+                        layoutpolicy_vertical = expanding
+                        allow_outside = yes
+                        ignoreinvisible = yes
+
+                        margin_bottom = 15
+                        spacing = 5
+
+                        expand = {}
+
+                        hbox = {
+                            spacing = 5
+
+                            hbox = {
+                                name = "dynamic_birth_name"
+                                margin = { 5 0 }
+                            }
+                        }
+
+                        vbox = {
+                            name = "custom_widgets_container"
+                            visible = no
+                            layoutpolicy_horizontal = expanding
+
+                            state = {
+                                trigger_on_create = yes
+                                name = appear_test
+                                delay = 0.8
+                                using = Animation_Curve_Default
+                                alpha = 1
+                                duration = 0.6
+                            }
+                        }
+
+                        fixedgridbox = {
+                            name = "option_grid"
+                            addcolumn = 350
+                            addrow = 42
+                            datamodel = "[EventWindowData.GetOptions]"
+
+                            item = {
+                                button_eventoption = {
+                                	block "button_size" {
+                                        size = { 300 36 }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                 }
 			}
 		}
 
