@@ -308,8 +308,8 @@ m_legwear_sec_tgp_chinese_war_nob_01 = {
 }
 
 m_legwear_sec_tgp_chinese_com_01 = {
-	set_tags = "shrink_legs,shrink_feet"
-	set_tags = "shrink_butt,butt_clothed,hips_clothed,shrink_feet,penis_clothed"
+	set_tags = "shrink_legs"
+	set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_tgp_chinese_com_01_entity }
 }
@@ -322,15 +322,15 @@ m_legwear_sec_tgp_chinese_war_nob_02 = {
 }
 
 m_legwear_sec_tgp_chinese_nob_01 = {
-	set_tags = "shrink_legs,shrink_feet"
-	set_tags = "shrink_butt,butt_clothed,hips_clothed,shrink_feet,penis_clothed"
+	set_tags = "shrink_legs"
+	set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_tgp_chinese_nob_01_entity }
 }
 
 m_legwear_sec_tgp_chinese_nob_02 = {
-	set_tags = "shrink_legs,shrink_feet"
-	set_tags = "shrink_butt,butt_clothed,hips_clothed,shrink_feet,penis_clothed"
+	set_tags = "shrink_legs"
+	set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_legwear_sec_tgp_chinese_nob_02_entity }
 }
@@ -364,15 +364,15 @@ f_legwear_sec_tgp_chinese_war_nob_02 = {
 }
 
 f_legwear_sec_tgp_chinese_nob_01 = {
-	set_tags = "shrink_legs,shrink_feet"
-	set_tags = "shrink_butt,butt_clothed,hips_clothed,shrink_feet,penis_clothed"
+	set_tags = "shrink_legs"
+	set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_legwear_sec_tgp_chinese_nob_01_entity }
 }
 
 f_legwear_sec_tgp_chinese_nob_02 = {
-	set_tags = "shrink_legs,shrink_feet"
-	set_tags = "shrink_butt,butt_clothed,hips_clothed,shrink_feet,penis_clothed"
+	set_tags = "shrink_legs"
+	set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_legwear_sec_tgp_chinese_nob_02_entity }
 }
@@ -392,8 +392,8 @@ f_legwear_sec_tgp_japanese_war_nob_01 = {
 }
 
 f_legwear_sec_tgp_chinese_com_01 = {
-	set_tags = "shrink_legs,shrink_feet"
-	set_tags = "shrink_butt,butt_clothed,hips_clothed,shrink_feet,penis_clothed"
+	set_tags = "shrink_legs"
+	set_tags = "shrink_butt,butt_clothed,hips_clothed,penis_clothed"
 	entity = { required_tags = "undressed"		shared_pose_entity = torso }
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_legwear_sec_tgp_chinese_com_01_entity }
 }
