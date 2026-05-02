@@ -1,7 +1,7 @@
 ﻿l_korean:
 
  intro_carnal_court_sex_scene.0001.t: "더듬는 손길"
- intro_carnal_court_sex_scene.0001.desc: "나는 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName]의 옆에 누워 손으로 더듬기 시작합니다."
+ intro_carnal_court_sex_scene.0001.desc: "나는 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName]의 옆에 누워 손으로 더듬기 시작합니다."
  intro_carnal_court_sex_scene.0001.a: "그녀에게 올라타기"
  intro_carnal_court_sex_scene.0001.b: "그녀를 데려와 박기"
  intro_carnal_court_sex_scene.0001.c: "그의 품으로 뛰어들어... 자지 위로"

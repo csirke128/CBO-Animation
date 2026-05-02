@@ -2921,19 +2921,19 @@ sex_cow_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_cow_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_cow_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_cow_cum_1
 			}
             weight = { base = 1 }
@@ -2946,19 +2946,19 @@ sex_cow_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_cow_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_cow_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_cow_cum_1
 			}
             weight = { base = 1 }
@@ -2976,19 +2976,19 @@ sex_cow_cum_re = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_cow_cum_re
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_cow_cum_re
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_cow_cum_re
 			}
             weight = { base = 1 }
@@ -3001,19 +3001,19 @@ sex_cow_cum_re = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_cow_cum_re
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_cow_cum_re
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_cow_cum_re
 			}
             weight = { base = 1 }
@@ -3031,19 +3031,19 @@ sex_doggy_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_1
 			}
             weight = { base = 1 }
@@ -3056,19 +3056,19 @@ sex_doggy_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_1
 			}
             weight = { base = 1 }
@@ -3086,19 +3086,19 @@ sex_doggy_cum_2 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_2
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_2
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_2
 			}
             weight = { base = 1 }
@@ -3111,19 +3111,19 @@ sex_doggy_cum_2 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_2
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_2
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_2
 			}
             weight = { base = 1 }
@@ -3141,19 +3141,19 @@ sex_doggy_cum_3 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_3
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_3
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_doggy_cum_3
 			}
             weight = { base = 1 }
@@ -3166,19 +3166,19 @@ sex_doggy_cum_3 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_3
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_3
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_doggy_cum_3
 			}
             weight = { base = 1 }
@@ -3196,19 +3196,19 @@ sex_missionary_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_missionary_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_missionary_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_missionary_cum_1
 			}
             weight = { base = 1 }
@@ -3221,19 +3221,19 @@ sex_missionary_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_missionary_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_missionary_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_missionary_cum_1
 			}
             weight = { base = 1 }
@@ -3251,19 +3251,19 @@ sex_missionary_cum_2 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_missionary_cum_2
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_missionary_cum_2
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_missionary_cum_2
 			}
             weight = { base = 1 }
@@ -3276,19 +3276,19 @@ sex_missionary_cum_2 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_missionary_cum_2
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_missionary_cum_2
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_missionary_cum_2
 			}
             weight = { base = 1 }
@@ -3306,19 +3306,19 @@ sex_stand_doggy_1_cum = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_stand_doggy_1_cum
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_stand_doggy_1_cum
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_stand_doggy_1_cum
 			}
             weight = { base = 1 }
@@ -3331,19 +3331,19 @@ sex_stand_doggy_1_cum = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_stand_doggy_1_cum
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_stand_doggy_1_cum
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_stand_doggy_1_cum
 			}
             weight = { base = 1 }
@@ -3361,19 +3361,19 @@ sex_handjob_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_handjob_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_handjob_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = male_sex_handjob_cum_1
 			}
             weight = { base = 1 }
@@ -3386,19 +3386,19 @@ sex_handjob_cum_1 = {
 			portrait_modifier = {
 				trigger = { is_dwarf_sex_height = yes }
 				sex_animations = dwarf_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_handjob_cum_1
 			}
 			portrait_modifier = {
 				trigger = { is_giant_sex_height = yes }
 				sex_animations = giant_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_handjob_cum_1
 			}
 			portrait_modifier = {
                 trigger = { is_normal_sex_height = yes }
 				sex_animations = normal_sex_height
-                #sex_animations = erection
+                sex_animations = erection
                 sex_animations = female_sex_handjob_cum_1
 			}
             weight = { base = 1 }

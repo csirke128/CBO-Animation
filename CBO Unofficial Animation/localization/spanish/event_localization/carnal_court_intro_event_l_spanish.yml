@@ -1,7 +1,7 @@
 ﻿l_english:
 
  intro_carnal_court_sex_scene.0001.t: "Wandering Hands"
- intro_carnal_court_sex_scene.0001.desc: "I lie next to my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] as our hands begin to wander."
+ intro_carnal_court_sex_scene.0001.desc: "I lie next to my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName] as our hands begin to wander."
  intro_carnal_court_sex_scene.0001.a: "Mount Her"
  intro_carnal_court_sex_scene.0001.b: "Pick her up and fuck her"
  intro_carnal_court_sex_scene.0001.c: "Leap into his arms . . . and onto his cock"

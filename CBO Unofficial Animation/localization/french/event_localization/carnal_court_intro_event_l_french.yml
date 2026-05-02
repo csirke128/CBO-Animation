@@ -1,7 +1,7 @@
 ﻿l_french:
 
  intro_carnal_court_sex_scene.0001.t: "Mains baladeuses"
- intro_carnal_court_sex_scene.0001.desc: "Je m'allonge à côté [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] alors que nos mains commencent à se balader."
+ intro_carnal_court_sex_scene.0001.desc: "Je m'allonge à côté [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName] alors que nos mains commencent à se balader."
  intro_carnal_court_sex_scene.0001.a: "La monter"
  intro_carnal_court_sex_scene.0001.b: "La prendre et la baiser"
  intro_carnal_court_sex_scene.0001.c: "Sauter dans ses bras . . . et sur sa bite"

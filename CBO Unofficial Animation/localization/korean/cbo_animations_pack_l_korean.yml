@@ -1,10 +1,10 @@
 ﻿l_korean:
 
  #Scene 1 desc
- carn_sex_scene.0001.desc_female: "나의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 머뭇거리며 나를 기다리고 있습니다."
- carn_sex_scene.0001.desc_male: "나의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 열망에 가득 차 나를 기다리고 있습니다."
- carn_sex_scene.0001.desc_femaleslave: "나의 노예 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 명령을 기다리고 있습니다."
- carn_sex_scene.0001.desc_maleslave: "나의 노예 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName](이)가 명령을 기다리고 있습니다."
+ carn_sex_scene.0001.desc_female: "나의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName](이)가 머뭇거리며 나를 기다리고 있습니다."
+ carn_sex_scene.0001.desc_male: "나의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName](이)가 열망에 가득 차 나를 기다리고 있습니다."
+ carn_sex_scene.0001.desc_femaleslave: "나의 노예 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName](이)가 명령을 기다리고 있습니다."
+ carn_sex_scene.0001.desc_maleslave: "나의 노예 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName](이)가 명령을 기다리고 있습니다."
 
  
 #Scene 1 MF swap
@@ -116,7 +116,7 @@ carn_sex_scene.0600.desc_mm: "대충 남자끼리 성교하는 장면 묘사."
 
 #Love sex Scene 2 MF ####################################################
 ##carn_sex_scene.0052.t: "Throes of Passion"
-##carn_sex_scene.0052.desc_female: "I find my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] waiting eagerly."
+##carn_sex_scene.0052.desc_female: "I find my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName] waiting eagerly."
 
 #Love sex Scene 2 MF ####################################################
 ##carn_sex_scene.0092.t: "Throes of Passion"

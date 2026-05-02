@@ -23,6 +23,14 @@ bedroom_indian = {
 bedroom_western = {
 	trigger = {
 		# Comment for easy replace
-		carnal_court_western_trigger = yes
+        OR = {
+            carnal_court_western_trigger = yes
+            AND = {
+                carnal_court_has_sex_animation_event_trigger = yes
+                carnal_court_mediterranean_trigger = no
+                carnal_court_mena_trigger = no
+                carnal_court_indian_trigger = no
+            }
+        }
 	}
 }

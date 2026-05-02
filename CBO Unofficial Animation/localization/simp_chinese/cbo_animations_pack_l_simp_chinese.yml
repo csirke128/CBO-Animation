@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
- carn_sex_scene.0001.desc_female: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))][carn_sex_target.GetTitledFirstName]正彷徨无措地等着我。"
- carn_sex_scene.0001.desc_male: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))][carn_sex_target.GetTitledFirstName]正饥渴难耐地等着我。"
- carn_sex_scene.0001.desc_femaleslave: "我的奴隶[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))][carn_sex_target.GetTitledFirstName]正等着我的惩罚。"
- carn_sex_scene.0001.desc_maleslave: "我的奴隶[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))][carn_sex_target.GetTitledFirstName]正等着我的惩罚。"
+ carn_sex_scene.0001.desc_female: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))][carn_sex_partner.GetTitledFirstName]正彷徨无措地等着我。"
+ carn_sex_scene.0001.desc_male: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))][carn_sex_partner.GetTitledFirstName]正饥渴难耐地等着我。"
+ carn_sex_scene.0001.desc_femaleslave: "我的奴隶[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))][carn_sex_partner.GetTitledFirstName]正等着我的惩罚。"
+ carn_sex_scene.0001.desc_maleslave: "我的奴隶[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))][carn_sex_partner.GetTitledFirstName]正等着我的惩罚。"
  carn_sex_scene.0050.swap: "肏屄"
  carn_sex_scene.0051.swap: "口交"
  carn_sex_scene.0050.a: "我要狠狠肏你！"

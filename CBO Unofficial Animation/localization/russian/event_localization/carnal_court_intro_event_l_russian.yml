@@ -1,7 +1,7 @@
 ﻿l_russian:
 
  intro_carnal_court_sex_scene.0001.t: "Блуждающие руки"
- intro_carnal_court_sex_scene.0001.desc: "Я лежу рядом со своим [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))] [carn_sex_target.GetTitledFirstName] и наши руки начинают блуждать."
+ intro_carnal_court_sex_scene.0001.desc: "Я лежу рядом со своим [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_partner'))] [carn_sex_partner.GetTitledFirstName] и наши руки начинают блуждать."
  intro_carnal_court_sex_scene.0001.a: "Овладеть ей"
  intro_carnal_court_sex_scene.0001.b: "Беру её и трахаю"
  intro_carnal_court_sex_scene.0001.c: "Прыгнуть в его объятия . . . и на его член"

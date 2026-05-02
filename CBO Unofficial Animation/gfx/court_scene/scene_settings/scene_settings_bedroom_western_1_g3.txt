@@ -28,12 +28,22 @@ camera={
  {
 		description="Throne View"
 		fov=50.000000
-		position={ 118.800003 140.000000 310.800018 }
-		pitch=8.000000
-		yaw=-17.000000
+		position={ 275.000000 180.000000 500.000000 }
+		pitch=20.000000
+		yaw=-90.000000
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_THRONE_VIEW_CAMERA"
+	}
+ {
+		description="Default View"
+		fov=50.000000
+		position={ 275.000000 180.000000 500.000000 }
+		pitch=20.000000
+		yaw=-90.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_COURT_VIEW_CAMERA"
 	}
  {
 		description="Free cam"
