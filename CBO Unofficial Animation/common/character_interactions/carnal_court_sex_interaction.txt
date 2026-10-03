@@ -39,16 +39,7 @@
                 }
             }
         }
-        OR = {
-            scope:actor = {
-                carn_relationship_allows_free_sex_trigger = {
-                    PARTNER = scope:recipient
-                }
-            }
-            scope:recipient = {
-                carn_is_working_as_prostitute_trigger = yes
-            }
-        }
+
     }
 
     cooldown = { months = carn_sex_interaction_cooldown }

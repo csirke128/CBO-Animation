@@ -1,4 +1,12 @@
-﻿byzantine = {
+﻿papal = {
+	trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+		primary_title ?= title:k_papal_state
+		has_pam_dlc_trigger = yes
+	}
+}
+
+byzantine = {
 	trigger = {
         NOT = { carnal_court_has_sex_animation_event_trigger = yes }
 		NOT = {
@@ -32,8 +40,12 @@
 mediterranean = {
 	trigger = {
         NOT = { carnal_court_has_sex_animation_event_trigger = yes }
-		NOT = {
+		NOR = {
 			government_has_flag = government_is_nomadic
+			AND = {
+				primary_title ?= title:k_papal_state
+				has_pam_dlc_trigger = yes
+			}
 		}
 		capital_county ?= {
 			OR = {

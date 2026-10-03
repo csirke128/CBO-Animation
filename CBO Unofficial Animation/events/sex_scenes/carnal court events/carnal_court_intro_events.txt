@@ -31,12 +31,8 @@ intro_carnal_court_sex_scene.0001 = {
     }
 
     immediate = {
-        open_view_data = {
-            view = royal_court
-            player = root
-            secondary_actor = root
-        }
         cuddle_animations = yes
+        trigger_event = { id = intro_carnal_court_sex_scene.0004 }
     }
 
     option = {
@@ -121,12 +117,8 @@ intro_carnal_court_sex_scene.0002 = {
     }
 
     immediate = {
-        open_view_data = {
-            view = royal_court
-            player = root
-            secondary_actor = root
-        }
         gay_cuddle_animations = yes
+        trigger_event = { id = intro_carnal_court_sex_scene.0004 }
     }
 
     option = {
@@ -186,12 +178,8 @@ intro_carnal_court_sex_scene.0003 = {
     }
 
     immediate = {
-        open_view_data = {
-            view = royal_court
-            player = root
-            secondary_actor = root
-        }
         lesbian_cuddle_animations = yes
+        trigger_event = { id = intro_carnal_court_sex_scene.0004 }
     }
 
     option = {
@@ -219,4 +207,9 @@ intro_carnal_court_sex_scene.0003 = {
 
         carnal_court_leave_court_effect = yes
     }
+}
+
+intro_carnal_court_sex_scene.0004 = {
+    type = character_event
+    window = court_open_event_window
 }

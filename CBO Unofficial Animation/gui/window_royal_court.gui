@@ -43,14 +43,14 @@ window = {
     state = {
         name = "chtovis"
         next = "chtothrone"
-        duration = 0.0
+        duration = 0.01
         
         on_start = "[RoyalCourtWindow.SetActiveTab( 'visuals' )]"
     }
 
     state = {
         name = "chtothrone"
-        duration = 0.0
+        duration = 0.01
         
         on_start = "[RoyalCourtWindow.SetActiveTab( 'throne' )]"
     }
@@ -222,6 +222,27 @@ window = {
 			datacontext = "[GetScriptedGui( 'carnal_court_close_gui' )]"
 			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 
+			using = Animation_ShowHide_Quick
+
+			background = {
+				using = Background_Area_Dark
+				margin = { 6 6 }
+				alpha = 0.8
+			}
+		}
+
+		button_close = {
+			name = "reload_court_view"
+			visible = "[And( Not( VariableSystem.Exists('royal_court_screenshot_window' ) ), Not( RoyalCourtWindow.IsPlacingArtifact ) )]"
+			parentanchor = top|right
+			position = { -12 98 }
+
+			shortcut = "reload_window"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+            onclick = "[RoyalCourtWindow.Close]"
+            onclick = "[GetPlayer.OpenRoyalCourtView( 'throne' )]"
+
+            texture = "gfx/interface/skinned/hud_maintab/maintab_courtview.dds"
 			using = Animation_ShowHide_Quick
 
 			background = {
@@ -1224,7 +1245,7 @@ window = {
 			tooltip = "ROYAL_COURT_SCREENSHOT_BUTTON_TT"
 			using = tooltip_nw
 			parentanchor = top|right
-			position = {-15 100}
+			position = {-15 140}
 
 			state = {
 				name = _show

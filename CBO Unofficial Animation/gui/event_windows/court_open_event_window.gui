@@ -1,0 +1,13 @@
+﻿court_open_event_window = {
+	name = "court_open_event_window"
+}
+
+types CourtWindowTypes {
+	type court_open_event_window = window {
+        state = {
+            name = _show
+            trigger_on_create = yes
+            on_start = "[GetPlayer.GetLiege.OpenRoyalCourtView( 'throne' )]"
+        }
+	}
+}
